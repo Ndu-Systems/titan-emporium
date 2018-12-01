@@ -4,8 +4,42 @@ body {
     height: calc(100% - 2em);
     margin: 0;
     font-family: 'PT Sans Narrow', sans-serif;
-    // padding: 5px;
   }
 img{
   width: 100%;
 }
+@media only screen and (min-width: 800px) {
+body{
+  //  padding: 2%;
+
+  background-image: url(./assets/home-images/imagebg-1.svg);
+  // background-image: url(./assets/home-images/mainbg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+}
+
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(42, 42, 42); 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(90, 69, 2); 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: black; 
+}
+

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1662.229 618.284">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #171d23;
+      }
+    </style>
+  </defs>
+  <g id="bg2" transform="translate(-7628.771 -1412.818)">
+    <g id="Black_top_bg" data-name="Black top bg" transform="translate(7628.771 1412.818)">
+      <g id="Back_2" data-name="Back 2">
+        <path id="Path_1" data-name="Path 1" d="M0,0V365.011L318.948,602.144l32.995,16.14H400.2l21.861-8.691,26.121-7.449L1655.228,297.968V0Z"/>
+      </g>
+    </g>
+    <g id="Drak_grey_side" data-name="Drak grey side" transform="translate(8283.034 1412.818)">
+      <path id="Path_2" data-name="Path 2" class="cls-1" d="M584.211,0,989.3,450.431l602.873-166.7V0Z" transform="translate(-584.211)"/>
+    </g>
+  </g>
+</svg>

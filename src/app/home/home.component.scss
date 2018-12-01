@@ -1,0 +1,113 @@
+.main-container {
+  height: 40vh;
+  background-image: url(../../assets/home-images/mobilecirclebgblack.svg);
+  background-size: 100%;
+  background-position: top;
+  background-repeat: no-repeat;
+
+  @media only screen and (min-width: 500px) {
+    height: 50vh;
+
+  }
+
+  .header-section {
+    .top-bar {
+      padding: 1%;
+      position: relative;
+      height: 8vh;
+
+      .logo-section {
+        position: absolute;
+        left: 0;
+        top: 0;
+
+        img {
+          width: 67%;
+          height: 90px;
+        }
+      }
+
+      .menu-button-section {
+        width: 10%;
+        position: absolute;
+        right: 5%;
+        top: 30px;
+      }
+    }
+
+    .heading-section {
+      padding: 1%;
+      position: relative;
+      height: 26vh;
+
+      .heading {
+        color: #fff;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        width: 40%;
+        font-size: 10px;
+      }
+
+      .image-slider {
+        width: 54%;
+        position: absolute;
+        right: 0%;
+        top: 50px;
+
+      }
+    }
+  }
+
+  .body-section {
+    padding: 10%;
+    color: #A06A4B;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 18%;
+p{
+  font-size: 22px;
+}
+    a {
+      text-decoration: none;
+      text-align: center;
+      border: 3px solid #A06A4B;
+      padding: 2% 10%;
+      color: #A06A4B;
+      margin: 10px;
+      text-transform: uppercase;
+
+    }
+  }
+
+  .mobile-footer {
+    -webkit-clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
+    clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
+    background: #000;
+    color: #A06A4B;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    bottom: 0;
+
+    h1{
+      position: absolute;
+      left: 20px;
+      top: 65px;
+      font-weight: 100;
+    }
+
+    a{
+      text-decoration: none;
+      text-align: center;
+      border: 3px solid #A06A4B;
+      padding: 1% 6%;
+      color: #A06A4B;
+      margin: 10px;
+      text-transform: uppercase;
+      position: absolute;
+      right: 83px;
+      top: 80px;
+    }
+  }
+}

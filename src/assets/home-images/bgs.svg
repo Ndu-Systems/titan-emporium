@@ -1,0 +1,17 @@
+<svg id="bgs" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1920 890.725">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #171d23;
+      }
+    </style>
+  </defs>
+  <g id="Black_top_bg" data-name="Black top bg">
+    <g id="Back_2" data-name="Back 2">
+      <path id="Path_1" data-name="Path 1" d="M0,0V525.85L369.967,867.473l38.272,23.252h55.971l25.358-12.52,30.3-10.732L1920,429.265V0Z"/>
+    </g>
+  </g>
+  <g id="Drak_grey_side" data-name="Drak grey side">
+    <path id="Path_2" data-name="Path 2" class="cls-1" d="M584.211,0l536.842,680.648L1920,428.755V0Z"/>
+  </g>
+</svg>

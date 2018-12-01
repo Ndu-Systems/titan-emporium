@@ -1,0 +1,45 @@
+<div class="main-container">
+    <div class="header-section">
+        <div class="top-bar">
+
+          <div class="logo-section">
+            <img src="../../assets/home-images/logo4.png"  alt="">
+          </div>
+
+          <div class="menu-button-section">
+            <img id="menu-btn"  *ngIf="!showMobleMenu" (click)="toggleMenu()" src="../../assets/home-images/Menu lines.svg"
+              alt="">
+            <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:60%" src="../../assets/home-images/Close2.svg"
+              alt="">
+          </div>
+
+        </div>
+      
+        <div class="heading-section">
+          <div class="heading">
+            <h1>
+              The compressor solutions <br>re-imagined
+            </h1>
+          </div>
+          <div class="image-slider">
+            <img src="../../assets/home-images/slide1.png" alt="" class="slide-image">
+          </div>
+        </div>
+        
+      </div>
+      
+      <div class="body-section">
+          <app-mobile-nav *ngIf="showMobleMenu"></app-mobile-nav>
+          <p>
+            The Titan Emporium is a distributor of leading global brands with head offices in Johannesburg (South Africa)
+          </p>
+          <a href="#" class="cta">Read more</a>
+      </div>
+
+      <div class="mobile-footer">
+        <h1>Our strategy</h1>
+        <a href="#" >more</a>
+
+      </div>
+      
+</div>

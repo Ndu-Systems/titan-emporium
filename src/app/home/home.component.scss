@@ -34,11 +34,12 @@
 
         img {
           width: 67%;
-          height: 90px;
+          height: 112px;
 
           @media only screen and (min-width: 800px) {
             width: 85%;
-            height: 126px;        }
+            height: 126px;
+          }
         }
       }
 
@@ -49,6 +50,23 @@
         top: 30px;
         animation: anumationFaceIn 1s ease-out 2s;
         animation-fill-mode: backwards;
+
+        @media only screen and (min-width: 800px) {
+         display: none;
+        }
+      }
+      .pc-nav{
+         display: none;
+        position: absolute;
+        // background: #c36a6a;
+        width: 60%;
+        right: 0;
+        text-align: right;
+        padding-right: 2%;
+
+        @media only screen and (min-width: 800px) {
+          display: inline-block;
+         }
       }
     }
 
@@ -86,7 +104,7 @@
         @media only screen and (min-width: 800px) {
           display: inline;
         }
- 
+
 
         a {
           text-decoration: none;

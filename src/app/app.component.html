@@ -1,4 +1,26 @@
-
 <div class="main-container">
+  <app-mobile-nav *ngIf="showMobleMenu"></app-mobile-nav>
+
+  <div class="top-bar">
+
+    <div class="logo-section">
+      <img src="../../assets/home-images/logo4.png" alt="">
+    </div>
+
+    <div class="menu-button-section">
+      <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="../../assets/home-images/Menu lines.svg"
+        alt="">
+      <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:60%" src="../../assets/home-images/Close2.svg"
+        alt="">
+
+    </div>
+    <app-pc-nav class="pc-nav"></app-pc-nav>
+  </div>
+
   <router-outlet></router-outlet>
+<div class="footer">
+<h1>
+  Hi
+</h1>
+</div>
 </div>

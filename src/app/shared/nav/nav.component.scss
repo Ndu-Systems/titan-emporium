@@ -12,14 +12,6 @@ ul {
       font-weight: bold;
       text-transform: uppercase;
     }
-
-    // :hover {
-    //   border-bottom: 3px solid #A06A4B;
-    // }
-
-    // :active {
-    //   border-bottom: 3px solid #A06A4B;
-    // }
   }
 }
 
@@ -53,3 +45,12 @@ ul {
 .dropdown:hover .drop-down-items {
   display: block;
 }
+
+
+
+
+li {
+    :hover {
+      border-bottom:3px solid #A06A4B !important;
+    }
+  }

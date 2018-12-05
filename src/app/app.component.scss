@@ -1,9 +1,62 @@
 .main-container {
-    height: calc(100%);
-    background: #fff;
-  }
-  @media only screen and (min-width: 800px) {
-    .main-container{
-      background: none;
+  height: calc(100%);
+  background: #fff;
+  position: relative;
+
+  .top-bar {
+    position: fixed;
+    top:0;
+    padding: 1%;
+    height: 8vh;
+    width: 100%;
+    z-index: 100;
+
+    .logo-section {
+      position: absolute;
+      left: 0;
+      top: 0;
+
+      img {
+        width: 67%;
+        height: 112px;
+
+        @media only screen and (min-width: 800px) {
+          width: 85%;
+          height: 126px;
+        }
       }
     }
+
+    .menu-button-section {
+      width: 10%;
+      position: absolute;
+      right: 5%;
+      top: 30px;
+      animation: anumationFaceIn 1s ease-out 2s;
+      animation-fill-mode: backwards;
+
+      @media only screen and (min-width: 800px) {
+       display: none;
+      }
+    }
+    .pc-nav{
+       display: none;
+      position: absolute;
+      // background: #c36a6a;
+      width: 60%;
+      right: 0;
+      text-align: right;
+      padding-right: 2%;
+
+      @media only screen and (min-width: 800px) {
+        display: inline-block;
+       }
+    }
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .main-container {
+    background: none;
+  }
+}

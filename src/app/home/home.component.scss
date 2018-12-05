@@ -1,74 +1,224 @@
-.main-container {
-  height: 40vh;
-  background-image: url(../../assets/home-images/mobilecirclebgblack.svg);
-  background-size: 100%;
-  background-position: top;
-  background-repeat: no-repeat;
+// .main-container {
+//   // height: 40vh;
+//   background-image: url(../../assets/home-images/mobilecirclebgblack.svg);
+//   background-size: 100%;
+//   background-position: top;
+//   background-repeat: no-repeat;
 
-  @media only screen and (min-width: 500px) {
-    height: 50vh;
-  }
+//   @media only screen and (min-width: 500px) {
+//     height: 50vh;
+//   }
 
-  @media only screen and (min-width: 609px) {
-    height: 65vh;
-  }
+//   @media only screen and (min-width: 609px) {
+//     height: 65vh;
+//   }
 
-  @media only screen and (min-width: 800px) {
-    height: 100vh;
-    background-image: url(../../assets/home-images/bg5.svg);
-    background-size: 100%;
-    background-position: top;
-    background-repeat: no-repeat;
-  }
+//   @media only screen and (min-width: 800px) {
+//     // height: 100vh;
+//     // background-image: url(../../assets/home-images/bglong.svg);
+//     // background-image: url(../../assets/home-images/bg5.svg);
+//     background-size: 100%;
+//     background-position: top;
+//     background-repeat: no-repeat;
+//   }
 
-  .header-section {
-    .top-bar {
-      padding: 1%;
-      position: relative;
-      height: 8vh;
+//   .header-section {
 
-      .logo-section {
-        position: absolute;
-        left: 0;
-        top: 0;
 
-        img {
-          width: 67%;
-          height: 112px;
+//     .heading-section {
+//       padding: 1%;
+//       position: relative;
+//       height: 26vh;
 
-          @media only screen and (min-width: 800px) {
-            width: 85%;
-            height: 126px;
-          }
-        }
-      }
+//       .heading {
+//         color: #fff;
+//         position: absolute;
+//         top: 10%;
+//         left: 10%;
+//         width: 40%;
+//         font-size: 10px;
+//         animation: slideFromLeft 1s ease-out 1s;
+//         animation-fill-mode: backwards;
 
-      .menu-button-section {
-        width: 10%;
-        position: absolute;
-        right: 5%;
-        top: 30px;
-        animation: anumationFaceIn 1s ease-out 2s;
-        animation-fill-mode: backwards;
 
-        @media only screen and (min-width: 800px) {
-         display: none;
-        }
-      }
-      .pc-nav{
-         display: none;
-        position: absolute;
-        // background: #c36a6a;
-        width: 60%;
-        right: 0;
-        text-align: right;
-        padding-right: 2%;
+//         @media only screen and (min-width: 800px) {
+//           font-size: 25px;
+//           font-weight: bolder;
 
-        @media only screen and (min-width: 800px) {
-          display: inline-block;
-         }
-      }
+//         }
+
+//       }
+
+//       .cta {
+//         position: absolute;
+//         top: 80%;
+//         left: 10%;
+//         width: 40%;
+//         display: none;
+
+//         @media only screen and (min-width: 800px) {
+//           display: inline;
+//         }
+
+
+//         a {
+//           text-decoration: none;
+//           text-align: center;
+//           border: 3px solid #A06A4B;
+//           padding: 2% 10%;
+//           color: #A06A4B;
+//           margin: 10px;
+//           text-transform: uppercase;
+//           animation: slideFromLeft 1s ease-out 2s;
+//           animation-fill-mode: backwards;
+//         }
+//       }
+
+//       .image-slider-small {
+//         width: 14% !important;
+//         position: absolute;
+//         right: 25%;
+//         bottom: -50px;
+//         display: none;
+//         animation: slideFromLeft 1s ease-out 2s;
+//         animation-fill-mode: backwards;
+
+//         @media only screen and (min-width: 800px) {
+//           width: 25%;
+//           display: inline;
+//         }
+
+//       }
+
+//       .image-slider {
+//         width: 54%;
+//         position: absolute;
+//         right: 5%;
+//         top: 50px;
+//         animation: slideFromTop 1s ease-out;
+
+//         @media only screen and (min-width: 800px) {
+//           width: 20%;
+
+
+//         }
+
+//       }
+//     }
+//   }
+
+//   .body-section {
+//     padding: 10%;
+//     color: #A06A4B;
+//     font-weight: bold;
+//     text-align: center;
+//     margin-top: 18%;
+
+//     p {
+//       font-size: 22px;
+//     }
+
+//     a {
+//       text-decoration: none;
+//       text-align: center;
+//       border: 3px solid #A06A4B;
+//       padding: 2% 10%;
+//       color: #A06A4B;
+//       margin: 10px;
+//       text-transform: uppercase;
+//       animation: slideFromLeft 1s ease-out 2s;
+//       animation-fill-mode: backwards;
+
+
+//     }
+//   }
+
+//   .mobile-footer {
+//     -webkit-clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
+//     clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
+//     background: #000;
+//     color: #A06A4B;
+//     width: 100%;
+//     height: 20vh;
+//     position: fixed;
+//     bottom: 0;
+
+//     @media only screen and (min-width: 800px) {
+//       display: none;
+//     }
+
+//     h1 {
+//       position: absolute;
+//       left: 20px;
+//       top: 65px;
+//       font-weight: 100;
+//     }
+
+//     a {
+//       text-decoration: none;
+//       text-align: center;
+//       border: 3px solid #A06A4B;
+//       padding: 1% 6%;
+//       color: #A06A4B;
+//       margin: 10px;
+//       text-transform: uppercase;
+//       position: absolute;
+//       right: 83px;
+//       top: 80px;
+//     }
+//   }
+// }
+
+
+
+
+
+.parent {
+  height: 100vh;
+  width: 100%;
+  background: none;
+  position: relative;
+.fixed-bar{
+  background: #000;
+height: 15vh;
+position: fixed;
+top: 0;
+width: 100%;
+}
+  .top-child {
+    background: none;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+
+    .bg {
+      height: 100%;
+      position: absolute;
+      top: 0;
+
+
     }
+
+    .bg-left {
+      background: #000;
+      left: 0;
+      width: 100%;
+      -webkit-clip-path: polygon(100% 0, 100% 27%, 28% 79%, 0 53%, 0 0);
+      clip-path: polygon(100% 0, 100% 27%, 28% 79%, 0 53%, 0 0);
+      z-index: 1;
+    }
+
+    .bg-right {
+      background: #171D23;
+      right: 0;
+      width: 100%;
+      -webkit-clip-path: polygon(57% 0, 100% 0, 100% 27%, 67% 51%);
+      clip-path: polygon(57% 0, 100% 0, 100% 27%, 67% 51%);
+      z-index: 2;
+
+    }
+
+
 
     .heading-section {
       padding: 1%;
@@ -78,12 +228,13 @@
       .heading {
         color: #fff;
         position: absolute;
-        top: 10%;
+        bottom: -50px;
         left: 10%;
         width: 40%;
         font-size: 10px;
         animation: slideFromLeft 1s ease-out 1s;
         animation-fill-mode: backwards;
+        z-index: 3;
 
 
         @media only screen and (min-width: 800px) {
@@ -96,37 +247,29 @@
 
       .cta {
         position: absolute;
-        top: 80%;
+        bottom: -113px;
         left: 10%;
         width: 40%;
         display: none;
+        z-index: 3;
 
         @media only screen and (min-width: 800px) {
           display: inline;
         }
 
 
-        a {
-          text-decoration: none;
-          text-align: center;
-          border: 3px solid #A06A4B;
-          padding: 2% 10%;
-          color: #A06A4B;
-          margin: 10px;
-          text-transform: uppercase;
-          animation: slideFromLeft 1s ease-out 2s;
-          animation-fill-mode: backwards;
-        }
+       
       }
 
       .image-slider-small {
-        width: 14% !important;
+        width: 16% !important;
         position: absolute;
         right: 25%;
-        bottom: -50px;
+        bottom: -180px;
         display: none;
         animation: slideFromLeft 1s ease-out 2s;
         animation-fill-mode: backwards;
+        z-index: 4;
 
         @media only screen and (min-width: 800px) {
           width: 25%;
@@ -136,10 +279,11 @@
       }
 
       .image-slider {
-        width: 54%;
+        width: 60%;
         position: absolute;
         right: 5%;
-        top: 50px;
+        bottom: -120px;
+        z-index: 4;
         animation: slideFromTop 1s ease-out;
 
         @media only screen and (min-width: 800px) {
@@ -151,67 +295,51 @@
       }
     }
   }
-
-  .body-section {
-    padding: 10%;
-    color: #A06A4B;
-    font-weight: bold;
-    text-align: center;
-    margin-top: 18%;
-
-    p {
-      font-size: 22px;
-    }
-
-    a {
-      text-decoration: none;
-      text-align: center;
-      border: 3px solid #A06A4B;
-      padding: 2% 10%;
-      color: #A06A4B;
-      margin: 10px;
-      text-transform: uppercase;
-      animation: slideFromLeft 1s ease-out 2s;
-      animation-fill-mode: backwards;
-
-
-    }
-  }
-
-  .mobile-footer {
-    -webkit-clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
-    clip-path: polygon(34% 6%, 100% 44%, 100% 100%, 0 100%, 0 38%);
-    background: #000;
-    color: #A06A4B;
+  .nd-top-child{
+    background: white;
+    height: 30vh;
     width: 100%;
-    height: 20vh;
-    position: fixed;
-    bottom: 0;
-
-    @media only screen and (min-width: 800px) {
-      display: none;
-    }
-
-    h1 {
-      position: absolute;
-      left: 20px;
-      top: 65px;
-      font-weight: 100;
-    }
-
-    a {
-      text-decoration: none;
-      text-align: center;
-      border: 3px solid #A06A4B;
-      padding: 1% 6%;
+    position: relative;
+    padding: 10%;
+    padding-top: 0;
+    p, h1{
       color: #A06A4B;
-      margin: 10px;
-      text-transform: uppercase;
+    }
+    p{
+      width: 40%;
+      margin: 5%;
+      float: left;
+      font-weight: 100;
+      font-size: 25px;
+    }
+ 
+  }
+  .our-strategy{
+
+    background: #474747;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+    padding: 10%;
+    padding-top: 0;
+    -webkit-clip-path: polygon(12% 30%, 100% 45%, 100% 73%, 100% 82%, 0 100%, 0 64%);
+    clip-path: polygon(12% 30%, 100% 45%, 100% 73%, 100% 82%, 0 100%, 0 64%);
+    h1,a{
       position: absolute;
-      right: 83px;
-      top: 80px;
+      bottom: 150px;
+
+    }
+    h1{
+      left: 30%;
+      color: #A06A4B;
+    }
+    a{
+      left: 60%;
+      padding: 1%;
     }
   }
+
+
 }
 
 
@@ -227,7 +355,6 @@
     opacity: 1;
   }
 }
-
 
 @keyframes slideFromTop {
   0% {

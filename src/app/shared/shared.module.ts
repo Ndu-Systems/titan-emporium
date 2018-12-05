@@ -4,10 +4,11 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SharedComponent } from './shared.component';
 import { NavComponent } from './nav/nav.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,RouterModule
   ],
   declarations: [SharedComponent,MobileNavComponent,PcNavComponent,NavComponent],
   exports:[SharedComponent,MobileNavComponent,PcNavComponent,NavComponent]

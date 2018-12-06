@@ -3,11 +3,11 @@
         <h1>
           {{heading}}
         </h1>
-        
-        <p>
-          {{paragraph}}
-        </p>
-
+        <ul>
+        <li *ngFor="let p of paragraphs">
+          {{p}}
+        </li>
+      </ul>
         </div>
         <img src="../../../assets/pages-images/slide1.png" alt="">
 </div>

@@ -229,10 +229,8 @@
         animation: slideFromLeft 1s ease-out 1s;
         animation-fill-mode: backwards;
         z-index: 3;
-
-
-        @media only screen and (min-width: 800px) {
-          font-size: 25px;
+        @media only screen and (max-width: 600px) {
+          font-size: 2px;
           font-weight: bolder;
 
         }
@@ -337,37 +335,3 @@
 }
 
 
-// Key Frames
-@keyframes slideFromLeft {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes slideFromTop {
-  0% {
-    transform: translateY(-100px);
-    opacity: 0;
-  }
-
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@keyframes anumationFaceIn {
-  0% {
-    opacity: 0;
-  }
-
-  100% {
-    opacity: 1;
-  }
-}

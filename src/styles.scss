@@ -57,3 +57,42 @@ img {
   animation: slideFromLeft 1s ease-out 2s;
   animation-fill-mode: backwards;
 }
+
+
+// Key Frames
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideFromTop {
+  0% {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+80%{
+  transform: translateY(50px);
+
+}
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes anumationFaceIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}

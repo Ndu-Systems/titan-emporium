@@ -6,7 +6,7 @@ import { Component, OnInit, Input } from '@angular/core';
   styleUrls: ['./pages-layout.component.scss']
 })
 export class PagesLayoutComponent implements OnInit {
-@Input() paragraph;
+@Input() paragraphs:Array<string>;
 @Input() heading;
   constructor() { }
   ngOnInit() {  

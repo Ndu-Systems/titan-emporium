@@ -1,13 +1,13 @@
 .main-container {
-  height: calc(100%);
-  background: #fff;
+  // height:100vh;
+  background: blueviolet;
   position: relative;
 
   .top-bar {
-    position: fixed;
+    position: absolute;
     top:0;
     padding: 1%;
-    height: 8vh;
+    // height: 8vh;
     width: 100%;
     z-index: 100;
 
@@ -60,3 +60,22 @@
     background: none;
   }
 }
+.footer{
+  background: #FFFFFF;
+  color: #A06A4B;
+  width: 100%;
+  // height: 50vh;
+  bottom:0;
+  padding-left: 15%;
+  .box{
+    width: 30%;
+    padding: 1%;
+    float: left;
+    text-align: left;
+
+    a{
+      text-decoration: none;
+      color:#A06A4B
+    }
+  }
+  }

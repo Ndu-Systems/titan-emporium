@@ -2,25 +2,67 @@
   <app-mobile-nav *ngIf="showMobleMenu"></app-mobile-nav>
 
   <div class="top-bar">
-
     <div class="logo-section">
-      <img src="../../assets/home-images/logo4.png" alt="">
+      <img src="../../assets/home-images/logo4.png" alt="" />
     </div>
 
     <div class="menu-button-section">
-      <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="../../assets/home-images/Menu lines.svg"
-        alt="">
-      <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:60%" src="../../assets/home-images/Close2.svg"
-        alt="">
-
+      <img
+        id="menu-btn"
+        *ngIf="!showMobleMenu"
+        (click)="toggleMenu()"
+        src="../../assets/home-images/Menu lines.svg"
+        alt=""
+      />
+      <img
+        id="menu-btn"
+        *ngIf="showMobleMenu"
+        (click)="toggleMenu()"
+        style="width:60%"
+        src="../../assets/home-images/Close2.svg"
+        alt=""
+      />
     </div>
     <app-pc-nav class="pc-nav"></app-pc-nav>
   </div>
 
   <router-outlet></router-outlet>
-<div class="footer">
-<h1>
-  Hi
-</h1>
+ 
 </div>
+<div class="footer">
+    <div class="box">
+      <h1>Follow Us</h1>
+      <ul>
+        <li>
+          <a href="">Facebook</a>
+        </li>
+        <li>
+          <a href="">Instagram</a>
+        </li>
+        <li>
+          <a href="">Twitter</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h1>Address</h1>
+     <p>
+      Village industrial park <br>
+      Unit a6, <br>
+      51 Rosettenville rd<br>
+      Village main <br>
+      Johannesburg 2001<br>
+     </p>
+    </div>
+
+    <div class="box">
+      <h1>Contact Us</h1>
+     <p>
+      Phone:  +27 111 338 6008  <br>
+      Email  :  info@titanemporium.com <br>
+      
+     </p>
+    </div>
+  
 </div>

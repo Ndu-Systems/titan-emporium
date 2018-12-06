@@ -1,0 +1,41 @@
+.main-parent {
+  background: #000;
+  position: relative;
+
+  .parent {
+    background: #191717;
+    padding: 2%;
+    color: white;
+    height: 100vh;
+    -webkit-clip-path: polygon(0 100%, 0 33%, 0 0, 100% 0, 98% 19%, 92% 38%, 82% 61%, 69% 81%, 51% 92%, 36% 100%);
+    clip-path: polygon(0 100%, 0 33%, 0 0, 100% 0, 98% 19%, 92% 38%, 82% 61%, 69% 81%, 51% 92%, 36% 100%);
+
+    p,
+    h1
+     {
+      position: absolute;
+      width: 60%;
+
+    }
+
+    h1 {
+      left: 20px;
+      top: 200px;
+      text-transform: uppercase;
+    }
+
+    p {
+      top: 300px;
+      font-size: 25px;
+
+    }
+
+  }
+
+  img {
+    position: absolute;
+    width: 40%;
+    right: 151px;
+    bottom: 60px;
+  }
+}

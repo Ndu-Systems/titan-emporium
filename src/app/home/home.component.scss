@@ -174,17 +174,11 @@
 
 
 .parent {
-  height: 100vh;
+  // height: 100vh;
   width: 100%;
   background: none;
   position: relative;
-.fixed-bar{
-  background: #000;
-height: 15vh;
-position: fixed;
-top: 0;
-width: 100%;
-}
+
   .top-child {
     background: none;
     height: 80vh;

@@ -5,12 +5,13 @@ import { CommonModule } from '@angular/common';
 import { SharedComponent } from './shared.component';
 import { NavComponent } from './nav/nav.component';
 import { RouterModule } from '@angular/router';
+import { PagesLayoutComponent } from './pages-layout/pages-layout.component';
 
 @NgModule({
   imports: [
     CommonModule,RouterModule
   ],
-  declarations: [SharedComponent,MobileNavComponent,PcNavComponent,NavComponent],
-  exports:[SharedComponent,MobileNavComponent,PcNavComponent,NavComponent]
+  declarations: [SharedComponent,MobileNavComponent,PcNavComponent,NavComponent,PagesLayoutComponent],
+  exports:[SharedComponent,MobileNavComponent,PcNavComponent,NavComponent,PagesLayoutComponent]
 })
 export class SharedModule { }

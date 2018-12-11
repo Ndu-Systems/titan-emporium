@@ -1,20 +1,29 @@
 .main-parent {
   background: #000;
+  background: #000;
+  // background-repeat: no-repeat;
+  background-position: center;
+  background-size: 117%;
+  position: relative;
+  animation: fadeIn 1s ease-out;
+
+
   position: relative;
 
   .parent {
-    background: #191717;
+    background: #191717f0;
     padding: 2%;
     color: white;
     border-top: 150px solid black;
-    height: 100vh;
-    -webkit-clip-path: polygon(100% 0, 100% 0, 100% 18%, 84% 55%, 66% 80%, 49% 94%, 27% 100%, 0 100%, 0 43%, 0 0);
-    clip-path: polygon(100% 0, 100% 0, 100% 18%, 84% 55%, 66% 80%, 49% 94%, 27% 100%, 0 100%, 0 43%, 0 0);
+    min-height: 80vh;
+    // height: 100vh;
+    -webkit-clip-path: polygon(100% 0, 100% 46%, 60% 100%, 0 100%, 0 0);
+    clip-path: polygon(100% 0, 100% 46%, 60% 100%, 0 100%, 0 0);
 
     ul ,
     h1 {
-      position: absolute;
-      width: 50%;
+      // position: absolute;
+      width: 70%;
 
     }
 
@@ -27,6 +36,7 @@
     ul  {
       top: 300px;
       font-size: 25px;
+      font-weight: 100;
       animation: slideFromLeft 1s ease-out;
 
       li{
@@ -39,9 +49,10 @@
 
   img {
     position: absolute;
-    width: 40%;
+    width: 30%;
     right: 151px;
     bottom: 60px;
+    display: none;
     animation: slideFromTop 1s ease-out 1s;
     animation-fill-mode: backwards;
 

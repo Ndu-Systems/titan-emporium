@@ -8,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 export class OurVisionComponent implements OnInit {
   paragraphs = []
   heading ="Our Vision"
+  bg="vision.jpg";
+
   constructor() { }
 
   ngOnInit() {

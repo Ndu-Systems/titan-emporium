@@ -1,7 +1,8 @@
-<div class="main-parent">
+<!-- <div class="main-parent" style="background-image: url(../../../assets/pages-images/bg);"> -->
+<div class="main-parent" [ngStyle]="{'background-image': 'url(' + bgImage + ')'}"> 
     <div class="parent">
         <h1>
-          {{heading}}
+          {{heading}} 
         </h1>
         <ul>
         <li *ngFor="let p of paragraphs">

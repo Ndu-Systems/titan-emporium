@@ -8,8 +8,15 @@ import { Component, OnInit, Input } from '@angular/core';
 export class PagesLayoutComponent implements OnInit {
 @Input() paragraphs:Array<string>;
 @Input() heading;
+@Input() bg ;
+  bgImage: string;
   constructor() { }
-  ngOnInit() {  
+  ngOnInit() { 
+    if(!this.bg){
+      this.bg = "banner_bg.jpg";
+    }
+    this.bgImage =`../../../assets/pages-images/${this.bg}`;
+
   }
 
 }

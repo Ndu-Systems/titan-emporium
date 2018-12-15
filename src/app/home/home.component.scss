@@ -244,11 +244,12 @@
         width: 40%;
         display: none;
         z-index: 3;
+        text-decoration: none;
 
         @media only screen and (min-width: 800px) {
           display: inline;
         }
-
+ 
 
        
       }
@@ -318,7 +319,7 @@
     clip-path: polygon(12% 30%, 100% 45%, 100% 73%, 100% 82%, 0 100%, 0 64%);
     h1,a{
       position: absolute;
-      bottom: 150px;
+      bottom: 23%;
 
     }
     h1{

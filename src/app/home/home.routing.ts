@@ -1,3 +1,5 @@
+import { GovernanceComponent } from './main-sustainability/governance/governance.component';
+import { PoliciesAndDisclosuresComponent } from './main-sustainability/policies-and-disclosures/policies-and-disclosures.component';
 import { SustainabilityIntroComponent } from './main-sustainability/sustainability-intro/sustainability-intro.component';
 import { PipeJackingComponent } from './main-services/pipe-jacking/pipe-jacking.component';
 import { CompressedAirPipeworkComponent } from './main-services/compressed-air-pipework/compressed-air-pipework.component';
@@ -16,6 +18,12 @@ import { OurValuesComponent } from "./main-about-us/our-values/our-values.compon
 import { ServiceAgreementsComponent } from './main-services/service-agreements/service-agreements.component';
 import { SupplyAndInstallationComponent } from './main-services/supply-and-installation/supply-and-installation.component';
 import { DirectionalDrillingComponent } from './main-services/directional-drilling/directional-drilling.component';
+import { OurPeopleComponent } from './main-sustainability/our-people/our-people.component';
+import { SocietyComponent } from './main-sustainability/society/society.component';
+import { TransformationComponent } from './main-sustainability/transformation/transformation.component';
+import { SafetyComponent } from './main-sustainability/safety/safety.component';
+import { EnvironmentalComponent } from './main-sustainability/environmental/environmental.component';
+import { RiskManagementComponent } from './main-sustainability/risk-management/risk-management.component';
 
 export const declarations: any[] = [
   ContactUsComponent,
@@ -33,7 +41,15 @@ export const declarations: any[] = [
   SupplyAndInstallationComponent,
   DirectionalDrillingComponent,
   PipeJackingComponent,
-  SustainabilityIntroComponent
+  SustainabilityIntroComponent,
+  OurPeopleComponent,
+  SocietyComponent,
+  TransformationComponent,
+  SafetyComponent,
+  EnvironmentalComponent,
+  PoliciesAndDisclosuresComponent,
+  RiskManagementComponent,
+  GovernanceComponent
 
   
 ];
@@ -103,6 +119,38 @@ const routes: Routes = [
     path: "sustainability-intro",
     component: SustainabilityIntroComponent
   },
+  {
+    path: "our-people",
+    component: OurPeopleComponent
+  },
+  {
+    path: "society",
+    component: SocietyComponent
+  },
+  {
+    path: "transformation",
+    component: TransformationComponent
+  },
+  {
+    path: "safety",
+    component: SafetyComponent
+  },
+  {
+    path: "environmental",
+    component: EnvironmentalComponent
+  },
+  {
+    path: "policies-and-disclosures",
+    component: PoliciesAndDisclosuresComponent
+  },
+  {
+    path: "risk-management",
+    component: RiskManagementComponent
+  },
+  {
+    path: "governance",
+    component: GovernanceComponent
+  }
 ];
 
 @NgModule({

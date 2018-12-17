@@ -6,7 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./policies-and-disclosures.component.scss']
 })
 export class PoliciesAndDisclosuresComponent implements OnInit {
-
+heading ="Policies and disclosures";
+paragraphs = [`comming soon`]
   constructor() { }
 
   ngOnInit() {

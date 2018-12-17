@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./food-beverage.component.scss']
 })
 export class FoodBeverageComponent implements OnInit {
-
+  heading = 'AIR COMPRESSORS FOR THE FOOD AND BEVERAGE INDUSTRY';
   constructor() { }
 
   ngOnInit() {

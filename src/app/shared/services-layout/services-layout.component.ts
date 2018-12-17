@@ -10,6 +10,7 @@ export class ServicesLayoutComponent implements OnInit {
   @Input() paragraphs:Array<string>;
   @Input() heading;
   @Input() bg ;
+  @Input() list ;
     bgImage: string;
     constructor() { }
     ngOnInit() { 

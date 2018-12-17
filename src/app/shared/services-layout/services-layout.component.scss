@@ -73,12 +73,25 @@
           float: left;
           text-align: center;
             img{
-              width: 40%;
+              width: 55%;
               animation: slideFromTop 1s ease-out 1s;
               animation-fill-mode: backwards;
             }
         }
+        .list{
+          width: 100%;
+          // background: red;
+          float: left;
+          ul{
+            padding-left: 5%;
+            li{
+              padding: 1%;
+            }
+          }
+        }
+      
       }
+     
     }
   }  
 

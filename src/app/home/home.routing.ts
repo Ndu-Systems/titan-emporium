@@ -87,7 +87,17 @@ export const declarations: any[] = [
   WaterComponent,
   WoodworkingComponent,
   MiningComponent,
-  PlasticComponent
+  PlasticComponent,
+  
+  SustainabilityIntroComponent,
+  OurPeopleComponent,
+  SocietyComponent,
+  TransformationComponent,
+  SafetyComponent,
+  EnvironmentalComponent,
+  PoliciesAndDisclosuresComponent,
+  PlasticComponent,
+  GovernanceComponent
 ];
 
 const routes: Routes = [
@@ -226,9 +236,23 @@ const routes: Routes = [
   { path: "woodworking", component: WoodworkingComponent },
   { path: "mining", component: MiningComponent },
   { path: "plastic", component: PlasticComponent },
+  //sustainability
+  { path: "sustainability-intro", component: SustainabilityIntroComponent },
+  { path: "our-people", component: OurPeopleComponent },
+  { path: "society", component: SocietyComponent },
+  { path: "transformation", component: TransformationComponent },
+  { path: "safety", component: SafetyComponent },
+  { path: "environmental", component: EnvironmentalComponent },
+  { path: "policies-and-disclosures", component: PoliciesAndDisclosuresComponent },
+  { path: "risk-management", component: PlasticComponent },
+  { path: "governance", component: GovernanceComponent },
+
+
 ];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
 export class HomeRoutes {}
+
+

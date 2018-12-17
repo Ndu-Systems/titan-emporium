@@ -1,11 +1,22 @@
-import { GovernanceComponent } from './main-sustainability/governance/governance.component';
-import { PoliciesAndDisclosuresComponent } from './main-sustainability/policies-and-disclosures/policies-and-disclosures.component';
-import { SustainabilityIntroComponent } from './main-sustainability/sustainability-intro/sustainability-intro.component';
-import { PipeJackingComponent } from './main-services/pipe-jacking/pipe-jacking.component';
-import { CompressedAirPipeworkComponent } from './main-services/compressed-air-pipework/compressed-air-pipework.component';
-import { AssetLeasingComponent } from './main-services/asset-leasing/asset-leasing.component';
-import { CompressorRepairAndServiceComponent } from './main-services/compressor-repair-and-service/compressor-repair-and-service.component';
-import { AirCompressorHireComponent } from './main-services/air-compressor-hire/air-compressor-hire.component';
+import { WoodworkingComponent } from './main-industries/woodworking/woodworking.component';
+import { WaterComponent } from "./main-industries/water/water.component";
+import { NaturalGasComponent } from "./main-industries/natural-gas/natural-gas.component";
+import { MiningComponent } from "./main-industries/mining/mining.component";
+import { MedicalPharmaceuticalAndDentalComponent } from "./main-industries/medical-pharmaceutical-and-dental/medical-pharmaceutical-and-dental.component";
+import { MarineComponent } from "./main-industries/marine/marine.component";
+import { FoodBeverageComponent } from "./main-industries/food-beverage/food-beverage.component";
+import { CraftBreweriesComponent } from "./main-industries/craft-breweries/craft-breweries.component";
+import { ChemicalComponent } from "./main-industries/chemical/chemical.component";
+import { AutomotiveComponent } from "./main-industries/automotive/automotive.component";
+import { AgricultureFarmingComponent } from "./main-industries/agriculture-farming/agriculture-farming.component";
+import { GovernanceComponent } from "./main-sustainability/governance/governance.component";
+import { PoliciesAndDisclosuresComponent } from "./main-sustainability/policies-and-disclosures/policies-and-disclosures.component";
+import { SustainabilityIntroComponent } from "./main-sustainability/sustainability-intro/sustainability-intro.component";
+import { PipeJackingComponent } from "./main-services/pipe-jacking/pipe-jacking.component";
+import { CompressedAirPipeworkComponent } from "./main-services/compressed-air-pipework/compressed-air-pipework.component";
+import { AssetLeasingComponent } from "./main-services/asset-leasing/asset-leasing.component";
+import { CompressorRepairAndServiceComponent } from "./main-services/compressor-repair-and-service/compressor-repair-and-service.component";
+import { AirCompressorHireComponent } from "./main-services/air-compressor-hire/air-compressor-hire.component";
 import { AtAGlanceComponent } from "./main-about-us/at-a-glance/at-a-glance.component";
 import { NgModule } from "@angular/core";
 import { Routes, RouterModule } from "@angular/router";
@@ -15,15 +26,23 @@ import { OurStrategyComponent } from "./main-about-us/our-strategy/our-strategy.
 import { OurApproachComponent } from "./main-about-us/our-approach/our-approach.component";
 import { OurVisionComponent } from "./main-about-us/our-vision/our-vision.component";
 import { OurValuesComponent } from "./main-about-us/our-values/our-values.component";
-import { ServiceAgreementsComponent } from './main-services/service-agreements/service-agreements.component';
-import { SupplyAndInstallationComponent } from './main-services/supply-and-installation/supply-and-installation.component';
-import { DirectionalDrillingComponent } from './main-services/directional-drilling/directional-drilling.component';
-import { OurPeopleComponent } from './main-sustainability/our-people/our-people.component';
-import { SocietyComponent } from './main-sustainability/society/society.component';
-import { TransformationComponent } from './main-sustainability/transformation/transformation.component';
-import { SafetyComponent } from './main-sustainability/safety/safety.component';
-import { EnvironmentalComponent } from './main-sustainability/environmental/environmental.component';
-import { RiskManagementComponent } from './main-sustainability/risk-management/risk-management.component';
+import { ServiceAgreementsComponent } from "./main-services/service-agreements/service-agreements.component";
+import { SupplyAndInstallationComponent } from "./main-services/supply-and-installation/supply-and-installation.component";
+import { DirectionalDrillingComponent } from "./main-services/directional-drilling/directional-drilling.component";
+import { OurPeopleComponent } from "./main-sustainability/our-people/our-people.component";
+import { SocietyComponent } from "./main-sustainability/society/society.component";
+import { TransformationComponent } from "./main-sustainability/transformation/transformation.component";
+import { SafetyComponent } from "./main-sustainability/safety/safety.component";
+import { EnvironmentalComponent } from "./main-sustainability/environmental/environmental.component";
+import { RiskManagementComponent } from "./main-sustainability/risk-management/risk-management.component";
+import { DefenceComponent } from "./main-industries/defence/defence.component";
+import { IndustrialComponent } from "./main-industries/industrial/industrial.component";
+import { OilAndGasComponent } from "./main-industries/oil-and-gas/oil-and-gas.component";
+import { PetrochemicalComponent } from "./main-industries/petrochemical/petrochemical.component";
+import { PlasticComponent } from "./main-industries/plastic/plastic.component";
+import { PowerComponent } from "./main-industries/power/power.component";
+import { RailComponent } from "./main-industries/rail/rail.component";
+import { SecurityAndFireComponent } from "./main-industries/security-and-fire/security-and-fire.component";
 
 export const declarations: any[] = [
   ContactUsComponent,
@@ -33,9 +52,9 @@ export const declarations: any[] = [
   OurApproachComponent,
   OurVisionComponent,
   OurValuesComponent,
-  AirCompressorHireComponent ,
+  AirCompressorHireComponent,
   CompressorRepairAndServiceComponent,
-  AssetLeasingComponent ,
+  AssetLeasingComponent,
   CompressedAirPipeworkComponent,
   ServiceAgreementsComponent,
   SupplyAndInstallationComponent,
@@ -49,9 +68,26 @@ export const declarations: any[] = [
   EnvironmentalComponent,
   PoliciesAndDisclosuresComponent,
   RiskManagementComponent,
-  GovernanceComponent
-
-  
+  GovernanceComponent,
+  AgricultureFarmingComponent,
+  AutomotiveComponent,
+  ChemicalComponent,
+  CraftBreweriesComponent,
+  DefenceComponent,
+  FoodBeverageComponent,
+  IndustrialComponent,
+  MarineComponent,
+  MedicalPharmaceuticalAndDentalComponent,
+  NaturalGasComponent,
+  OilAndGasComponent,
+  PetrochemicalComponent,
+  PowerComponent,
+  RailComponent,
+  SecurityAndFireComponent,
+  WaterComponent,
+  WoodworkingComponent,
+  MiningComponent,
+  PlasticComponent
 ];
 
 const routes: Routes = [
@@ -150,9 +186,47 @@ const routes: Routes = [
   {
     path: "governance",
     component: GovernanceComponent
-  }
-];
+  },
+  //
+  {
+    path: "agriculture-farming",
+    component: AgricultureFarmingComponent
+  },
+  {
+    path: "automotive",
+    component: AutomotiveComponent
+  },
+  {
+    path: "chemical",
+    component: ChemicalComponent
+  },
+  {
+    path: "craft-breweries",
+    component: CraftBreweriesComponent
+  },
+  {
+    path: "defence",
+    component: DefenceComponent
+  },
+  { path: "food-beverage", component: FoodBeverageComponent },
 
+  { path: "industrial", component: IndustrialComponent },
+  { path: "marine", component: MarineComponent },
+  {
+    path: "medical-pharmaceutical-and-dental",
+    component: MedicalPharmaceuticalAndDentalComponent
+  },
+  { path: "natural-gas", component: NaturalGasComponent },
+  { path: "oil-and-gas", component: OilAndGasComponent },
+  { path: "petrochemical", component: PetrochemicalComponent },
+  { path: "power", component: PowerComponent },
+  { path: "rail", component: RailComponent },
+  { path: "security-and-fire", component: SecurityAndFireComponent },
+  { path: "water", component: WaterComponent },
+  { path: "woodworking", component: WoodworkingComponent },
+  { path: "mining", component: MiningComponent },
+  { path: "plastic", component: PlasticComponent },
+];
 @NgModule({
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]

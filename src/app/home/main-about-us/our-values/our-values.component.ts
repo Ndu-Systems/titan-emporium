@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./our-values.component.scss']
 })
 export class OurValuesComponent implements OnInit {
-  paragraphs = []
+  paragraphs = [`Comming soon`]
   heading ="Our Values"
   bg="values.jpg";
 

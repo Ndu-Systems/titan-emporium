@@ -24,7 +24,7 @@ The Titan Range can be utilized in a variety of applications. When considering y
 also consider if the compressor installation can be stationary, or if a portable option may be more
 advantageous in certain situations.`
 ];
-bg ="Agriculture.jpg";
+bg ="cow.svg";
 list = [
   `Water Pumps – Water is essential to crops, livestock and sustainable pastures.
   Sometimes compressed air is needed to bring this vital resource to specific areas to

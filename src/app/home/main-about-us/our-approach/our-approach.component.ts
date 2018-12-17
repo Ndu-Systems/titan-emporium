@@ -24,7 +24,7 @@ export class OurApproachComponent implements OnInit {
       `
   ];
   heading = "Our Approach";
-  bg="approach.jpg"
+  bg="optimizze.svg"
   constructor() {}
 
   ngOnInit() {}

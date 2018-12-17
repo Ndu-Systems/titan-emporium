@@ -16,7 +16,7 @@ export class OurStrategyComponent implements OnInit {
 
   ];
    heading = 'Our Strategy';
-   bg="strategy.jpg";
+   bg="hores.svg";
   constructor() { }
 
   ngOnInit() {

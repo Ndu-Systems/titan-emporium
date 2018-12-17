@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class OurVisionComponent implements OnInit {
   paragraphs = [`Comming soon`]
   heading ="Our Vision"
-  bg="vision.jpg";
+  bg="mission-and-vision-png-3.png";
 
   constructor() { }
 

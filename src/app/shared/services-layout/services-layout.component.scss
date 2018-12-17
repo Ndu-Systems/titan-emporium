@@ -1,118 +1,123 @@
 .main-parent {
-    
+
+  position: relative;
+
+  .parent {
+
+    width: 100%;
+    background: none;
     position: relative;
 
-    .parent {
-     
-      width: 100%;
+    .top-child {
       background: none;
+      height: 22vh;
+      width: 100%;
       position: relative;
-    
-      .top-child {
-        background: none;
-        height: 22vh;
-        width: 100%;
-        position: relative;
-    
-        .bg {
-          height: 100%;
-          position: absolute;
-          top: 0;
-    
-    
-        }
-    
-        .bg-left {
-          background: #000;
-          left: 0;
-          width: 100%;
-          -webkit-clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
-          clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
-          z-index: 1;
-        }
-    
-        .bg-right {
-          background: #171D23;
-          right: 0;
-          width: 100%;
-          -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
-          z-index: 2;
-    
-        }
-      }  
-      .content{
-        padding: 5%;
-        padding-left: 10%;
-        margin-bottom: 2%;
-        display: block;
-        width: 100%;
-        min-height: 55vh;
-        h1{
-          text-align: center;
-          text-transform: uppercase;
-          font-weight: bold;
-          margin-bottom: 4%;
-        }
-       
-        .paragraph{
-          overflow: hidden;
-          width: 50%;
-          float: left;
 
-         p{
+      .bg {
+        height: 100%;
+        position: absolute;
+        top: 0;
+
+
+      }
+
+      .bg-left {
+        background: #000;
+        left: 0;
+        width: 100%;
+        -webkit-clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
+        clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
+        z-index: 1;
+      }
+
+      .bg-right {
+        background: #171D23;
+        right: 0;
+        width: 100%;
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
+        z-index: 2;
+
+      }
+    }
+
+    .content {
+      padding: 5%;
+      padding-left: 10%;
+      margin-bottom: 2%;
+      display: block;
+      width: 100%;
+      min-height: 55vh;
+
+      h1 {
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: bold;
+        margin-bottom: 4%;
+      }
+
+      .paragraph {
+        overflow: hidden;
+        width: 50%;
+        float: left;
+
+        p {
           margin: 2%;
           font-size: 1em;
           animation: slideFromLeft 1s ease-out;
           animation-fill-mode: backwards;
-         }
         }
-       
-        .image{
-          width: 40%;
-          float: left;
-          text-align: center;
-            img{
-              width: 55%;
-              animation: slideFromTop 1s ease-out 1s;
-              animation-fill-mode: backwards;
-            }
+      }
+
+      .image {
+        width: 40%;
+        float: left;
+        text-align: center;
+
+        img {
+          width: 55%;
+          animation: slideFromTop 1s ease-out 1s;
+          animation-fill-mode: backwards;
         }
-        .list{
-          width: 100%;
-          // background: red;
-          float: left;
-          ul{
-            padding-left: 5%;
-            li{
-              padding: .8%;
-            }
+      }
+
+      .list {
+        width: 100%;
+        // background: red;
+        float: left;
+
+        ul {
+          padding-left: 5%;
+
+          li {
+            padding: .8%;
           }
         }
-      
       }
-     
+
     }
-  }  
+
+  }
+}
 
 
-  .footer{
-    background: #171D23;
-    color: #ffffff;
-    width: 100%;
-    padding-left: 15%;
-    overflow: hidden;
-    .box{
-      width: 30%;
-      padding: 1%;
-      float: left;
-      text-align: left;
-  
-      a{
-        text-decoration: none;
-        color: #ffffff;
-      }
+.footer {
+  background: #171D23;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 15%;
+  overflow: hidden;
+
+  .box {
+    width: 30%;
+    padding: 1%;
+    float: left;
+    text-align: left;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
     }
-    }
-  
-  
+  }
+}

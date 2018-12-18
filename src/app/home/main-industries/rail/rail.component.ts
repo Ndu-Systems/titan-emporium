@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./rail.component.scss']
 })
 export class RailComponent implements OnInit {
-
+  bg="";
+  list=[];
+  paragraphs;
+  heading;
   constructor() { }
 
   ngOnInit() {

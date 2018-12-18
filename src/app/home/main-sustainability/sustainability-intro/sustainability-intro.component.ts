@@ -18,7 +18,9 @@ export class SustainabilityIntroComponent implements OnInit {
   doing good. We believe our prosperity is tied to the progress of those around us. We are
   committed to a shared value approach, creating sustainable success.`
   ]
-  
+  bg="";
+  list=[];
+
   constructor() { }
 
   ngOnInit() {

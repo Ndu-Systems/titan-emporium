@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./oil-and-gas.component.scss']
 })
 export class OilAndGasComponent implements OnInit {
-
+  bg="";
+  list=[];
+  paragraphs;
+  heading;
   constructor() { }
 
   ngOnInit() {

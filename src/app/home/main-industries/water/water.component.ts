@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./water.component.scss']
 })
 export class WaterComponent implements OnInit {
-
+  bg="";
+  list=[];
+  paragraphs;
+  heading;
   constructor() { }
 
   ngOnInit() {

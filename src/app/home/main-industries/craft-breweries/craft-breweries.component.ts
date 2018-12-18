@@ -22,7 +22,10 @@ export class CraftBreweriesComponent implements OnInit {
   filtration or alternatively using oil free machines is a good start. Using food grade lubricants in
   the compressor to limit any contamination risk should there be a failure of the filtration systems
   in the compressed air system.`
-  ]
+  ];
+  bg="BREW.png";
+  list=[];
+
   constructor() { }
 
   ngOnInit() {

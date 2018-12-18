@@ -23,6 +23,9 @@ export class SocietyComponent implements OnInit {
   manage their businesses and their externalities, such as their impacts on the environment, in an
   ethical and responsible manner.`
   ]
+  bg="";
+  list=[];
+
   constructor() { }
 
   ngOnInit() {

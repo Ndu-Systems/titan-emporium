@@ -23,7 +23,9 @@ export class AutomotiveComponent implements OnInit {
     and pricing information, contact us directly`
   ];
   heading ="Automotive Air Compressors";
-  bg="";
+  bg="auto.png";
+  list=[];
+;
   constructor() { }
 
   ngOnInit() {

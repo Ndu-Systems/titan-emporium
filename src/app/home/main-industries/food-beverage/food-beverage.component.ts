@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FoodBeverageComponent implements OnInit {
   heading = 'AIR COMPRESSORS FOR THE FOOD AND BEVERAGE INDUSTRY';
+  bg="";
+  list=[];
+  paragraphs;
   constructor() { }
 
   ngOnInit() {

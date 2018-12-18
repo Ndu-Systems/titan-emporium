@@ -7,7 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RiskManagementComponent implements OnInit {
   heading =`Risk Management`
-
+  bg="";
+  list=[];
+  
   paragraphs = [`The Titan Emporium (Pty) Ltd understands that risk management is an essential
   element of good business governance and an integral part of sound management
   practice. Risk is inherent in all business activities, and the objective of our risk

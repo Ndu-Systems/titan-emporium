@@ -17,7 +17,9 @@ export class MiningComponent implements OnInit {
  
  `Faced with these extremely challenging requirements, the robust and high-quality compressor
  solutions by The Titan Emporium stand out because of the strengths for which our products have
- become known.`]
+ become known.`];
+ bg="MINE.png";
+ list=[];
   constructor() { }
 
   ngOnInit() {

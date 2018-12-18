@@ -17,6 +17,9 @@ paragraphs = [
   ensure that manufacturers supply their customers with high quality chemicals and chemical
   products.`
 ];
+bg="CHEM.png";
+list=[];
+
   constructor() { }
 
   ngOnInit() {

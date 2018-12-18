@@ -16,6 +16,9 @@ export class TransformationComponent implements OnInit {
   continue to have the perspective, energy and related skills to build and strengthen
   relationships with our customers and our other stakeholders.
   The Group currently has a level 1 BEE Contributor`]
+  bg="";
+  list=[];
+
   constructor() { }
 
   ngOnInit() {

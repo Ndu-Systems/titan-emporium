@@ -13,6 +13,9 @@ export class SafetyComponent implements OnInit {
   frequency and severity of injuries. In addition to complying with safety
   regulations and entrenching the necessary systems, we also promote
   individual responsibility for safety throughout the organization`]
+  bg="";
+  list=[];
+
   constructor() { }
 
   ngOnInit() {

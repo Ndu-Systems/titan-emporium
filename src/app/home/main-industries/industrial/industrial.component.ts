@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./industrial.component.scss']
 })
 export class IndustrialComponent implements OnInit {
-
+  bg="";
+  list=[];
+  paragraphs;
+  heading;
   constructor() { }
 
   ngOnInit() {

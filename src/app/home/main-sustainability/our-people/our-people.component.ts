@@ -21,6 +21,9 @@ export class OurPeopleComponent implements OnInit {
   `Our strategic intent is to build an organisation that adds value to employees as our success is based
   on inspired, aligned, empowered, results-driven, competitive, passionate people who create
   value through strategic innovation and continuous improvement`]
+  bg="";
+  list=[];
+ 
   constructor() { }
 
   ngOnInit() {

@@ -6,7 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./woodworking.component.scss']
 })
 export class WoodworkingComponent implements OnInit {
-
+  bg="";
+  list=[];
+  paragraphs;
+  heading;
   constructor() { }
 
   ngOnInit() {

@@ -34,6 +34,8 @@ export class NaturalGasComponent implements OnInit {
  systems and all other components necessary to outfit a first class compression package to locate
  an authorized Quincy gas packager.`
   ]
+  bg="";
+
   constructor() { }
 
   ngOnInit() {

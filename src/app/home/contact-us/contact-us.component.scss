@@ -1,113 +1,144 @@
 .main-parent {
-    
+
+  position: relative;
+
+  .parent {
+
+    width: 100%;
+    background: none;
     position: relative;
 
-    .parent {
-     
-      width: 100%;
+    .top-child {
       background: none;
+      height: 22vh;
+      width: 100%;
       position: relative;
-    
-      .top-child {
-        background: none;
-        height: 22vh;
+
+      .bg {
+        height: 100%;
+        position: absolute;
+        top: 0;
+
+
+      }
+
+      .bg-left {
+        background: #000;
+        left: 0;
         width: 100%;
-        position: relative;
-    
-        .bg {
-          height: 100%;
-          position: absolute;
-          top: 0;
-    
-    
-        }
-    
-        .bg-left {
-          background: #000;
-          left: 0;
-          width: 100%;
-          -webkit-clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
-          clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
-          z-index: 1;
-        }
-    
-        .bg-right {
-          background: #171D23;
-          right: 0;
-          width: 100%;
-          -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
-          clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
-          z-index: 2;
-    
-        }
-      }  
-      .content{
-        padding: 5%;
-        padding-left: 10%;
-        margin-bottom: 2%;
-        display: block;
+        -webkit-clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
+        clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
+        z-index: 1;
+      }
+
+      .bg-right {
+        background: #171D23;
+        right: 0;
         width: 100%;
-        min-height: 55vh;
-        overflow: hidden;
-        h1{
-          text-align: center;
+        -webkit-clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
+        clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
+        z-index: 2;
+
+      }
+    }
+
+    .content {
+      padding: 5em;
+      padding-left: 10%;
+      margin-bottom: 2%;
+      display: block;
+      width: 100%;
+      min-height: 55vh;
+      overflow: hidden;
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        padding: 3%;
+      }
+
+      .flex {
+        display: flex;
+
+        .box {
+          flex: 1;
+          padding: 1em;
+          margin: 0;
+
         }
-        p{
-          padding: 3%;
-        }
-        .info, .form-group{
+
+        .form-group {
+          background: #ecf0f1;
+          padding: 2%;
+          .controls{
+            input,textarea{
+              width: 80%;
+              border: none;
+              border-bottom: 1px solid #bdc3c7;
+              border-radius: 4px;
+              padding: 1%;
+              animation: slideFromLeft .5s ease-out;
+              animation-fill-mode: backwards;
+            }
+          }
+          button{
+            float: right;
+            margin-right: 20%;
+            animation: slideFromLeft .5s ease-out .5s;
+            animation-fill-mode: backwards;
+
+
             
-            float: left;
-            background: rgba(56, 173, 33, 0.5);
-            padding: 3%;
-            height: 35vh;
-           
+            &:hover{
+                background: #775c03
+            }
+          }
         }
-        
-        .form-group{
-          background: #ffffffaf;
-          width: 60%;
-        }
-        .info{
+
+        .info {
           background: #2c3e50a4;
-          width: 40%;
+          // width: 40%;
           color: white;
-          p{
+
+          p {
             font-size: 1.5em;
             padding: 0;
 
-            a{
+            a {
               margin: 2%;
               color: #5a4502;
               font-size: 1.6em;
             }
-            
+
           }
 
         }
-
       }
-    }
-  }  
 
 
-  .footer{
-    background: #171D23;
-    color: #ffffff;
-    width: 100%;
-    padding-left: 15%;
-    overflow: hidden;
-    .box{
-      width: 30%;
-      padding: 1%;
-      float: left;
-      text-align: left;
-  
-      a{
-        text-decoration: none;
-        color: #ffffff;
-      }
     }
+  }
+}
+
+
+.footer {
+  background: #171D23;
+  color: #ffffff;
+  width: 100%;
+  padding-left: 15%;
+  overflow: hidden;
+
+  .box {
+    width: 30%;
+    padding: 1%;
+    float: left;
+    text-align: left;
+
+    a {
+      text-decoration: none;
+      color: #ffffff;
     }
-  
-  
+  }
+}

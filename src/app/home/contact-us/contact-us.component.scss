@@ -48,36 +48,44 @@
         display: block;
         width: 100%;
         min-height: 55vh;
+        overflow: hidden;
         h1{
           text-align: center;
-          text-transform: uppercase;
-          font-weight: bold;
-          margin-bottom: 4%;
         }
-       
-        .paragraph{
-          overflow: hidden;
-          width: 50%;
-          float: left;
-
-         p{
-          margin: 2%;
-          font-size: 1em;
-          animation: slideFromLeft 1s ease-out;
-          animation-fill-mode: backwards;
-         }
+        p{
+          padding: 3%;
         }
-       
-        .image{
+        .info, .form-group{
+            
+            float: left;
+            background: rgba(56, 173, 33, 0.5);
+            padding: 3%;
+            height: 35vh;
+           
+        }
+        
+        .form-group{
+          background: #ffffffaf;
+          width: 60%;
+        }
+        .info{
+          background: #2c3e50a4;
           width: 40%;
-          float: left;
-          text-align: center;
-            img{
-              width: 40%;
-              animation: slideFromTop 1s ease-out 1s;
-              animation-fill-mode: backwards;
+          color: white;
+          p{
+            font-size: 1.5em;
+            padding: 0;
+
+            a{
+              margin: 2%;
+              color: #5a4502;
+              font-size: 1.6em;
             }
+            
+          }
+
         }
+
       }
     }
   }  

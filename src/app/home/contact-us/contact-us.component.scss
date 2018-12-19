@@ -7,12 +7,15 @@
     width: 100%;
     background: none;
     position: relative;
-
     .top-child {
       background: none;
       height: 22vh;
       width: 100%;
       position: relative;
+      @media only screen and (max-width: 500px) {
+        height: 35vh;
+
+      }
 
       .bg {
         height: 100%;
@@ -29,6 +32,11 @@
         -webkit-clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
         clip-path: polygon(44% 0, 100% 0, 100% 52%, 14% 100%, 0 68%, 0 0);
         z-index: 1;
+
+        @media only screen and (max-width: 500px) {
+          -webkit-clip-path: circle(80.7% at 50% 0);
+          clip-path: circle(80.7% at 50% 0);
+        }
       }
 
       .bg-right {
@@ -39,8 +47,13 @@
         clip-path: polygon(50% 0%, 100% 0, 100% 52%, 49% 80%, 24% 0, 42% 0);
         z-index: 2;
 
+        @media only screen and (max-width: 500px) {
+          display: none;
+        }
+
       }
     }
+
 
     .content {
       padding: 5em;
@@ -50,6 +63,11 @@
       width: 100%;
       min-height: 55vh;
       overflow: hidden;
+
+      @media only screen and (max-width: 500px) {
+        padding: 2em;
+
+      }
 
       h1 {
         text-align: center;
@@ -61,17 +79,28 @@
 
       .flex {
         display: flex;
+        @media only screen and (max-width: 500px) {
+   
+          -webkit-flex-direction: column;
+          -ms-flex-direction: column;
+          flex-direction: column;        }
 
         .box {
           flex: 1;
           padding: 1em;
           margin: 0;
+          
 
         }
 
         .form-group {
           background: #ecf0f1;
           padding: 2%;
+
+          @media only screen and (max-width: 500px) {
+            padding-left: 4%;
+
+          }
           .controls{
             label{
               font-weight: 200;
@@ -108,6 +137,10 @@
           p {
             font-size: 1.5em;
             padding: 0;
+            @media only screen and (max-width: 500px) {
+              font-size: 1.2em;
+
+            }
 
             a {
               margin: 2%;
@@ -125,19 +158,32 @@
   }
 }
 
-
 .footer {
   background: #171D23;
   color: #ffffff;
   width: 100%;
   padding-left: 15%;
   overflow: hidden;
+  @media only screen and (max-width: 500px) {
+padding:0;
+
+  }
 
   .box {
     width: 30%;
     padding: 1%;
     float: left;
     text-align: left;
+    @media only screen and (max-width: 500px) {
+      width: 100%;
+      padding: 3%;
+      margin: 0;
+      &:nth-child(2){
+        background: rgba(6, 7, 9, 0.925);
+
+      }
+
+    }
 
     a {
       text-decoration: none;

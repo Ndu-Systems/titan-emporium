@@ -73,20 +73,23 @@
           background: #ecf0f1;
           padding: 2%;
           .controls{
+            label{
+              font-weight: 200;
+            }
             input,textarea{
               width: 80%;
               border: none;
               border-bottom: 1px solid #bdc3c7;
               border-radius: 4px;
               padding: 1%;
-              animation: slideFromLeft .5s ease-out;
+              animation: slideFromLeft .5s ease-out .5s;
               animation-fill-mode: backwards;
             }
           }
           button{
             float: right;
             margin-right: 20%;
-            animation: slideFromLeft .5s ease-out .5s;
+            animation: slideFromLeft .5s ease-out 1s;
             animation-fill-mode: backwards;
 
 

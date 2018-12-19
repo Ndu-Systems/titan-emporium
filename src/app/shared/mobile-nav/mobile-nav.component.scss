@@ -112,6 +112,8 @@ z-index: 2000;
   height: 100%;
   background: #fff;
   top: 0;
+  animation: slideMenu 0.5s forwards 0s linear;
+
 }
 
 @keyframes slideMenu{

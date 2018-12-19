@@ -25,7 +25,7 @@ black-controlled industrial supplies, solutions and Investment Company.
   ];
 
   heading = `The Titan Emporium at a Glance`;
-  bg="blue-one.svg";
+  bg="intro.png";
 
   constructor() {}
 

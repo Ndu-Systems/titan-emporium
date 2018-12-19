@@ -9,7 +9,9 @@
     height: 55vh;
     width: 100%;
     position: relative;
-
+    // @media only screen and (max-width: 370px) {
+    //   height: 71vh;
+    // }
     .bg {
       height: 100%;
       position: absolute;
@@ -30,6 +32,12 @@
         -webkit-clip-path: circle(53.8% at 48% 26%);
         clip-path: circle(53.8% at 48% 26%);
       }
+      @media only screen and (max-width: 500px) {
+        -webkit-clip-path: circle(79.0% at 56% 0);
+clip-path: circle(79.0% at 56% 0);
+      }
+
+     
     }
 
     .bg-right {
@@ -70,6 +78,9 @@
           bottom: -9px;
 
 
+        }
+        @media only screen and (max-width: 370px) {
+          bottom: -50px;
         }
 
       }
@@ -121,6 +132,10 @@
 
 
         }
+        @media only screen and (max-width: 370px) {
+          width: 45%;
+
+        }
 
       }
     }
@@ -161,6 +176,7 @@
 
         a {
           display: block;
+          font-size: .5em;
         }
 
         &:nth-child(3) {

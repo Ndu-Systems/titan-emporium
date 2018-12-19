@@ -1,5 +1,5 @@
 <div class="main-container">
-  <app-mobile-nav *ngIf="showMobleMenu"></app-mobile-nav>
+  <app-mobile-nav  (closeNavEmitter)="onCloseNav($event)"  *ngIf="showMobleMenu"></app-mobile-nav>
 
   <div class="top-bar">
     <div class="logo-section">

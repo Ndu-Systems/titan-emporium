@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-mobile-nav',
@@ -6,14 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./mobile-nav.component.scss']
 })
 export class MobileNavComponent implements OnInit {
+  @Output() closeNavEmitter:EventEmitter<boolean> =new EventEmitter(); 
 
   constructor() { }
 
   ngOnInit() {
   }
   hide(){
-    
-    let nav = document.getElementById('nav-mob');
-    nav.style.display = "none";;
+    this.closeNavEmitter.emit(false); 
   }
 }

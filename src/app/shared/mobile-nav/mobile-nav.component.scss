@@ -2,7 +2,7 @@
   position: absolute;
   display: block;
   background: #171D23;
-  width: 50%;
+  width: 80%;
   left: 0;
   height: 100%;
   -webkit-transition: width 2s, height 4s;
@@ -44,9 +44,8 @@ z-index: 2000;
           color: #fff;
           widows: 100%;
 
-          &:hover {
-            background: #fff;
-          }
+         
+        
         }
       }
 
@@ -67,7 +66,13 @@ z-index: 2000;
   }
 }
 
-
+.main-link{
+  display: block;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.2em;
+    color: #d4b655 !important;
+}
 @keyframes slideMenu{
     0%{
         transform: translateX(-100px);

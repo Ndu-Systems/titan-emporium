@@ -11,4 +11,5 @@ export class AppComponent {
   toggleMenu() {
     this.showMobleMenu = !this.showMobleMenu ;
    }
+   
 }

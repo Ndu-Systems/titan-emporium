@@ -11,5 +11,9 @@ export class MobileNavComponent implements OnInit {
 
   ngOnInit() {
   }
-
+  hide(){
+    
+    let nav = document.getElementById('nav-mob');
+    nav.style.display = "none";;
+  }
 }

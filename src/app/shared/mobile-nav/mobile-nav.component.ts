@@ -7,12 +7,20 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class MobileNavComponent implements OnInit {
   @Output() closeNavEmitter:EventEmitter<boolean> =new EventEmitter(); 
-
+  sustainability;
+  showAbout;
+  showServices;
+  showIndustries;
+  showSustainability;
   constructor() { }
 
   ngOnInit() {
   }
   hide(){
     this.closeNavEmitter.emit(false); 
+  }
+  close(event:boolean){
+    this.closeNavEmitter.emit(event); 
+
   }
 }

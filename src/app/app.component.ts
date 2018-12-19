@@ -7,7 +7,7 @@ import { Component } from "@angular/core";
 })
 export class AppComponent {
   title = "app-titan";
-  showMobleMenu: boolean;
+  showMobleMenu: boolean ;
   toggleMenu() {
     this.showMobleMenu = !this.showMobleMenu;
   }

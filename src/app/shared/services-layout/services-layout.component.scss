@@ -48,7 +48,7 @@
       margin-bottom: 2%;
       display: block;
       width: 100%;
-      min-height: 55vh;
+      min-height: 40vh;
 
       h1 {
         text-align: center;
@@ -96,6 +96,12 @@
         }
       }
 
+    }
+
+    .multi {
+      .paragraph {
+        width: 100%;
+      }
     }
 
   }

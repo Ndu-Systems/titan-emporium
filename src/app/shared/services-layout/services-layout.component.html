@@ -28,6 +28,21 @@
         </ul>
         </div>
     </div>
+    <div class="content multi" *ngIf="multiList.length">
+      <div  *ngFor="let item of multiList">
+          <h1>
+              {{item.heading}}
+            </h1>
+            <div class="paragraph">
+                <p *ngFor="let par of item.paragraphs">
+                  {{par}}
+                </p>
+              
+              </div>
+      </div>
+       
+        
+    </div>
    
   
   </div>

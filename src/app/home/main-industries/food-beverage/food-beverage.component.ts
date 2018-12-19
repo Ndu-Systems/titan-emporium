@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { TextModel } from '../../../models/body.text.model';
 
 @Component({
   selector: 'app-food-beverage',
@@ -10,6 +11,7 @@ export class FoodBeverageComponent implements OnInit {
   bg="";
   list=[];
   paragraphs;
+  multiList:Array<TextModel> = [];
   constructor() { }
 
   ngOnInit() {

@@ -32,9 +32,9 @@
   </nav>
 
   <div class="popup" *ngIf="showPopup">
-    <app-about-us-mobile-items *ngIf="showAbout"   (closeNav)="close($event)"></app-about-us-mobile-items>
-    <app-service-ul-mobile-items *ngIf="showServices"   (closeNav)="close($event)"></app-service-ul-mobile-items>
-    <app-industries-ul-mobile-items *ngIf="showIndustries"   (closeNav)="close($event)"></app-industries-ul-mobile-items>
-    <app-sustainability-service-ul-mobile-items *ngIf="showSustainability"  (closeNav)="close($event)"></app-sustainability-service-ul-mobile-items>
+    <app-about-us-mobile-items *ngIf="showAbout" (closePopup)="closePop($event)" (closeNav)="close($event)"></app-about-us-mobile-items>
+    <app-service-ul-mobile-items *ngIf="showServices" (closePopup)="closePop($event)" (closeNav)="close($event)"></app-service-ul-mobile-items>
+    <app-industries-ul-mobile-items *ngIf="showIndustries" (closePopup)="closePop($event)" (closeNav)="close($event)"></app-industries-ul-mobile-items>
+    <app-sustainability-service-ul-mobile-items *ngIf="showSustainability" (closePopup)="closePop($event)" (closeNav)="close($event)"></app-sustainability-service-ul-mobile-items>
   </div>
 </div>

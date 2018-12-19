@@ -7,8 +7,12 @@ import { Component, OnInit, EventEmitter, Output } from '@angular/core';
 })
 export class AboutUsMobileItemsComponent implements OnInit {
   @Output() closeNav: EventEmitter<boolean>= new EventEmitter();
+  @Output() closePopup: EventEmitter<boolean>= new EventEmitter();
   hide(){
     this.closeNav.emit(false);
+  }
+  hidePopup(){
+    this.closePopup.emit(false);
   }
   constructor() { }
 

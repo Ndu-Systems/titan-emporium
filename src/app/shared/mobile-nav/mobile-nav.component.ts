@@ -31,6 +31,13 @@ export class MobileNavComponent implements OnInit {
     this.showPopup = true;
     this.showSustainability = true;
   }
+  closePop(){
+    this.showPopup=false;
+    this.showAbout=false;
+    this.showServices=false;
+    this.showIndustries=false;
+    this.showSustainability=false;
+  }
   hide() {
     this.closeNavEmitter.emit(false);
   }

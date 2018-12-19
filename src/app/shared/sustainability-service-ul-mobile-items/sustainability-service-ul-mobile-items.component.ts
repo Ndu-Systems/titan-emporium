@@ -7,11 +7,12 @@ import { Component, OnInit, Output, EventEmitter } from '@angular/core';
 })
 export class SustainabilityServiceUlMobileItemsComponent implements OnInit {
   @Output() closeNav: EventEmitter<boolean>= new EventEmitter();
+  hide(){
+    this.closeNav.emit(false);
+  }
   constructor() { }
 
   ngOnInit() {
   }
-hide(){
-  this.closeNav.emit(false);
-}
+
 }

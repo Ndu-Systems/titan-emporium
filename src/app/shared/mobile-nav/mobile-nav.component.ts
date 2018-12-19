@@ -1,26 +1,40 @@
-import { Component, OnInit, EventEmitter, Output } from '@angular/core';
+import { Component, OnInit, EventEmitter, Output } from "@angular/core";
 
 @Component({
-  selector: 'app-mobile-nav',
-  templateUrl: './mobile-nav.component.html',
-  styleUrls: ['./mobile-nav.component.scss']
+  selector: "app-mobile-nav",
+  templateUrl: "./mobile-nav.component.html",
+  styleUrls: ["./mobile-nav.component.scss"]
 })
 export class MobileNavComponent implements OnInit {
-  @Output() closeNavEmitter:EventEmitter<boolean> =new EventEmitter(); 
-  sustainability;
-  showAbout;
+  @Output() closeNavEmitter: EventEmitter<boolean> = new EventEmitter();
+  showPopup;
+  showAbout: boolean;
   showServices;
   showIndustries;
   showSustainability;
-  constructor() { }
+  constructor() {}
 
-  ngOnInit() {
+  ngOnInit() {}
+  changeShowAbout() {
+    this.showPopup = true;
+    this.showAbout = true;
   }
-  hide(){
-    this.closeNavEmitter.emit(false); 
+  changeShowServices() {
+    this.showPopup = true;
+    this.showServices = true;
   }
-  close(event:boolean){
-    this.closeNavEmitter.emit(event); 
-
+  changeShowIndustries() {
+    this.showPopup = true;
+    this.showIndustries = true;
+  }
+  changeShowSustainability() {
+    this.showPopup = true;
+    this.showSustainability = true;
+  }
+  hide() {
+    this.closeNavEmitter.emit(false);
+  }
+  close(event: boolean) {
+    this.closeNavEmitter.emit(event);
   }
 }

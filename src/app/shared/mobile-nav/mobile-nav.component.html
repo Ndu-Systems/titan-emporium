@@ -8,44 +8,30 @@
         <a routerLink="/" (click)="hide()">Home</a>
       </li>
       <li class="dropdown">
-        <a class="main-link">
-
-          About Us
-
-        </a>
-
+        <a class="main-link" (click)="changeShowAbout()"> About Us </a>
       </li>
       <li class="dropdown">
-        <a class="main-link">
-
-          Services
-
-        </a>
-
+        <a class="main-link" (click)="changeShowServices()">Services</a>
       </li>
+
       <li class="dropdown">
-        <a class="main-link">
-
-          Industries
-
-        </a>
-
+        <a class="main-link" (click)="changeShowIndustries()">Industries</a>
       </li>
-      <li class="dropdown">
-        <a class="main-link">
 
+      <li class="dropdown">
+        <a class="main-link" (click)="changeShowSustainability()">
           Sustainability
-
         </a>
-
       </li>
+
       <li>
         <a routerLink="contact-us" (click)="hide()">Contact </a>
       </li>
+
     </ul>
   </nav>
 
-  <div class="popup" *ngIf="sustainability">
+  <div class="popup" *ngIf="showPopup">
     <app-about-us-mobile-items *ngIf="showAbout"   (closeNav)="close($event)"></app-about-us-mobile-items>
     <app-service-ul-mobile-items *ngIf="showServices"   (closeNav)="close($event)"></app-service-ul-mobile-items>
     <app-industries-ul-mobile-items *ngIf="showIndustries"   (closeNav)="close($event)"></app-industries-ul-mobile-items>

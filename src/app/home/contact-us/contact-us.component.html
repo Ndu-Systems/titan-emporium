@@ -5,71 +5,100 @@
       <div class="bg bg-right"></div>
     </div>
     <div class="content">
-      <h1>
-        Contact Us
-      </h1>
+      <h1>Contact Us</h1>
       <p>
-        We want to help you with any compressor queries. Please let us know how we can make your day more productive
-        and stress-free. You can request a quote or ask us questions… we are here to handle all of your needs.
+        We want to help you with any compressor queries. Please let us know how
+        we can make your day more productive and stress-free. You can request a
+        quote or ask us questions… we are here to handle all of your needs.
       </p>
       <div class="flex">
-      <div class="box form-group">
-        <div class="controls">
-          <label for="">Name</label> <br>
-          <input type="text">
+        <form
+          [formGroup]="rForm"
+          (ngSubmit)="send(rForm.value)"
+          class="box form-group"
+        >
+          <div class="controls">
+            <label for="">Name</label> <br />
+            <input type="text" formControlName="name" />
+            <div class="alert"
+              *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">
+              Name is requried
+            </div>
+          </div>
+          <div class="controls">
+            <label for="">Email</label> <br />
+            <input type="email" formControlName="email" />
+            <div class="alert"
+            *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">
+            Email is requried
+          </div>
+          </div>
+          <div class="controls">
+            <label for="">Phone No</label> <br />
+            <input type="text" formControlName="cell" />
+            <div class="alert"
+            *ngIf="!rForm.controls['cell'].valid && rForm.controls['cell'].touched">
+            Cell number is requried, for easy follow up.
+            
+          </div>
+          </div>
+          <div class="controls">
+            <label for="">Message</label> <br />
+            <textarea formControlName="message"></textarea>
+            <div class="alert"
+            *ngIf="!rForm.controls['message'].valid && rForm.controls['message'].touched">
+            Your message must be at least  15 characters
+          </div>
+          </div>
+          <div class="controls">
+            <input
+              type="submit"
+              value="Send"
+              class="btn-gold"
+              [disabled]="!rForm.valid"
+            />
+          </div>
+        </form>
+        <div *ngIf="showSucces" class="alert showSucces">
+            Thank you! Your message has been successfully sent. We will contact you very soon!
         </div>
-        <div class="controls">
-          <label for="">Email</label> <br>
-          <input type="email">
+        <div class="box info">
+          <h2>Contact Info</h2>
+          <p><i class="fa fa-phone" aria-hidden="true"></i> 011 338 6008</p>
+          <p>
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+            info@titanemporium.com
+          </p>
+          <p>
+            <a href="https://www.facebook.com/titanemporium/" target="_blank">
+              <i class="fa fa-facebook-official" aria-hidden="true"></i>
+            </a>
+            <a
+              href="https://www.instagram.com/the_titan_emporiump/"
+              target="_blank"
+            >
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </p>
         </div>
-        <div class="controls">
-          <label for="">Phone No</label> <br>
-          <input type="text">
-        </div>
-        <div class="controls">
-          <label for="">Message</label> <br>
-          <textarea ></textarea>
-        </div>
-        <div class="controls">
-          <button class="btn-gold">Send</button>
-        </div>
-        
-      </div>
-      <div class="box info">
-        <h2>Contact Info</h2>
-        <p>
-            <i class="fa fa-phone" aria-hidden="true"></i>  011 338 6008   
-        </p>
-        <p>
-            <i class="fa fa-envelope-o" aria-hidden="true"></i> info@titanemporium.com 
- 
-        </p>
-        <p>
-          <a href="https://www.facebook.com/titanemporium/" target="_blank">
-            <i class="fa fa-facebook-official" aria-hidden="true"></i>
-
-          </a>
-          <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-          </a>
-
-        </p>
-      </div>
       </div>
     </div>
   </div>
 </div>
-
 
 <div class="footer">
   <div class="box">
     <h1>Follow Us</h1>
     <ul>
       <li>
-        <a href="https://www.facebook.com/titanemporium/" target="_blank">Facebook</a>
+        <a href="https://www.facebook.com/titanemporium/" target="_blank"
+          >Facebook</a
+        >
       </li>
       <li>
-        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">Instagram</a>
+        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank"
+          >Instagram</a
+        >
       </li>
       <!-- <li>
         <a href="">Twitter</a>
@@ -80,21 +109,19 @@
   <div class="box">
     <h1>Address</h1>
     <p>
-      Village industrial park <br>
-      Unit a6, <br>
-      51 Rosettenville rd<br>
-      Village main <br>
-      Johannesburg 2001<br>
+      Village industrial park <br />
+      Unit a6, <br />
+      51 Rosettenville rd<br />
+      Village main <br />
+      Johannesburg 2001<br />
     </p>
   </div>
 
   <div class="box">
     <h1>Contact Us</h1>
     <p>
-      Phone: 011 338 6008 <br>
-      Email : info@titanemporium.com <br>
-
+      Phone: 011 338 6008 <br />
+      Email : info@titanemporium.com <br />
     </p>
   </div>
-
 </div>

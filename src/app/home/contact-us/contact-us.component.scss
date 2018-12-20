@@ -157,7 +157,18 @@
     }
   }
 }
-
+.alert,.showSucces{
+  background: rgba(101, 10, 10, 0.47);
+  width: 80%;
+  margin: 3%;
+  color: white;
+}
+.showSucces{
+  background: rgba(8, 90, 8, 0.651);
+  position:  absolute;
+  bottom: -20px;
+  left: 80px;
+}
 .footer {
   background: #212121;
   color: #ffffff;

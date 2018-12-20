@@ -32,7 +32,7 @@ export class ServicesLayoutComponent implements OnInit {
     ngOnInit() { 
       if(!this.bg){
         // this.bg = "banner_bg.jpg";
-        this.bg = "image-cilrce.svg";
+        this.bg = "image-cilrce.png";
       }
       this.bgImage =`../../../assets/pages-images/${this.bg}`;
   

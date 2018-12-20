@@ -247,6 +247,14 @@ clip-path: circle(79.0% at 56% 0);
   width: 100%;
   padding-left: 15%;
   overflow: hidden;
+  font-weight: 300;
+
+  ul{
+    list-style: none;
+  }
+  h1{
+    font-weight: 200;
+  }
 
   @media only screen and (max-width: 500px) {
     display: none;

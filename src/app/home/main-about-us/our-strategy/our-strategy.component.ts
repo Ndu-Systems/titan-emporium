@@ -7,12 +7,19 @@ import { Component, OnInit } from '@angular/core';
 })
 export class OurStrategyComponent implements OnInit {
   paragraphs =[
-    `Focus on mining, industrial, Petrochemical, oil and gas, real estate and HealthCare and Rail.`,
-`Grow capacity to secure and deliver large multidisciplinary contracts`,
-`Extract value throughout the infrastructure value chain`,
-`Develop, invest in and operate concessions and property assets`,
-`Expansionary geographic strategy`,
-`Driving internal efficiencies`
+    `-Focus on mining, industrial, Petrochemical, oil and gas, real estate, Healthcare and Rail.`,
+    
+    `-Grow capacity to secure and deliver on exceptional service`,
+    
+    `-Extract value throughout the industrial value chain`,
+    
+    `-Develop, invest in and  grow leading International Brands as well as  operate concessions and property assets`,
+    
+    `-Geographically expand in key markets`,
+    
+    `-Driving internal efficiencies`,
+    
+    `-Grow with our customers`
 
   ];
    heading = 'Our Strategy';

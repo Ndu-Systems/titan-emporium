@@ -147,7 +147,7 @@
   background: #212121;
   color: #ffffff;
   width: 100%;
-  padding-left: 15%;
+  // padding-left: 15%;
   overflow: hidden;
   @media only screen and (max-width: 500px) {
 padding:0;
@@ -155,7 +155,7 @@ padding:0;
   }
 
   .box {
-    width: 30%;
+    width: 22%;
     padding: 1%;
     float: left;
     text-align: left;
@@ -172,6 +172,11 @@ border-bottom: 1px solid #fff;
     }
     h1{
       font-weight: 100;
+      font-size: 1.5em;
+
+    }
+    p,a{
+      font-size: .9em;
 
     }
     @media only screen and (max-width: 500px) {

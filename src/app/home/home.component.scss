@@ -243,7 +243,8 @@ clip-path: circle(79.0% at 56% 0);
 
 .footer {
   background: #ffffff;
-  color: #A06A4B;
+  // color: #A06A4B;
+  color: #000;
   width: 100%;
   padding-left: 15%;
   overflow: hidden;
@@ -266,7 +267,7 @@ clip-path: circle(79.0% at 56% 0);
   }
 
   .box {
-    width: 22%;
+    width: 25%;
     padding: 1%;
     float: left;
     text-align: left;
@@ -275,7 +276,7 @@ clip-path: circle(79.0% at 56% 0);
 
     a {
       text-decoration: none;
-      color: #A06A4B;
+      color: #000;
     }
   }
 }

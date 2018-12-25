@@ -11,56 +11,47 @@
         we can make your day more productive and stress-free. You can request a
         quote or ask us questions… we are here to handle all of your needs.
       </p>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3579.4178587124475!2d28.04625795125935!3d-26.21560898335149!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1e950fdd3ce84ce7%3A0x279794526ae90e87!2sThe+Titan+Emporium+(Pty)+Ltd!5e0!3m2!1sen!2sza!4v1545731603416"
+          width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+      </div>
       <div class="flex">
-        <form
-          [formGroup]="rForm"
-          (ngSubmit)="send(rForm.value)"
-          class="box form-group"
-        >
+        <form [formGroup]="rForm" (ngSubmit)="send(rForm.value)" class="box form-group">
           <div class="controls">
             <label for="">Name</label> <br />
             <input type="text" formControlName="name" />
-            <div class="alert"
-              *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">
+            <div class="alert" *ngIf="!rForm.controls['name'].valid && rForm.controls['name'].touched">
               Name is requried
             </div>
           </div>
           <div class="controls">
             <label for="">Email</label> <br />
             <input type="email" formControlName="email" />
-            <div class="alert"
-            *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">
-            Email is requried
-          </div>
+            <div class="alert" *ngIf="!rForm.controls['email'].valid && rForm.controls['email'].touched">
+              Email is requried
+            </div>
           </div>
           <div class="controls">
             <label for="">Phone No</label> <br />
             <input type="text" formControlName="cell" />
-            <div class="alert"
-            *ngIf="!rForm.controls['cell'].valid && rForm.controls['cell'].touched">
-            Cell number is requried, for easy follow up.
-            
-          </div>
+            <div class="alert" *ngIf="!rForm.controls['cell'].valid && rForm.controls['cell'].touched">
+              Cell number is requried, for easy follow up.
+
+            </div>
           </div>
           <div class="controls">
             <label for="">Message</label> <br />
             <textarea formControlName="message"></textarea>
-            <div class="alert"
-            *ngIf="!rForm.controls['message'].valid && rForm.controls['message'].touched">
-            Your message must be at least  15 characters
-          </div>
+            <div class="alert" *ngIf="!rForm.controls['message'].valid && rForm.controls['message'].touched">
+              Your message must be at least 15 characters
+            </div>
           </div>
           <div class="controls">
-            <input
-              type="submit"
-              value="Send"
-              class="btn-gold"
-              [disabled]="!rForm.valid"
-            />
+            <input type="submit" value="Send" class="btn-gold" [disabled]="!rForm.valid" />
           </div>
         </form>
         <div *ngIf="showSucces" class="alert showSucces">
-            Thank you! Your message has been successfully sent. We will contact you very soon!
+          Thank you! Your message has been successfully sent. We will contact you very soon!
         </div>
         <div class="box info">
           <h2>Contact Info</h2>
@@ -73,10 +64,7 @@
             <a href="https://www.facebook.com/titanemporium/" target="_blank">
               <i class="fa fa-facebook-official" aria-hidden="true"></i>
             </a>
-            <a
-              href="https://www.instagram.com/the_titan_emporiump/"
-              target="_blank"
-            >
+            <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">
               <i class="fa fa-instagram" aria-hidden="true"></i>
             </a>
           </p>
@@ -91,14 +79,10 @@
     <h1>Follow Us</h1>
     <ul>
       <li>
-        <a href="https://www.facebook.com/titanemporium/" target="_blank"
-          >Facebook</a
-        >
+        <a href="https://www.facebook.com/titanemporium/" target="_blank">Facebook</a>
       </li>
       <li>
-        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank"
-          >Instagram</a
-        >
+        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">Instagram</a>
       </li>
       <!-- <li>
         <a href="">Twitter</a>

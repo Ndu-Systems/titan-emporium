@@ -12,21 +12,8 @@ export class ServicesLayoutComponent implements OnInit {
   @Input() heading;
   @Input() bg ;
   @Input() list ;
-  @Input() multiList:Array<TextModel> =[
-    // {
-    //   heading:'Test Heading',
-    //   paragraphs:[
-    //     'p1','p2'
-    //   ]
-    // },
-    // {
-    //   heading:'Test Heading 2',
-    //   paragraphs:[
-    //     'p1 2','p2 2'
-    //   ]
-    // }
-
-  ] ;
+  @Input() multiList:Array<TextModel> =[];
+  @Input() showLink ;
     bgImage: string;
     constructor() { }
     ngOnInit() { 

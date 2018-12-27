@@ -7,7 +7,7 @@ import { TextModel } from "../../../models/body.text.model";
   styleUrls: ["./oil-and-gas.component.scss"]
 })
 export class OilAndGasComponent implements OnInit {
-  bg = "oil.png";
+  bg = "oilandthegas.png";
   list = [];
   paragraphs = [
     `Several advancements in drill bits and rotary technologies were made, creating the systems we

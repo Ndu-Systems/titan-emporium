@@ -1,3 +1,4 @@
+import { AirCompressorsForThePharmaceuticalIndustryComponent } from './main-industries/air-compressors-for-the-pharmaceutical-industry/air-compressors-for-the-pharmaceutical-industry.component';
 import { WoodworkingComponent } from './main-industries/woodworking/woodworking.component';
 import { WaterComponent } from "./main-industries/water/water.component";
 import { NaturalGasComponent } from "./main-industries/natural-gas/natural-gas.component";
@@ -97,7 +98,8 @@ export const declarations: any[] = [
   EnvironmentalComponent,
   PoliciesAndDisclosuresComponent,
   PlasticComponent,
-  GovernanceComponent
+  GovernanceComponent,
+  AirCompressorsForThePharmaceuticalIndustryComponent
 ];
 
 const routes: Routes = [
@@ -246,6 +248,7 @@ const routes: Routes = [
   { path: "policies-and-disclosures", component: PoliciesAndDisclosuresComponent },
   { path: "risk-management", component: PlasticComponent },
   { path: "governance", component: GovernanceComponent },
+  { path: "air-compressors-for-the-pharmaceutical-industry", component: AirCompressorsForThePharmaceuticalIndustryComponent },
 
 
 ];

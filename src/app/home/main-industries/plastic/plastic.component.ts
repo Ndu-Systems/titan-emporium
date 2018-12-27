@@ -9,9 +9,10 @@ export class PlasticComponent implements OnInit {
   heading=   'Plastics';
      paragraphs = [
      `The plastics industry is booming, with no sign of letting up soon. To put the power of plastics into
-     perspective, consider these statistics from the Plastics Industry Trade Association`]
+     perspective, consider these statistics from the `]
      bg="PLASTIC.png";
      list=[];
+     showLink = true;
   constructor() { }
 
   ngOnInit() {

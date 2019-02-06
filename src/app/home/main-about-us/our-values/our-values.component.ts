@@ -13,7 +13,7 @@ export class OurValuesComponent implements OnInit {
 that celebrates innovation, encourages agility and individual growth, and inspires success `
 ]
   heading ="Our Values"
-  bg="vision.png";
+  bg="our-values.png";
 
   constructor() { }
 

@@ -19,7 +19,7 @@ export class AssetLeasingComponent implements OnInit {
     assets that are typically depreciated over a period of 5 years or less and lose value, in real terms and over a similar period.`
   ];
   heading = "Asset Leasing";
-  bg = "";
+  bg = "asset-leasing.png";
 
   constructor() {}
 

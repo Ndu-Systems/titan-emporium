@@ -23,7 +23,7 @@ accordance with Compressed Air Society guidelines and recommendations to ensure 
 performance and reliability from your compressed air distribution system.`
 ];
   heading = "Compressed Air Pipework";
-  bg = "";
+  bg = "compressed-air-pipework.png";
 
   constructor() {}
 

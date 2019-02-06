@@ -18,7 +18,7 @@ Making hire the quickest way to get your plant up and running should you have a 
 compressor breakdown. Talk to us if you have any questions`
 ];
   heading ="Air Compressor Hire"
-  bg="";
+  bg="air-compressor-hire.png";
   constructor() { }
 
   ngOnInit() {

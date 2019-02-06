@@ -20,7 +20,7 @@ export class SupplyAndInstallationComponent implements OnInit {
     `We can also install parts and full systems with minimal downtime or disruption to your business.`
   ];
   heading = "Supply & Installation";
-  bg = "";
+  bg = "supply-and-installation.png";
 
   constructor() {}
 

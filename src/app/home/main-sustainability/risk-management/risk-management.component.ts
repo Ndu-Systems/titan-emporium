@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RiskManagementComponent implements OnInit {
   heading =`Risk Management`
-  bg="";
+  bg="risk.png";
   list=[];
   
   paragraphs = [`The Titan Emporium (Pty) Ltd understands that risk management is an essential

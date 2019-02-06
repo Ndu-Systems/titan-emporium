@@ -16,7 +16,7 @@ export class GovernanceComponent implements OnInit {
   responsiveness is a competitive advantage and every effort is made to integrate
   governance processes in the least bureaucratic way possible.`
   ]
-  bg="";
+  bg="gov.png";
   list=[];
 
   constructor() { }

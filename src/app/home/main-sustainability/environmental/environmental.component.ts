@@ -34,7 +34,7 @@ export class EnvironmentalComponent implements OnInit {
   ,`  Raising awareness through the group`
   ,`  Implementing energy-saving and conservation programmes as well as driving our Carbon
   Disclosure Project and carbon footprint reduction initiatives.`,]
-  bg="";
+  bg="environmental.png";
  
   constructor() { }
 

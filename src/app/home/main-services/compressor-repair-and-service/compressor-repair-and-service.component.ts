@@ -13,7 +13,7 @@ export class CompressorRepairAndServiceComponent implements OnInit {
   the test of time.`
 ];
   heading ="Air Compressor Repair & Services"
-  bg="";
+  bg="compressor-repair-and-service.png";
   constructor() { }
 
   ngOnInit() {

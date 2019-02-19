@@ -13,6 +13,11 @@ ul {
       text-transform: uppercase;
       display: block;
     }
+    .shop-online{
+      background: #A06A4B;
+      padding: 2%;
+      border-radius: 5px;
+    }
   }
 }
 
@@ -39,7 +44,9 @@ ul {
       &:hover {
         background: #A06A4B;
       }
+    
     }
+   
   }
 }
 

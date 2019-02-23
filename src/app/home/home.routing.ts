@@ -44,6 +44,7 @@ import { PlasticComponent } from "./main-industries/plastic/plastic.component";
 import { PowerComponent } from "./main-industries/power/power.component";
 import { RailComponent } from "./main-industries/rail/rail.component";
 import { SecurityAndFireComponent } from "./main-industries/security-and-fire/security-and-fire.component";
+import { ProductComponent } from './products/product/product.component';
 
 export const declarations: any[] = [
   ContactUsComponent,
@@ -99,7 +100,9 @@ export const declarations: any[] = [
   PoliciesAndDisclosuresComponent,
   PlasticComponent,
   GovernanceComponent,
-  AirCompressorsForThePharmaceuticalIndustryComponent
+  AirCompressorsForThePharmaceuticalIndustryComponent,
+
+  ProductComponent
 ];
 
 const routes: Routes = [
@@ -249,6 +252,10 @@ const routes: Routes = [
   { path: "risk-management", component: PlasticComponent },
   { path: "governance", component: GovernanceComponent },
   { path: "air-compressors-for-the-pharmaceutical-industry", component: AirCompressorsForThePharmaceuticalIndustryComponent },
+
+  //products
+  { path: "product/:id", component: ProductComponent },
+
 
 
 ];

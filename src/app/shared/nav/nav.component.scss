@@ -48,13 +48,29 @@ ul {
     }
    
   }
+  .child-2{
+    left: 100px;
+  }
+  .child-3{
+    left: 100px;
+  }
 }
 
-.dropdown:hover .drop-down-items {
+.dropdown:hover .child-1 {
   display: block;
 }
+.child-2-parent{
+  &:hover .child-2{
+  display: block;
 
+  }
+}
+.child-3-parent{
+  &:hover .child-3{
+  display: block;
 
+  }
+}
 
 
 li {

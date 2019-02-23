@@ -30,8 +30,8 @@
   </thead>
 
   <tbody>
-      <tr>
-          <td *ngFor="let data of product.tableHeadings">
+      <tr  *ngFor="let rows of product.tableRows">
+          <td *ngFor="let data of rows">
             {{data}}
           </td>
         </tr>

@@ -164,7 +164,9 @@ clip-path: circle(79.0% at 56% 0);
       font-size: 25px;
 
       a {
-        display: none;
+        float: right;
+        border: none;
+        border-bottom: 1px solid 
       }
 
       @media only screen and (max-width: 500px) {
@@ -187,6 +189,18 @@ clip-path: circle(79.0% at 56% 0);
 
       }
 
+    }
+    .p-img{
+      display: grid;
+      grid-template-columns: 50% auto;
+      p{
+        width: 100%;
+      }
+      .img{
+        img{
+          width: 40%;
+        }
+      }
     }
 
   }

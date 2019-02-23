@@ -11,7 +11,7 @@ import { products } from "../data/products";
 export class ProductComponent implements OnInit {
  
   productId: string;
-  product:Product;
+  product:Product[];
   constructor(private activatedRoute: ActivatedRoute) {
     this.activatedRoute.params.subscribe(r => {
       this.productId = r["id"];
@@ -23,7 +23,7 @@ export class ProductComponent implements OnInit {
   getProduct(): any {
     let p:Array<Product> =products.filter(x=>x.id==this.productId);
     if(p.length){
-      this.product =p[0];
+      this.product =p;
     }
   }
 }

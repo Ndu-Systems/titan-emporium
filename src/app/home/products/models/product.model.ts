@@ -10,6 +10,7 @@ export interface Product {
     tableRows?:string[][]
 }
 
-export interface RowData{
-    data:Array<string>;
+export interface ProductGroup{
+    name:string;
+    data:Array<Product>;
 }

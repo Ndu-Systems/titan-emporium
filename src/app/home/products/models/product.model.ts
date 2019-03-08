@@ -1,13 +1,13 @@
 export interface Product {
 
     id:string;
-    name:string;
+    name?:string;
     secondaryHeading?:string;
     imageUrl?:string;
     details?:Array<string>;
 
     tableHeadings?:Array<string>;
-    tableRows?:string[][]
+    tableRows?:any[][]
 }
 
 export interface ProductGroup{

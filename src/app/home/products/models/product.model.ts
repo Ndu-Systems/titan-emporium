@@ -7,7 +7,8 @@ export interface Product {
     details?:Array<string>;
 
     tableHeadings?:Array<string>;
-    tableRows?:any[][]
+    tableRows?:any[][];
+    tableAbbrevations?:string;
 }
 
 export interface ProductGroup{

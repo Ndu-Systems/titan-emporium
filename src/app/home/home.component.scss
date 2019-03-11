@@ -1,3 +1,9 @@
+
+::ng-deep{
+  .p-galleria{
+    width: 100% !important;
+  }
+}
 .parent {
   // height: 100vh;
   width: 100%;
@@ -192,14 +198,17 @@ clip-path: circle(79.0% at 56% 0);
     }
     .p-img{
       display: grid;
-      grid-template-columns: 50% auto;
+      grid-template-columns: 50% 10% auto;
+      grid-gap: 1rem;
       @media only screen and (max-width: 500px) {
         grid-template-columns: 100%;
       }
       p{
         width: 100%;
+        padding: 3rem;
       }
       .img{
+        text-align: center;
         img{
           width: 40%;
         }

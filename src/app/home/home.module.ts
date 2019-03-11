@@ -1,3 +1,4 @@
+import { ShopNowComponent } from './../shared/shop-now/shop-now.component';
 import { SharedModule } from "./../shared/shared.module";
 import { NgModule } from "@angular/core";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
@@ -51,7 +52,8 @@ import {GalleriaModule} from 'primeng/galleria';
     PowerComponent,
     RailComponent,
     SecurityAndFireComponent,
-    WaterComponent
+    WaterComponent,
+    ShopNowComponent
   ]
 })
 export class HomeModule {}

@@ -193,6 +193,9 @@ clip-path: circle(79.0% at 56% 0);
     .p-img{
       display: grid;
       grid-template-columns: 50% auto;
+      @media only screen and (max-width: 500px) {
+        grid-template-columns: 100%;
+      }
       p{
         width: 100%;
       }

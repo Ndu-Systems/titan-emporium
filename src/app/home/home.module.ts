@@ -21,12 +21,14 @@ import { PowerComponent } from "./main-industries/power/power.component";
 import { RailComponent } from "./main-industries/rail/rail.component";
 import { SecurityAndFireComponent } from "./main-industries/security-and-fire/security-and-fire.component";
 import { WaterComponent } from "./main-industries/water/water.component";
+import {GalleriaModule} from 'primeng/galleria';
 
 @NgModule({
   imports: [
     CommonModule,
     HomeRoutes,
     SharedModule,
+    GalleriaModule,
     FormsModule,         //l-f
     ReactiveFormsModule //l-f
   ],

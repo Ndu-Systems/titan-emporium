@@ -1,3 +1,4 @@
+import { ValvesComponent } from './products/valves/valves.component';
 import { AirCompressorsForThePharmaceuticalIndustryComponent } from './main-industries/air-compressors-for-the-pharmaceutical-industry/air-compressors-for-the-pharmaceutical-industry.component';
 import { WoodworkingComponent } from './main-industries/woodworking/woodworking.component';
 import { WaterComponent } from "./main-industries/water/water.component";
@@ -45,6 +46,7 @@ import { PowerComponent } from "./main-industries/power/power.component";
 import { RailComponent } from "./main-industries/rail/rail.component";
 import { SecurityAndFireComponent } from "./main-industries/security-and-fire/security-and-fire.component";
 import { ProductComponent } from './products/product/product.component';
+
 
 export const declarations: any[] = [
   ContactUsComponent,
@@ -102,7 +104,8 @@ export const declarations: any[] = [
   GovernanceComponent,
   AirCompressorsForThePharmaceuticalIndustryComponent,
 
-  ProductComponent
+  ProductComponent,
+  ValvesComponent
 ];
 
 const routes: Routes = [
@@ -255,6 +258,7 @@ const routes: Routes = [
 
   //products
   { path: "product/:id", component: ProductComponent },
+  { path: "valve/:id", component: ValvesComponent },
 
 
 

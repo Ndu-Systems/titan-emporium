@@ -289,5 +289,73 @@ export const valves: Array<Valve> = [
     ],
     tableAbbrevations:'A p1 (1/8″ port) and p2 (1/4″ port) are additional ports available on the CTB and CTD. These are also available on the CLB (In-Line check valve).'
     
+  },
+  //IN LINE CHECK VALVES
+  {
+    id: "line-check-valves",
+    name: "IN LINE CHECK VALVES",
+    imageUrl: "l1.jpg",
+    imageName:"Model CLA",
+    details: [
+`      In-line check valves screw directly into the discharge line and have 
+the same size inlet as they do outlet. They have female inlets and outlets and range in size from 1/4″ to 1-1/2″.
+`,
+`      In-line check valves screw directly into the discharge 
+line and have the same size inlet as they do outlet. They have female inlets and outlets and range in size from 1/4″ to 1-1/2″.
+`    ],
+
+    tableHeadings: [
+      "Connection Inlet",
+      "Connection Outlet",
+      "Model #",
+      "SCFM"
+    ],
+    tableRows: [
+      ["1/4","1/4","CLA14",10  ],
+      ["3/8","3/8","CLA38","12",  ],
+      ["1/2","1/2","CLA12","20",  ],
+      ["3/4","3/4","CLA34","30",  ],
+      ["1","1","CLA1","60",  ],
+      ["1-1/2","1-1/2","CLA112","60",  ]
+    ],
+     
+  },
+  {
+    id: "line-check-valves",
+    name: "IN LINE CHECK VALVES",
+    imageUrl: "l2.jpg",
+    imageName:"Model CLB",
+    tableHeadings: [
+      "Connection Inlet",
+      "Connection Outlet",
+      "Model #",
+      "SCFM"
+    ],
+    tableRows: [
+      ["1/4","1/4","CLB14",10  ],
+  ["3/8","3/8","CLB38","12"  ],
+  ["1/2","1/2","CLB12","20"  ],
+  ["3/4","3/4","CLB34","30"  ],
+  ["1","1","CLB1","60"  ],
+  ["1-1/2","1-1/2","CLB112","60"  ]
+    ],
+     
+  },
+  {
+    id: "line-check-valves",
+    name: "IN LINE CHECK VALVES",
+    imageUrl: "l3.jpg",
+    imageName:"Model CLC-14",
+    tableHeadings: [
+      "Connection Inlet",
+      "Connection Outlet",
+      "Model #",
+      "SCFM"
+    ],
+    tableRows: [
+      ["1/4","1/4","CLC14",2.5  ]
+
+    ],
+     
   }
 ];

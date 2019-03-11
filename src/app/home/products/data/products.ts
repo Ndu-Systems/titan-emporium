@@ -1327,5 +1327,38 @@ export const products: Array<Product> = [
     ]
   ,
   tableAbbrevations:'I=Standard Industrial   Volume=Piston Displacement   FAD=Free Air Delivered   OE=Original Equipment'
-  }
+  },
+
+    //HORIZONTAL IN LINE CHECK VALVES
+    {
+      id: "horizontal-line-check-valves",
+      name: "HORIZONTAL IN LINE CHECK VALVES",
+      imageUrl: "h1.jpg",
+      details: [
+        `Available in 1/8″ – 2″ NPT`,
+        `Max Pressure: 250 PSI`,
+        `Max Temperature: 450º`,
+        `Durable, long lasting, serviceable`,
+        `Teflon/glass-filled teflon pistons`,
+        `302 SS springs `  ],
+  
+      tableHeadings: [
+        "Inlet",
+        "	Part Number",
+        "SCFM"
+        
+      ],
+      tableRows: [
+        ["1/8″","GV18","12"  ],
+        ["1/4″","GV14","12"  ],
+        ["3/8″","GV38","22"  ],
+        ["1/2″","GV12","38"  ],
+        ["3/4″","GV34","60"  ],
+        ["1","GV1","115"  ],
+        ["1-1/4″","GV114","160"  ],
+        ["1-1/2″","GV112","160"  ],
+        ["2″","GV2","220"  ]
+      ],
+       
+    },
 ];

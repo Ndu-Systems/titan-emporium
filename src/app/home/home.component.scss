@@ -1,9 +1,9 @@
-
-::ng-deep{
-  .p-galleria{
+::ng-deep {
+  .p-galleria {
     width: 100% !important;
   }
 }
+
 .parent {
   // height: 100vh;
   width: 100%;
@@ -15,6 +15,7 @@
     height: 55vh;
     width: 100%;
     position: relative;
+
     // @media only screen and (max-width: 370px) {
     //   height: 71vh;
     // }
@@ -38,12 +39,13 @@
         -webkit-clip-path: circle(53.8% at 48% 26%);
         clip-path: circle(53.8% at 48% 26%);
       }
+
       @media only screen and (max-width: 500px) {
         -webkit-clip-path: circle(79.0% at 56% 0);
-clip-path: circle(79.0% at 56% 0);
+        clip-path: circle(79.0% at 56% 0);
       }
 
-     
+
     }
 
     .bg-right {
@@ -85,6 +87,7 @@ clip-path: circle(79.0% at 56% 0);
 
 
         }
+
         @media only screen and (max-width: 370px) {
           bottom: -50px;
         }
@@ -138,6 +141,7 @@ clip-path: circle(79.0% at 56% 0);
 
 
         }
+
         @media only screen and (max-width: 370px) {
           width: 45%;
 
@@ -172,7 +176,7 @@ clip-path: circle(79.0% at 56% 0);
       a {
         float: right;
         border: none;
-        border-bottom: 1px solid 
+        border-bottom: 1px solid
       }
 
       @media only screen and (max-width: 500px) {
@@ -196,20 +200,31 @@ clip-path: circle(79.0% at 56% 0);
       }
 
     }
-    .p-img{
+
+    .p-img {
       display: grid;
       grid-template-columns: 50% 10% auto;
       grid-gap: 1rem;
+
       @media only screen and (max-width: 500px) {
         grid-template-columns: 100%;
       }
-      p{
+
+      p {
         width: 100%;
         padding: 3rem;
+
+        @media only screen and (max-width: 500px) {
+          padding: .2rem;
+
+        }
       }
-      .img{
+
+      .img {
         text-align: center;
-        img{
+        padding: 3rem;
+
+        img {
           width: 40%;
         }
       }
@@ -276,18 +291,22 @@ clip-path: circle(79.0% at 56% 0);
   overflow: hidden;
   font-weight: 300;
 
-  ul{
+  ul {
     list-style: none;
   }
-  h1{
+
+  h1 {
     font-weight: 100;
     font-size: 1.5em;
 
   }
-  p,a{
+
+  p,
+  a {
     font-size: .9em;
 
   }
+
   @media only screen and (max-width: 500px) {
     display: none;
   }

@@ -6,6 +6,9 @@
     </div>
     <div class="content" *ngIf="product">
       <h1>{{product[0]?.name}}</h1>
+      <p>
+        {{product[0]?.desctiption}}
+      </p>
       <section class="loop" *ngFor="let productObj of product">
         <div class="details-container">
           <div class="image">
@@ -37,7 +40,7 @@
               </tr>
             </tbody>
           </table>
-          <div class="table-abbrevations">
+          <div class="table-abbrevations" *ngIf="productObj.tableAbbrevations">
             {{productObj.tableAbbrevations}}
           </div>
         </div>

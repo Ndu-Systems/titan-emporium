@@ -1,3 +1,4 @@
+import { declarations } from './../../home.routing';
 import { Product } from "../models/product.model";
 
 export const products: Array<Product> = [
@@ -1360,5 +1361,219 @@ export const products: Array<Product> = [
         ["2″","GV2","220"  ]
       ],
        
+    },
+
+    //CABLE STYLE THROTTLE CONTROLS
+
+    {
+      id: "cable-style-throttle-controls",
+      name: "CABLE STYLE THROTTLE CONTROLS",
+      desctiption:`Cable (Bullwhip) style throttle controls are used to regulate engine speed. The cylinder end of the throttle control is screwed directly into an unloader device via the 1/8″ port, while the other end is inserted into the throttle arm and mounted 
+      at the throttle plate. The permanently lubricated cable is self cleaning, and is protected using routing clamps.` ,
+      imageUrl: "TCP.jpg",
+      secondaryHeading:'MODEL TCP',
+      details: [
+,
+      `Used on compressors with external unloading devices and engines 6.5 hp or below.` 
+      ],
+       
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "TCI.jpg",
+      secondaryHeading:'MODEL TCI',
+      details: [
+        `Used on compressors with intake unloaders and engines 6.5 hp or below.`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "TCLI.jpg",
+      secondaryHeading:'MODEL TCLI',
+      details: [
+        `Used on compressors with intake unloaders and engines 8 hp and above.`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "3203.gif",
+      secondaryHeading:'3203-HONDA BUSHING',
+      details: [
+        `	Honda Bushing prevents metal to 
+        metal contact between Bullwhip end and throttle arm`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "0546.gif",
+      secondaryHeading:'0546-THREAD-ON CABLE END',
+      details: [
+        `	Thread-On Cable End for direct connection
+         to Vanguard and Robin engine mounts`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "0817.gif",
+      secondaryHeading:'0817-WRAP AROUND CABLE CLAMP',
+      details: [
+        `	Wrap-Around Cable Clamp holds casing in place with internal 
+        locking threads without pinching cable (packs of 10)`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "0851.gif",
+      secondaryHeading:'0751-CABLE CLAMP',
+      details: [
+        `	Cable Clamp with Locking Tab for
+         Vanguard and Robin engine mounts (packs of 10)`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "0750.gif",
+      secondaryHeading:'0750-THROTTLE CONTROL CLAMP',
+      details: [
+        `	Throttle Control Clamp, “C” Style (packs of 10)`
+      ],
+    },
+    {
+      id: "cable-style-throttle-controls",
+      imageUrl: "0139.gif",
+      secondaryHeading:'0139-UNIVERSAL SWIVEL CLAMP',
+      details: [
+        `		Universal Heavy Duty Swivel Clamp (packs of 10)`
+      ],
+    },
+
+    // /airline-style-throttle-controls
+
+    {
+      id: "airline-style-throttle-controls",
+      imageUrl: "TCSP-H-40-SC_3709.jpg",
+      name:'CABLE STYLE THROTTLE CONTROLS',
+      desctiption: `The TCSP airline style throttle control mounts directly to the throttle plate, and uses a control wire inserted
+       directly into the throttle arm to control engine speed. An airline connects the unloader device to the fitting on the TCSP.`,
+      secondaryHeading:'MODEL TCSP-H-40',
+      details: [
+        `	For Honda 4 hp engines. Comes with a Honda bushing installed, a throttle bracket
+         reinforcing plate, screw and two cushioned routing clamps.`
+      ],
+    },
+    {
+      id: "airline-style-throttle-controls",
+      imageUrl: "TCSP-H-5565-3200_3824.jpg",
+      secondaryHeading:'MODEL TCSP-H-5565',
+      details: [
+        `For Honda 5.5 and 6.5 hp engines. Comes with a Honda bushing installed, a throttle bracket reinforcing 
+        plate, screw and two cushioned routing clamps.`
+      ],
+    },
+
+    // /rc-series-pilot-valves
+    {
+      id: "rc-series-pilot-valves",
+      imageUrl: "TCSP-H-40-SC_3709.jpg",
+      name:'RC SERIES PILOT VALVES',
+      desctiption: `RC-Series unloader pilot valves
+       have an operating range of 20-250 psi. All RC valves have 1/4″ 
+       inlets (from tank) and 1/8″ outlets (to other devices such as a 
+        throttle control or discharge valve), as well as a filtering element at the inlet.
+
+      External pressure and differential adjustments allow for customization within
+       a specific range based on the original factory setting.`,
+      secondaryHeading:'MODEL TCSP-H-40',
+      details: [
+        `	For Honda 4 hp engines. Comes with a Honda bushing installed, a throttle bracket
+         reinforcing plate, screw and two cushioned routing clamps.`
+      ],
+    },
+    {
+      id: "rc-series-pilot-valves",
+      imageUrl: "sa.gif",
+      secondaryHeading:'SA SEALED ADJUSTMENT',
+      details: [
+        `The SA Sealed Adjustment is an epoxy seal put on the pilot adjustment to make it tamper resistant.`
+      ],
+    },
+    {
+      id: "rc-series-pilot-valves",
+      imageUrl: "dc.gif",
+      secondaryHeading:'DC DUAL CONTROL',
+      details: [
+        `The DC dual control is used on electric compressors
+         to select start/stop or constant speed operation.`
+      ],
+    },
+    {
+      id: "rc-series-pilot-valves",
+      imageUrl: "hu.gif",
+      secondaryHeading:'HU HAND UNLOADER',
+      details: [
+        `The HU Hand Unloader is a toggle used to manually unload the compressor`
+      ],
+    },
+    //rcl-series-pilot-valves
+    {
+      id: "rcl-series-pilot-valves",
+      imageUrl: "TCSP-H-40-SC_3709.jpg",
+      name:'RCL SERIES PILOT VALVES',
+      desctiption: `RCL Series unloader pilot valves
+       are similar to the RC-Series, but allow higher maximum 
+      pressure, peaking at 1200 psi. They have 3/8″ 
+      inlets (from tank) and 1/4″ outlets (to devices
+         such as a throttle control or discharge valve).
+          At the inlet, the RCL has a standard filter 
+          element, while the RCL-S has an internal 
+          strainer designed for longevity and serviceability.
+
+      Like the RC-Series, RCL-Series valves
+       include external pressure and differential 
+       adjustments which allow for customization
+        from the factory setting within a specified range.`,
+      secondaryHeading:'MODEL TCSP-H-40',
+      details: [
+        `	For Honda 4 hp engines. Comes with a Honda bushing installed, a throttle bracket
+         reinforcing plate, screw and two cushioned routing clamps.`
+      ],
+    },
+    {
+      id: "rcl-series-pilot-valves",
+      imageUrl: "cp.gif",
+      secondaryHeading:'CP CLEAN OUT PORT',
+      details: [
+        `	The CP Clean Out Port features a
+         ball valve that can be opened and closed to
+         “blow out” the internal strainer. Available for RCL-S only`
+      ],
+    },
+    {
+      id: "rcl-series-pilot-valves",
+      imageUrl: "sa.gif",
+      secondaryHeading:'SA SEALED ADJUSTMENT',
+      details: [
+        `		The SA Sealed Adjustment is 
+        an epoxy seal put on the
+         pilot adjustment to make it tamper resistant.`
+      ],
+    },
+    {
+      id: "rcl-series-pilot-valves",
+      imageUrl: "dc.gif",
+      secondaryHeading:'DC DUAL CONTROL',
+      details: [
+        `The DC dual control is used on
+         electric compressors to 
+         select start/stop or constant speed operation.`
+      ],
+    },
+    {
+      id: "rcl-series-pilot-valves",
+      imageUrl: "hu.gif",
+      secondaryHeading:'HU HAND UNLOADER',
+      details: [
+        `	The HU Hand Unloader is a toggle used to manually unload the compressor`
+      ],
     },
 ];

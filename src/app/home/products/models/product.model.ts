@@ -1,7 +1,8 @@
 export interface Product {
 
     id:string;
-    name?:string;
+    name?:string;    
+    desctiption?:string;
     secondaryHeading?:string;
     imageUrl?:string;
     details?:Array<string>;

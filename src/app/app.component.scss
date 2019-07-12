@@ -9,54 +9,23 @@ box-shadow: 18px 14px 100px 25px rgba(189,189,189,0.73);
   .top-bar {
     position: absolute;
     top:0;
-    padding: 1%;
     width: 100%;
     z-index: 100;
+    display: grid;
+    grid-template-columns: 20% auto;
+    grid-gap: 1rem;
+
 
     .logo-section {
-      position: absolute;
-      left: 0;
-      top: 0;
 
       img {
         width: 67%;
-        height: 112px;
-
-        @media only screen and (min-width: 800px) {
-          // width: 85%;
-          // height: 126px;
-
-          width: 55%;
-          height: 84px;
-        }
       }
     }
-
-    .menu-button-section {
-      width: 10%;
-      position: absolute;
-      right: 5%;
-      top: 30px;
-      animation: anumationFaceIn 1s ease-out 2s;
-      animation-fill-mode: backwards;
-
-      @media only screen and (min-width: 800px) {
-       display: none;
-      }
-    }
-    .pc-nav{
-       display: none;
-      position: absolute;
-      // background: #c36a6a;
-      width: 60%;
-      right: 0;
-      top: 18px;
+    .nav{
       text-align: right;
-      padding-right: 2%;
+      justify-items: end;
 
-      @media only screen and (min-width: 800px) {
-        display: inline-block;
-       }
     }
   }
   .footer{

@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { AppRouterModule } from './router.module';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { NavBarBettaComponent } from './shared/nav-bar-betta/nav-bar-betta.component';
 
 @NgModule({
    declarations: [
-      AppComponent
+      AppComponent,
+      NavBarBettaComponent
    ],
    imports: [
       BrowserModule,

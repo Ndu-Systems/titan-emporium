@@ -105,7 +105,9 @@ export const declarations: any[] = [
   AirCompressorsForThePharmaceuticalIndustryComponent,
 
   ProductComponent,
-  ValvesComponent
+  ValvesComponent,
+  
+
 ];
 
 const routes: Routes = [

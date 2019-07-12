@@ -1,20 +1,14 @@
 <div class="main-container">
-  <app-mobile-nav  (closeNavEmitter)="onCloseNav($event)"  *ngIf="showMobleMenu"></app-mobile-nav>
 
   <div class="top-bar">
     <div class="logo-section">
       <a routerLink="/">
-        <img src="../../assets/home-images/logo4.png" alt="" />
+        <img src="assets/home-images/logo4.png" alt="" />
       </a>
     </div>
-
-    <div class="menu-button-section">
-      <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="../../assets/home-images/Menu lines.svg"
-        alt="" />
-      <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:60%" src="../../assets/home-images/Close2.svg"
-        alt="" />
+    <div class="nav">
+      <app-nav-bar-betta></app-nav-bar-betta>
     </div>
-    <app-pc-nav class="pc-nav"></app-pc-nav>
   </div>
 
   <router-outlet></router-outlet>

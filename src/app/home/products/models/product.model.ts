@@ -10,6 +10,8 @@ export interface Product {
     tableHeadings?:Array<string>;
     tableRows?:any[][];
     tableAbbrevations?:string;
+    
+
 }
 
 export interface ProductGroup{

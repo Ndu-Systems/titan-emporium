@@ -23,6 +23,7 @@ import { RailComponent } from "./main-industries/rail/rail.component";
 import { SecurityAndFireComponent } from "./main-industries/security-and-fire/security-and-fire.component";
 import { WaterComponent } from "./main-industries/water/water.component";
 import {GalleriaModule} from 'primeng/galleria';
+import { NavBarBettaComponent } from '../shared/nav-bar-betta/nav-bar-betta.component';
 
 @NgModule({
   imports: [
@@ -53,7 +54,7 @@ import {GalleriaModule} from 'primeng/galleria';
     RailComponent,
     SecurityAndFireComponent,
     WaterComponent,
-    ShopNowComponent
+    ShopNowComponent,
   ]
 })
 export class HomeModule {}

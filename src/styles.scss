@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,900,900i');
 html,
 body {
@@ -127,4 +128,26 @@ h1{
   padding: 1rem;
   background: rgb(228, 228, 228);
   color: black;
+}
+
+
+.cards {
+  display: grid;
+  grid-template-columns: 30% 30% auto;
+
+ 
+}
+
+
+.col-1-of-2 {
+  display: grid;
+  grid-template-columns: 50% auto;
+  grid-gap: 3rem;
+  box-sizing: border-box;
+  margin-bottom: 1rem;
+  @media only screen and (max-width: 600px) {
+    grid-template-columns: 100%;
+  grid-gap: 0rem;
+
+  }
 }

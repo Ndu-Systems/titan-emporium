@@ -418,4 +418,130 @@ export const fini_info_array: ProductInfoFini[] = [
         },
         // file: 'assets/products/fescolo-screw/B88A5914.jpg'
     },
+    {
+        id: '15kw-45kw',
+        heading: '15KW-45KW (20HP-60HP)',
+        images: [
+            `assets/products/fescolo-screw/B88A5792.jpg`,
+            `assets/products/fescolo-screw/B88A5793.jpg`,
+            `assets/products/fescolo-screw/B88A5796.jpg`,
+            `assets/products/fescolo-screw/B88A5810.jpg`
+        ],
+        secondaryHeading: 'Name:AirHorse direct driven screw air compressor',
+        paragraphs: [`Category:Standard screw air compressor`,
+            `AirHorse direct driven screw air compressor provides high quality air you can rely
+            on to avoid costly downtime and production delay.`],
+        // data: 'assets/products/fescolo-screw/tb1.PNG',Category:Standard screw air compressor
+
+        data: {
+            headings: ['Model', `AHD-20A`, `AHD-30A`, `AHD-50A`, `AHD-60A`],
+            rows: [
+                [
+
+                    ['Free air deliver/Discharge pressure(m3/min/Mpa)'],
+                    ['2.5/0.7','2.3/0.8','2.1/1.0','1.9/1.2'],
+                    [
+                        '3.8/0.7','3.6/0.8','3.2/1.0','2.8/1.2'
+                    ], [
+                        '6.8/0.7','6.2/0.8','5.6/1.0','4.9/1.2'
+                    ], [
+                        '7.3/0.7','7.0/0.8','6.0/1.0','5.6/1.2'
+                    ]
+                ],
+                [
+
+                    [`Free air deliver/Discharge pressure(CFM/PSI)`],
+
+                    [
+                        '88/102','81/116','74/145','67/174'
+                    ], [
+                        '134/102','127/116','113/145','99/174'
+                    ], [
+                        '240/102','219/116','198/145','173/174'
+                    ],
+                    ['258/102','247/116','212/145','198/174']
+                ],
+                [
+                    ['Compression stage	'],
+                    [
+                        '  Single stage'
+                    ]
+                ],
+                [
+                    ['Ambient temprerature'],
+                    [
+                        '  -5--+45℃'
+                    ]
+                ],
+                [
+                    ['Cooling mode'],
+                    [
+                        'Air cooling'
+                    ]
+                ],
+                [
+                    ['Discharge temperature   (0C)'],
+                    [
+                        'Ambient temperature+15℃'
+                    ]
+                ],
+                [
+                    ['Lubricant   (L)'],
+                    ['10'],
+                    ['14.5'],
+                    ['20'],
+                    ['20']
+                ],
+                [
+                    ['Noise Level (Db)'],
+                    ['64±2'],
+                    ['66±2'],
+                    ['68±2'],
+                    ['68±2']
+                ],
+                [
+                    ['Drive method'],
+                    ['Belt driven'],
+                ],
+                [
+                    ['Electricity (V/ph/Hz)'],
+                    ['380/3/50'],
+                ],
+                [
+                    ['Motor power (KW/HP)'],
+                    ['15/20'],
+                    ['22/30'],
+                    ['37/50'],
+                    ['45/60']
+                ],
+                [
+                    ['Starting method'],
+                    ['Star delta starting']
+                ],
+                [
+                    ['Dimension  L*W*H (mm)'],
+                    [`1160*700*1100`],
+                    [`1200*900*1150`],
+                    [`1560*1000*1365`],
+                    [`1560*1000*1365`],
+                ],
+                [
+                    ['Net Weight   (kg)'],
+                    ['400'],
+                    ['510'],
+                    ['740'],
+                    ['820']
+                ],
+                [
+                    ['Air outlet diameter (inch/mm)'],
+                    ['3/4"'],
+                    ['1"'],
+                    ['11/2"'],
+                    ['11/2"'],
+
+                ]
+            ]
+        },
+        // file: 'assets/products/fescolo-screw/B88A5914.jpg'
+    },
 ];

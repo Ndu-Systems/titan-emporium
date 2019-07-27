@@ -28,17 +28,17 @@ export const fini_array: ProductFini[] = [
         imageTags: [{
             imgUrl: 'B88A5901.jpg',
             imgText: '4KW-11KW (5HP-15HP)',
-            link: '/product-info/aaaaaaaa'
+            link: '/product-info/4kw-11kw'
         },
         {
             imgUrl: 'B88A5932.jpg',
             imgText: '15KW-30KW (20HP-40HP)',
-            link: '/product-info/aaaaaaaa'
+            link: '/product-info/15kw-30kw'
         },
         {
             imgUrl: 'B88A6012.jpg',
             imgText: '37KW-75KW (50HP-100HP)',
-            link: '/product-info/aaaaaaaa'
+            link: '/product-info/37kw-75kw'
         }
         ]
     },

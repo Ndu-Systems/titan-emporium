@@ -20,16 +20,45 @@
 
         </div>
       </div>
+      <!-- <div class="data">
 
-      <div class="cards">
-        <div class="card" *ngFor="let productObj of product[0]?.imageTags">
-          <a [routerLink]="productObj?.link">
-            <div class="body"> <img src="assets/products/fescolo-screw/{{productObj.imgUrl}}" alt=""></div>
-            <div class="card-footer">
-              <h1>{{productObj?.imgText}}</h1>
-            </div>
-          </a>
+        <img src="{{product[0]?.data}}" alt="">
+        <div class="file" *ngIf="product[0]?.file">
+          <h3>
+            To learn more details,please download our product catalogue as below.
+          </h3>
+          <a href="{{product[0]?.file}}" target="_bank">Product catalog.pdf</a>
         </div>
+      </div> -->
+      <div class="table">
+        <table id="customers">
+          <tr>
+            <th *ngFor="let h of product[0]?.data.headings">{{h}}</th>
+          </tr>
+          <ng-container *ngFor="let data of product[0]?.data.rows">
+            <tr *ngIf="data.length==5">
+              <td *ngFor="let dt of data">
+                <p *ngFor="let p of dt">
+                  {{p}}
+                </p>
+              </td>
+            </tr>
+            <tr *ngIf="data.length==2">
+              <td colspan="3" *ngFor="let dt of data">
+                <p *ngFor="let p of dt">
+                  {{p}}
+                </p>
+              </td>
+            </tr>
+          </ng-container>
+
+        </table>
+        <div class="file" *ngIf="product[0]?.file">
+            <h3>
+              To learn more details,please download our product catalogue as below.
+            </h3>
+            <a href="{{product[0]?.file}}" target="_bank">Product catalog.pdf</a>
+          </div>
       </div>
     </div>
   </div>

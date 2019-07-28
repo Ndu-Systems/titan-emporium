@@ -36,7 +36,7 @@
             <th *ngFor="let h of product[0]?.data.headings">{{h}}</th>
           </tr>
           <ng-container *ngFor="let data of product[0]?.data.rows">
-            <tr *ngIf="data.length==5">
+            <tr *ngIf="data.length >= 5">
               <td *ngFor="let dt of data">
                 <p *ngFor="let p of dt">
                   {{p}}

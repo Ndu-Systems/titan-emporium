@@ -1,85 +1,84 @@
-.main{
-    .nav{
-        ul {
-            li {
-              display: inline-block;
-              padding: 1%;
-              padding-bottom: 2%;
-              background: none;
-          
-              a {
-                text-decoration: none;
-                color: #fff;
-                font-size: 15px;
-                font-weight: bold;
-                text-transform: uppercase;
-                display: block;
-              }
-              .shop-online{
-                background: #A06A4B;
-                padding: 2%;
-                border-radius: 5px;
-              }
-            }
-          }
-          
-          
-          .dropdown {
-            position: relative;
-          
-            .drop-down-items {
-              min-width: 200px;
-              display: none;
-              position: absolute;
-              height: auto;
-              left: -50px;
-              text-align: left;
-              z-index: 100;
-          
-              li {
-                background: black;
-                padding: 5px;
-                margin-left: 0;
-                display: block;
-                width: 200px;
-          
-                &:hover {
-                  background: #A06A4B;
-                }
-              
-              }
-             
-            }
-            .child-2{
-              left: 100px;
-            }
-            .child-3{
-              left: 100px;
-            }
-          }
-          
-          .dropdown:hover .child-1 {
-            display: block;
-          }
-          .child-2-parent{
-            &:hover .child-2{
-            display: block;
-          
-            }
-          }
-          .child-3-parent{
-            &:hover .child-3{
-            display: block;
-          
-            }
-          }
-          
-          
-          li {
-            :hover {
-              color: #34495e;
-            }
-          }
-          
+.main {
+  .nav {
+    width: 100%;
+    display: block !important;
+    ul {
+      width: 100%;
+      li {
+        display: inline-block;
+        padding: 1%;
+        padding-bottom: 2%;
+        background: none;
+
+        a {
+          text-decoration: none;
+          color: #fff;
+          font-size: 15px;
+          // font-weight: bold;
+          text-transform: uppercase;
+          display: block;
+        }
+        .shop-online {
+          background: #a06a4b;
+          padding: 2%;
+          border-radius: 5px;
+        }
+      }
     }
+
+    .dropdown {
+      position: relative;
+
+      .drop-down-items {
+        min-width: 200px;
+        display: none;
+        position: absolute;
+        height: auto;
+        left: -50px;
+        text-align: left;
+        z-index: 100;
+
+        li {
+          background: black;
+          padding: 5px;
+          margin-left: 0;
+          display: block;
+          width: 200px;
+
+          &:hover {
+            background: #a06a4b;
+          }
+        }
+      }
+      .child-2 {
+        left: 100px;
+      }
+      .child-3 {
+        left: 100px;
+      }
+    }
+
+    .dropdown:hover .child-1 {
+      display: block;
+    }
+    .child-2-parent {
+      &:hover .child-2 {
+        display: block;
+      }
+    }
+    .child-3-parent {
+      &:hover .child-3 {
+        display: block;
+      }
+    }
+
+    li {
+      :hover {
+        color: #34495e;
+      }
+    }
+  }
+}
+.nav{
+  display: block !important;
 }

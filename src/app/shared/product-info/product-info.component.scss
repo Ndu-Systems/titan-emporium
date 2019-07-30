@@ -104,6 +104,11 @@
         .table {
           width: 80%;
           margin: 0 auto;
+          h3{
+            text-align: center;
+            padding: 1%;
+            color: #b2a10a;
+          }
   
           table {
             width: 100%;
@@ -190,6 +195,7 @@
     // background: #ecf0f1;
     text-align: center;
     position: relative;
+    border:none;
     .body {
       padding: 1rem;
       a{

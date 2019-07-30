@@ -13,6 +13,7 @@ export class ProductInfoComponent implements OnInit {
   productId: string;
   images: any[] = [];
   product: ProductInfoFini[];
+  tableSpec: string;
   constructor(private activatedRoute: ActivatedRoute) {
     this.activatedRoute.params.subscribe(r => {
       this.productId = r['id'];
@@ -31,7 +32,7 @@ export class ProductInfoComponent implements OnInit {
         })
       });
 
-
+      this.tableSpec = `for ${this.product[0].heading}`;
     }
   }
 

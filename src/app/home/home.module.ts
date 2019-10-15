@@ -12,7 +12,8 @@ import { DefenceComponent } from './main-industries/defence/defence.component';
 import { FoodBeverageComponent } from './main-industries/food-beverage/food-beverage.component';
 import { IndustrialComponent } from './main-industries/industrial/industrial.component';
 import { MarineComponent } from './main-industries/marine/marine.component';
-import { MedicalPharmaceuticalAndDentalComponent } from './main-industries/medical-pharmaceutical-and-dental/medical-pharmaceutical-and-dental.component';
+import { MedicalPharmaceuticalAndDentalComponent }
+from './main-industries/medical-pharmaceutical-and-dental/medical-pharmaceutical-and-dental.component';
 import { MiningComponent } from './main-industries/mining/mining.component';
 import { NaturalGasComponent } from './main-industries/natural-gas/natural-gas.component';
 import { OilAndGasComponent } from './main-industries/oil-and-gas/oil-and-gas.component';
@@ -23,7 +24,6 @@ import { RailComponent } from './main-industries/rail/rail.component';
 import { SecurityAndFireComponent } from './main-industries/security-and-fire/security-and-fire.component';
 import { WaterComponent } from './main-industries/water/water.component';
 import {GalleriaModule} from 'primeng/galleria';
-import { NavBarBettaComponent } from '../shared/nav-bar-betta/nav-bar-betta.component';
 
 @NgModule({
   imports: [

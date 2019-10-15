@@ -8,6 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarBettaComponent implements OnInit {
   navigation: NavigationModel[] = [];
+  showMobleMenu: boolean;
   constructor() { }
 
   ngOnInit() {
@@ -313,6 +314,9 @@ export class NavBarBettaComponent implements OnInit {
         children: []
       }
     ];
+  }
+  toggleMenu(){
+this.showMobleMenu = !this.showMobleMenu;
   }
 }
 

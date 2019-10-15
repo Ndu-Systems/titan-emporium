@@ -48,6 +48,8 @@ import { SecurityAndFireComponent } from './main-industries/security-and-fire/se
 import { ProductComponent } from './products/product/product.component';
 import { FiniProductLayOutComponent } from '../shared/fini-product-lay-out/fini-product-lay-out.component';
 import { ProductInfoComponent } from '../shared/product-info/product-info.component';
+import { NavMobileComponent } from '../shared/nav-mobile/nav-mobile.component';
+import { NavBarBettaComponent } from '../shared/nav-bar-betta/nav-bar-betta.component';
 
 
 export const declarations: any[] = [
@@ -109,7 +111,9 @@ export const declarations: any[] = [
   ProductComponent,
   ValvesComponent,
   FiniProductLayOutComponent,
-  ProductInfoComponent
+  ProductInfoComponent,
+
+
 
 
 ];

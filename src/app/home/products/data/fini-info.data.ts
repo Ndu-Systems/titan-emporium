@@ -25,11 +25,11 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A5905.jpg`,
             `assets/products/fescolo-screw/B88A5914.jpg`,
             `assets/products/fescolo-screw/B88A5920.jpg`],
-        secondaryHeading: 'Name:AirHorse belt driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo belt driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`, `
-        Name:AirHorse belt driven screw air compressor
+        Name:Fescolo belt driven screw air compressor
         Category:Standard screw air compressor
-        AirHorse screw compressors with V-belt
+        Fescolo screw compressors with V-belt
          drive are economical and reliable,use
           Germany technology which provide high
           quality air,low noise and high efficiency,
@@ -81,7 +81,7 @@ export const fini_info_array: ProductInfoFini[] = [
                 [
                     ['Compression stage	'],
                     [
-                        '  Single stage'
+                        'Single stage'
                     ]
                 ],
                 [
@@ -139,8 +139,7 @@ export const fini_info_array: ProductInfoFini[] = [
                     ['Star delta starting']
                 ],
                 [
-                    ['Dimension'],
-                    ['L*W*H (mm)'],
+                    ['Dimension L*W*H (mm)'],
                     ['920*600*695'],
                     ['860*730*960'],
                     ['860*730*960'],
@@ -173,7 +172,7 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A5945.jpg`,
             `assets/products/fescolo-screw/B88A5947.jpg`,
         ],
-        secondaryHeading: 'Name:AirHorse belt driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo belt driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`, `*Double screw`,
             `*100% continuous duty operation`,
             `*Easy to use and read LCD control panel`,
@@ -302,7 +301,7 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A6027.jpg`,
             `assets/products/fescolo-screw/B88A6034.jpg`,
         ],
-        secondaryHeading: 'Name:AirHorse belt driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo belt driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`,
             `Independent protection and continuous monitoring of main paramters control system.`],
         // data: 'assets/products/fescolo-screw/tb1.PNG',Category:Standard screw air compressor
@@ -427,9 +426,9 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A5796.jpg`,
             `assets/products/fescolo-screw/B88A5810.jpg`
         ],
-        secondaryHeading: 'Name:AirHorse direct driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo direct driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`,
-            `AirHorse direct driven screw air compressor provides high quality air you can rely
+            `Fescolo direct driven screw air compressor provides high quality air you can rely
             on to avoid costly downtime and production delay.`],
         data: {
             headings: ['Model', `AHD-20A`, `AHD-30A`, `AHD-50A`, `AHD-60A`],
@@ -551,7 +550,7 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A5810.jpg`,
             `assets/products/fescolo-screw/B88A5811.jpg`
         ],
-        secondaryHeading: 'Name:AirHorse direct driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo direct driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`,
             `The robust design ensures your process will
             function continuously even in the harshest conditions,such as temperature up to 55 degree.`],
@@ -671,9 +670,9 @@ export const fini_info_array: ProductInfoFini[] = [
             `assets/products/fescolo-screw/B88A5810.jpg`,
             `assets/products/fescolo-screw/B88A5811.jpg`
         ],
-        secondaryHeading: 'Name:AirHorse direct driven screw air compressor',
+        secondaryHeading: 'Name:Fescolo direct driven screw air compressor',
         paragraphs: [`Category:Standard screw air compressor`,
-            `AirHorse supply screw air compressors with
+            `Fescolo supply screw air compressors with
             different voltage and frequency,such as
             380V/3phase/50HZ, 380V/3phase/60HZ,
             415V/3phase/50HZ, 220V/3phase/60HZ,

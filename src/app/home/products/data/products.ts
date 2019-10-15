@@ -1246,7 +1246,6 @@ export const products: Array<Product> = [
       `quality intake filters in metal housings`,
       `for OE & replacement applications`,
       `design duty cycle 60% on-load 40% off-load`,
-      
       `------Options---------`,
       `stop/start control`,
       `low oil level trip switch`,
@@ -1553,7 +1552,7 @@ export const products: Array<Product> = [
       imageUrl: "sa.gif",
       secondaryHeading:'SA SEALED ADJUSTMENT',
       details: [
-        `		The SA Sealed Adjustment is 
+        `		The SA Sealed Adjustment is
         an epoxy seal put on the
          pilot adjustment to make it tamper resistant.`
       ],

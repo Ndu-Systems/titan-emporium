@@ -23,10 +23,14 @@
   </div>
 </div>
 
-<!-- 
+
 <div class="menu-button-section">
   <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="assets/home-images/Menu lines.svg"
     alt="" />
-  <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:60%" src="assets/home-images/Close2.svg"
+  <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:10%" src="assets/home-images/Close2.svg"
     alt="" />
-</div> -->
+</div>
+
+<div class="mobile-menu" *ngIf="showMobleMenu">
+  <app-nav-mobile></app-nav-mobile>
+</div>

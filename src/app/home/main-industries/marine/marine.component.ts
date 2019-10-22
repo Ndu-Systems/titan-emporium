@@ -55,7 +55,7 @@ emergency source of power.`
       ]
     }
   ];
-  constructor() {}
+  constructor() { }
 
-  ngOnInit() {}
+  ngOnInit() { }
 }

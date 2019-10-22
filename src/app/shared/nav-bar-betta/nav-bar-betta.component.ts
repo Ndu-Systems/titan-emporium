@@ -184,6 +184,48 @@ export class NavBarBettaComponent implements OnInit {
             ]
           },
           {
+            name: 'screw machines',
+            url: '',
+            children: [
+              {
+                name: 'fescolo screw',
+                url: '',
+                children: [
+                  {
+                    name: 'standard screw',
+                    url: ''
+                  },
+                  {
+                    name: 'integrated screw',
+                    url: ''
+                  },
+                  {
+                    name: 'inverter screw',
+                    url: ''
+                  }
+                ]
+              },
+              {
+                name: 'fini screw',
+                url: '',
+                children: [
+                  {
+                    name: 'micro',
+                    url: 'screw-machines/micro'
+                  },
+                  {
+                    name: 'series plus',
+                    url: 'screw-machines/'
+                  },
+                  {
+                    name: 'kmax',
+                    url: 'screw-machines/'
+                  }
+                ]
+              }
+            ]
+          },
+          {
             name: 'Engines',
             url: '',
             children: []
@@ -315,13 +357,13 @@ export class NavBarBettaComponent implements OnInit {
       }
     ];
   }
-  toggleMenu(){
-this.showMobleMenu = !this.showMobleMenu;
+  toggleMenu() {
+    this.showMobleMenu = !this.showMobleMenu;
   }
 }
 
 export interface NavigationModel {
   name: string;
   url: string;
-  children: NavigationModel[];
+  children?: NavigationModel[];
 }

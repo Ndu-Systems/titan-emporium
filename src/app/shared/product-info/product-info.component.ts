@@ -29,7 +29,7 @@ export class ProductInfoComponent implements OnInit {
       this.product[0].images.forEach(x => {
         this.images.push({
           source: x, alt: '', title: ''
-        })
+        });
       });
 
       this.tableSpec = `for ${this.product[0].heading}`;

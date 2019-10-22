@@ -11,7 +11,7 @@ import { valves } from '../data/valves';
 export class ValvesComponent implements OnInit {
 
   productId: string;
-  product:Valve[];
+  product: Valve[];
   constructor(private activatedRoute: ActivatedRoute) {
     this.activatedRoute.params.subscribe(r => {
       this.productId = r["id"];
@@ -19,11 +19,11 @@ export class ValvesComponent implements OnInit {
     });
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
   getProduct(): any {
-    let p:Array<Valve> =valves.filter(x=>x.id==this.productId);
-    if(p.length){
-      this.product =p;
+    const p: Array<Valve> = valves.filter(x => x.id === this.productId);
+    if (p.length) {
+      this.product = p;
     }
   }
 }

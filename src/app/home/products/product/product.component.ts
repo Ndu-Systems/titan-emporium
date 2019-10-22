@@ -9,9 +9,9 @@ import { products } from "../data/products";
   styleUrls: ["./product.component.scss"]
 })
 export class ProductComponent implements OnInit {
- 
+
   productId: string;
-  product:Product[];
+  product: Product[];
   constructor(private activatedRoute: ActivatedRoute) {
     this.activatedRoute.params.subscribe(r => {
       this.productId = r["id"];
@@ -19,11 +19,11 @@ export class ProductComponent implements OnInit {
     });
   }
 
-  ngOnInit() {}
+  ngOnInit() { }
   getProduct(): any {
-    let p:Array<Product> =products.filter(x=>x.id==this.productId);
-    if(p.length){
-      this.product =p;
+    let p: Array<Product> = products.filter(x => x.id == this.productId);
+    if (p.length) {
+      this.product = p;
     }
   }
 }

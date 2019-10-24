@@ -17,6 +17,7 @@ export class ScrewMachinesComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe(p => { this.productId = p.id; });
     this.getFiniScrewProducts();
+    console.log( this.FiniScrewProduct);
    }
 
   getFiniScrewProducts() {

@@ -107,32 +107,58 @@
         }
       }
 
-      .table {
-        width: 80%;
-        margin: 0 auto;
+      .product-table {
+        padding: 2rem 0;
 
-        h3 {
-          text-align: center;
-          padding: 1%;
-          color: #b2a10a;
-        }
-
-        table {
+        .table {
           width: 100%;
+          margin: 0 auto;
 
-          th {
-            // text-align: center;
+          h3 {
+            text-align: center;
+            padding: 1%;
+            color: #b2a10a;
+          }
+
+          .table-banner {
+            border: solid 1px;
+            border-left: solid 2px;
+            &.col-1-of-2 {
+              grid-template-columns: 15% auto;
+              grid-gap: 0;
+            }
+
+            .banner-image {
+              img {
+                width: 15rem;
+              }
+            }
+
+            .banner-title {
+              border-left: solid 1px;
+              padding: 0 1rem;
+              h1 {
+                text-align: left;
+                margin-top: 4rem;
+              }
+            }
+          }
+
+          table {
+            width: 100%;
+
+            th {
+              // text-align: center;
+            }
+          }
+
+          .table-abbrevations {
+            padding: 1rem;
+            background: rgb(228, 228, 228);
+            color: black;
           }
         }
-
-        .table-abbrevations {
-          padding: 1rem;
-          background: rgb(228, 228, 228);
-          color: black;
-        }
       }
-
-
     }
   }
 }

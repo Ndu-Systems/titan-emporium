@@ -10,10 +10,32 @@
       <div class="header-image">
         <img src="{{FiniScrewProduct[0].headerImage}}" alt="header image">
       </div>
+      <div class="product-table" *ngFor="let tableData of FiniScrewProduct[0]?.tables">
+        <div class="table">
+          <div class="table-banner col-1-of-2">
+            <div class="banner-image">
+              <img src="{{tableData.imageUrl}}" alt="banner image">
+            </div>
+            <div class="banner-title">
+              <h1>
+                {{tableData.name}}
+              </h1>
+            </div>
+          </div>
+          <table id="customers">
+            <tr>
+              <th *ngFor="let header of tableData.tableHeadings">{{header}}</th>
+            </tr>
+            <ng-container *ngFor="let tr of tableData.tableRows">
+              <tr>
+                <td *ngFor="let td of tr">{{td}}</td>
+              </tr>
+            </ng-container>
+          </table>
+        </div>
+      </div>
     </div>
-    <div class="product-table" *ngFor="let tableData of [1,1,1,1]">
-      <p>table here</p>
-    </div>
+
   </div>
 </div>
 <div class="footer">

@@ -38,7 +38,7 @@
     <ul>
       <li *ngFor="let menu of navigation" class="dropdown">
         <a *ngIf="!menu.isMega" [routerLink]="menu.url">{{menu.name}}</a>
-        <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(1)" class="megamenu-tab"
+        <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(menu.name)" class="megamenu-tab"
           [routerLink]="menu.url">{{menu.name}}</a>
         <!-- <ul *ngIf="menu.children.length"  class="drop-down-items child-1">
           <li *ngFor="let child_one of menu.children"  class="child-2-parent">
@@ -88,3 +88,58 @@
     </div>
   </div>
 </div>
+
+
+
+
+<div class="megamenu megamenu-small" (mouseleave)="toggleMegaMenu()" *ngIf="showAboutMegamenu">
+    <!-- <div class="search">
+      <input type="text"  [(ngModel)]="search">
+    </div> -->
+    <div class="cards single">
+      <div class="card card-small" *ngFor="let item of navigation[2].children">
+          <p>
+              <a [routerLink]="item.url"> {{item.name}}</a>
+            </p>
+      </div>
+    </div>
+  </div>
+
+<div class="megamenu megamenu-small megamenu-services" (mouseleave)="toggleMegaMenu()" *ngIf="showServicesMegamenu">
+    <!-- <div class="search">
+      <input type="text"  [(ngModel)]="search">
+    </div> -->
+    <div class="cards single">
+      <div class="card card-small" *ngFor="let item of navigation[3].children">
+          <p>
+              <a [routerLink]="item.url"> {{item.name}}</a>
+            </p>
+      </div>
+    </div>
+  </div>
+
+<div class="megamenu megamenu-small megamenu-industries" (mouseleave)="toggleMegaMenu()" *ngIf="showIndustriesMegamenu">
+    <!-- <div class="search">
+      <input type="text"  [(ngModel)]="search">
+    </div> -->
+    <div class="cards single">
+      <div class="card card-small"  *ngFor="let item of navigation[4].children">
+          <p>
+              <a [routerLink]="item.url"> {{item.name}}</a>
+            </p>
+      </div>
+    </div>
+  </div>
+
+<div class="megamenu megamenu-small megamenu-sustainability" (mouseleave)="toggleMegaMenu()" *ngIf="showSustainabilityMegamenu">
+    <!-- <div class="search">
+      <input type="text"  [(ngModel)]="search">
+    </div> -->
+    <div class="cards single">
+      <div class="card card-small"  *ngFor="let item of navigation[5].children">
+          <p>
+              <a [routerLink]="item.url"> {{item.name}}</a>
+            </p>
+      </div>
+    </div>
+  </div>

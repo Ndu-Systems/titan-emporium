@@ -249,6 +249,10 @@ export class NavBarBettaComponent implements OnInit {
 
 
   ];
+  showAboutMegamenu: boolean;
+  showServicesMegamenu: boolean;
+  showIndustriesMegamenu: boolean;
+  showSustainabilityMegamenu: boolean;
   constructor() { }
 
   ngOnInit() {
@@ -476,6 +480,7 @@ export class NavBarBettaComponent implements OnInit {
       {
         name: 'ABOUT US',
         url: '/',
+        isMega: true,
         children: [
           {
             name: 'The Titan Emporium At a Glance',
@@ -507,6 +512,7 @@ export class NavBarBettaComponent implements OnInit {
       {
         name: 'SERVICES',
         url: '/',
+        isMega: true,
         children: [
           {
             url: 'air-compressor-hire',
@@ -545,6 +551,7 @@ export class NavBarBettaComponent implements OnInit {
       {
         name: 'INDUSTRIES',
         url: '/',
+        isMega: true,
         children: [
           {
             url: 'agriculture-farming',
@@ -571,6 +578,7 @@ export class NavBarBettaComponent implements OnInit {
       {
         name: 'SUSTAINABILITY',
         url: '/',
+        isMega: true,
         children: [
           {
             url: 'sustainability-intro',
@@ -603,12 +611,17 @@ export class NavBarBettaComponent implements OnInit {
   toggleMenu() {
     this.showMobleMenu = !this.showMobleMenu;
   }
-  showMegaMenuHover(code: number) {
+  showMegaMenuHover(code: string) {
 
-    this.showMegamenu = code === 1;
+    this.showMegamenu = code === 'PRODUCTS';
+    this.showAboutMegamenu = code === 'ABOUT US';
+    this.showServicesMegamenu = code === 'SERVICES';
+    this.showIndustriesMegamenu = code === 'INDUSTRIES';
+    this.showSustainabilityMegamenu = code === 'SUSTAINABILITY';
   }
   toggleMegaMenu() {
-    this.showMegamenu = !this.showMegamenu;
+    // this.showMegamenu = false;
+    // this.showAboutMegamenu = false;
   }
 }
 

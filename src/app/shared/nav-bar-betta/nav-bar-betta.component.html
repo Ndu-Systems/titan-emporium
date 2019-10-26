@@ -1,4 +1,4 @@
-<div class="main">
+<!-- <div class="main">
   <div class="nav">
     <ul>
       <li *ngFor="let menu of navigation"  class="dropdown">
@@ -21,16 +21,70 @@
       </li>
     </ul>
   </div>
-</div>
+</div> -->
 
 
-<div class="menu-button-section">
+<!-- <div class="menu-button-section">
   <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="assets/home-images/Menu lines.svg"
     alt="" />
   <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:10%" src="assets/home-images/Close2.svg"
     alt="" />
+</div> -->
+
+
+
+<div class="main">
+  <div class="nav">
+    <ul>
+      <li *ngFor="let menu of navigation" class="dropdown">
+        <a *ngIf="!menu.isMega" [routerLink]="menu.url">{{menu.name}}</a>
+        <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(1)" class="megamenu-tab"
+          [routerLink]="menu.url">{{menu.name}}</a>
+        <!-- <ul *ngIf="menu.children.length"  class="drop-down-items child-1">
+          <li *ngFor="let child_one of menu.children"  class="child-2-parent">
+            <a [routerLink]="child_one.url" class="show-chid-2">{{child_one.name}}</a>
+            <ul *ngIf="child_one.children.length"  class="drop-down-items child-2">
+              <li *ngFor="let child_two of child_one.children"  class="child-3-parent">
+                <a [routerLink]="child_two.url">{{child_two.name}}</a>
+                <ul *ngIf="child_two.children.length" class="drop-down-items  child-3">
+                  <li *ngFor="let child_three of child_two.children">
+                    <a [routerLink]="child_three.url">{{child_three.name}}</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul> -->
+      </li>
+    </ul>
+  </div>
 </div>
 
-<div class="mobile-menu" *ngIf="showMobleMenu">
-  <app-nav-mobile></app-nav-mobile>
+<div class="megamenu" (mouseleave)="toggleMegaMenu()" *ngIf="showMegamenu">
+  <div class="search">
+    <!-- <input type="text"  [(ngModel)]="search"> -->
+  </div>
+  <div class="cards">
+    <div class="card" *ngFor="let menuitem of products">
+      <h1>
+        {{ menuitem.heading}}
+      </h1>
+      <div class="items" *ngFor="let item of menuitem.items">
+        <p>
+          <a [routerLink]="item.url"> {{item.name}}</a>
+        </p>
+      </div>
+      <div class="subs" *ngFor="let sub of menuitem.subs">
+        <h2>
+          {{sub.heading}}
+        </h2>
+        <div class="subs" *ngFor="let subitmem of sub.items">
+          <p>
+            <a [routerLink]="subitmem.url"> {{subitmem.name}}</a>
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
 </div>

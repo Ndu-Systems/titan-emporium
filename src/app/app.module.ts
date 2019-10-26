@@ -7,14 +7,16 @@ import { AppRouterModule } from './router.module';
 import { SharedModule } from './shared/shared.module';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
 import { NavBarBettaComponent } from './shared/nav-bar-betta/nav-bar-betta.component';
-import { NavMobileComponent } from './shared/nav-mobile/nav-mobile.component';
 import {AccordionModule} from 'primeng/accordion';
+import { FormsModule } from '@angular/forms';
+import { FiltermenuPipe } from './shared/pipes/filtermenu.pipe';
 
 @NgModule({
    declarations: [
       AppComponent,
-      NavMobileComponent,
-      NavBarBettaComponent
+      NavBarBettaComponent,
+      FiltermenuPipe
+
    ],
    imports: [
       BrowserModule,
@@ -22,7 +24,8 @@ import {AccordionModule} from 'primeng/accordion';
       SharedModule,
       HttpClientModule,
       AccordionModule,
-      BrowserAnimationsModule
+      BrowserAnimationsModule,
+      FormsModule
    ],
    providers:[HttpClient]
    ,

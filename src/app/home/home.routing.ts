@@ -48,8 +48,6 @@ import { SecurityAndFireComponent } from './main-industries/security-and-fire/se
 import { ProductComponent } from './products/product/product.component';
 import { FiniProductLayOutComponent } from '../shared/fini-product-lay-out/fini-product-lay-out.component';
 import { ProductInfoComponent } from '../shared/product-info/product-info.component';
-import { NavMobileComponent } from '../shared/nav-mobile/nav-mobile.component';
-import { NavBarBettaComponent } from '../shared/nav-bar-betta/nav-bar-betta.component';
 import { ScrewMachinesComponent } from './screw-machines';
 
 
@@ -254,7 +252,7 @@ const routes: Routes = [
   { path: 'woodworking', component: WoodworkingComponent },
   { path: 'mining', component: MiningComponent },
   { path: 'plastic', component: PlasticComponent },
-  //sustainability
+  // sustainability
   { path: 'sustainability-intro', component: SustainabilityIntroComponent },
   { path: 'our-people', component: OurPeopleComponent },
   { path: 'society', component: SocietyComponent },
@@ -266,7 +264,7 @@ const routes: Routes = [
   { path: 'governance', component: GovernanceComponent },
   { path: 'air-compressors-for-the-pharmaceutical-industry', component: AirCompressorsForThePharmaceuticalIndustryComponent },
 
-  //products
+  // products
   { path: 'product/:id', component: ProductComponent },
   { path: 'valve/:id', component: ValvesComponent },
   { path: 'product-fs/:id', component: FiniProductLayOutComponent },

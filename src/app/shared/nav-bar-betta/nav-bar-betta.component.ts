@@ -8,8 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarBettaComponent implements OnInit {
   navigation: NavigationModel[] = [];
-  showMobleMenu: boolean;
-  showMegamenu: boolean = true;
+  showMobleMenu: boolean=true;
+  showMegamenu: boolean;
   megaItems: NavigationModel;
   products: ProductModel[] = [
     // Pumps
@@ -620,8 +620,11 @@ export class NavBarBettaComponent implements OnInit {
     this.showSustainabilityMegamenu = code === 'SUSTAINABILITY';
   }
   toggleMegaMenu() {
-    // this.showMegamenu = false;
-    // this.showAboutMegamenu = false;
+    this.showMegamenu = false;
+    this.showAboutMegamenu = false;
+    this.showServicesMegamenu = false;
+    this.showIndustriesMegamenu = false;
+    this.showSustainabilityMegamenu = false;
   }
 }
 

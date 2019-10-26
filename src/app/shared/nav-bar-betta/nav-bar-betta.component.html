@@ -1,35 +1,22 @@
-<!-- <div class="main">
-  <div class="nav">
-    <ul>
-      <li *ngFor="let menu of navigation"  class="dropdown">
-        <a [routerLink]="menu.url">{{menu.name}}</a>
-        <ul *ngIf="menu.children.length"  class="drop-down-items child-1">
-          <li *ngFor="let child_one of menu.children"  class="child-2-parent">
-            <a [routerLink]="child_one.url" class="show-chid-2">{{child_one.name}}</a>
-            <ul *ngIf="child_one.children.length"  class="drop-down-items child-2">
-              <li *ngFor="let child_two of child_one.children"  class="child-3-parent">
-                <a [routerLink]="child_two.url">{{child_two.name}}</a>
-                <ul *ngIf="child_two.children.length" class="drop-down-items  child-3">
-                  <li *ngFor="let child_three of child_two.children">
-                    <a [routerLink]="child_three.url">{{child_three.name}}</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul>
-      </li>
-    </ul>
-  </div>
-</div> -->
-
-
-<!-- <div class="menu-button-section">
+<div class="menu-button-section">
   <img id="menu-btn" *ngIf="!showMobleMenu" (click)="toggleMenu()" src="assets/home-images/Menu lines.svg"
     alt="" />
   <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:10%" src="assets/home-images/Close2.svg"
     alt="" />
-</div> -->
+    
+<div class="mobile-menu" *ngIf="showMobleMenu" >
+  <h1>
+      the titan emporium  </h1>
+    <ul>
+        <li *ngFor="let menu of navigation" class="dropdown">
+          <a *ngIf="!menu.isMega" [routerLink]="menu.url">{{menu.name}}</a>
+          <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(menu.name)" class="megamenu-tab"
+            [routerLink]="menu.url">{{menu.name}}</a>
+        </li>
+      </ul>
+  </div>
+  
+</div>
 
 
 
@@ -40,27 +27,17 @@
         <a *ngIf="!menu.isMega" [routerLink]="menu.url">{{menu.name}}</a>
         <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(menu.name)" class="megamenu-tab"
           [routerLink]="menu.url">{{menu.name}}</a>
-        <!-- <ul *ngIf="menu.children.length"  class="drop-down-items child-1">
-          <li *ngFor="let child_one of menu.children"  class="child-2-parent">
-            <a [routerLink]="child_one.url" class="show-chid-2">{{child_one.name}}</a>
-            <ul *ngIf="child_one.children.length"  class="drop-down-items child-2">
-              <li *ngFor="let child_two of child_one.children"  class="child-3-parent">
-                <a [routerLink]="child_two.url">{{child_two.name}}</a>
-                <ul *ngIf="child_two.children.length" class="drop-down-items  child-3">
-                  <li *ngFor="let child_three of child_two.children">
-                    <a [routerLink]="child_three.url">{{child_three.name}}</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-          </li>
-        </ul> -->
       </li>
     </ul>
   </div>
 </div>
 
 <div class="megamenu" (mouseleave)="toggleMegaMenu()" *ngIf="showMegamenu">
+  <div class="back" (click)="toggleMegaMenu()">
+    <h1 >
+        <i class="pi pi-arrow-left"></i> Back
+    </h1>
+  </div>
   <div class="search">
     <!-- <input type="text"  [(ngModel)]="search"> -->
   </div>
@@ -93,9 +70,11 @@
 
 
 <div class="megamenu megamenu-small" (mouseleave)="toggleMegaMenu()" *ngIf="showAboutMegamenu">
-    <!-- <div class="search">
-      <input type="text"  [(ngModel)]="search">
-    </div> -->
+    <div class="back" (click)="toggleMegaMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
     <div class="cards single">
       <div class="card card-small" *ngFor="let item of navigation[2].children">
           <p>
@@ -106,9 +85,11 @@
   </div>
 
 <div class="megamenu megamenu-small megamenu-services" (mouseleave)="toggleMegaMenu()" *ngIf="showServicesMegamenu">
-    <!-- <div class="search">
-      <input type="text"  [(ngModel)]="search">
-    </div> -->
+    <div class="back" (click)="toggleMegaMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
     <div class="cards single">
       <div class="card card-small" *ngFor="let item of navigation[3].children">
           <p>
@@ -119,9 +100,11 @@
   </div>
 
 <div class="megamenu megamenu-small megamenu-industries" (mouseleave)="toggleMegaMenu()" *ngIf="showIndustriesMegamenu">
-    <!-- <div class="search">
-      <input type="text"  [(ngModel)]="search">
-    </div> -->
+    <div class="back" (click)="toggleMegaMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
     <div class="cards single">
       <div class="card card-small"  *ngFor="let item of navigation[4].children">
           <p>
@@ -132,9 +115,11 @@
   </div>
 
 <div class="megamenu megamenu-small megamenu-sustainability" (mouseleave)="toggleMegaMenu()" *ngIf="showSustainabilityMegamenu">
-    <!-- <div class="search">
-      <input type="text"  [(ngModel)]="search">
-    </div> -->
+    <div class="back" (click)="toggleMegaMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
     <div class="cards single">
       <div class="card card-small"  *ngFor="let item of navigation[5].children">
           <p>

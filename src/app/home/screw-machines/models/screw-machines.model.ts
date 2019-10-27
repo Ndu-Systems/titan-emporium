@@ -11,6 +11,7 @@ export class ScrewMachinesModel {
   tableHeadings?: Array<string>;
   tableRows?: any[][];
   tableAbbreviations?: string;
+  points?: Array<string>;
 }
 
 export class FiniScrew {

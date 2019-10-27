@@ -3,7 +3,7 @@
     alt="" />
   <img id="menu-btn" *ngIf="showMobleMenu" (click)="toggleMenu()" style="width:10%" src="assets/home-images/Close2.svg"
     alt="" />
-    
+
 <div class="mobile-menu" *ngIf="showMobleMenu" >
   <h1>
       the titan emporium  </h1>
@@ -15,7 +15,7 @@
         </li>
       </ul>
   </div>
-  
+
 </div>
 
 
@@ -48,7 +48,7 @@
       </h1>
       <div class="items" *ngFor="let item of menuitem.items">
         <p>
-          <a [routerLink]="item.url"> {{item.name}}</a>
+          <a [routerLink]="item.url" (click)="toggleMegaMenu()"> {{item.name}}</a>
         </p>
       </div>
       <div class="subs" *ngFor="let sub of menuitem.subs">
@@ -57,7 +57,7 @@
         </h2>
         <div class="subs" *ngFor="let subitmem of sub.items">
           <p>
-            <a [routerLink]="subitmem.url"> {{subitmem.name}}</a>
+            <a [routerLink]="subitmem.url" (click)="toggleMegaMenu()"> {{subitmem.name}}</a>
           </p>
 
         </div>

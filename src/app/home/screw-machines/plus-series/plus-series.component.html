@@ -1,0 +1,75 @@
+<div class="main-parent">
+  <div class="parent">
+    <div class="top-child">
+      <div class="bg bg-left"></div>
+      <div class="bg bg-right"></div>
+    </div>
+    <div class="content" *ngIf="plusProduct">
+      <h1 class="main-header">
+        {{plusProduct[0]?.heading}}
+      </h1>
+      <span *ngFor="let tableData of plusProduct[0]?.tables">
+        <div class="panel col-1-of-2">
+          <div class="panel-image">
+            <img src="{{tableData.imageUrl}}" alt="">
+          </div>
+          <div class="panel-points">
+            <h1 class="heading">
+                {{tableData.name}}
+            </h1>
+            <ul>
+              <li *ngFor="let p of tableData.points">
+                {{p}}
+              </li>
+            </ul>
+          </div>
+        </div>
+      </span>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="box">
+    <h1>Follow Us</h1>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/titanemporium/" target="_blank">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">Instagram</a>
+      </li>
+      <!-- <li>
+                  <a href="">Twitter</a>
+                </li> -->
+    </ul>
+  </div>
+
+  <div class="box">
+    <h1>Sales Address</h1>
+    <p>
+      Village industrial park <br>
+      Unit A6, <br>
+      51 Rosettenville rd<br>
+      Village main <br>
+      Johannesburg 2001<br>
+    </p>
+  </div>
+  <div class="box">
+    <h1>Workshop Address</h1>
+    <p>
+      Village industrial park <br>
+      Unit C6, <br>
+      51 Rosettenville rd<br>
+      Village main <br>
+      Johannesburg 2001<br>
+    </p>
+  </div>
+
+  <div class="box">
+    <h1>Contact Us</h1>
+    <p>
+      Phone: 011 338 6008 <br />
+      Email : info@titanemporium.co.za <br />
+    </p>
+  </div>
+</div>

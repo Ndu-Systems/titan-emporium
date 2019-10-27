@@ -594,6 +594,88 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
         ]
       }
     ]
+  },
+  {
+    id: 'plus',
+    heading: 'NEW PLUS RANGE 7.5KW - 75KW',
+    tables: [
+      {
+        name: 'NEW PLUS 7.5kW - 11kW - 15kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/Plus_-7_3.5-11-15kw-small.jpg`,
+        points: [
+          'Long life energy saving POLY V drive system.',
+          'Compact modern design.',
+          'Convenient ETM 2 electronic controller.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service.',
+          'Floor mounted, receiver mounted and receiver mounted with dryer versions.',
+          'Star delta starter.',
+          'Higher output.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+        ]
+      },
+      {
+        name: 'NEW PLUS 18.5kW - 22kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/Plus_18.5-22kW-small_(2).jpg`,
+        points: [
+          'Long life energy saving POLY V drive system.',
+          'Compact modern design.',
+          'Advanced ET4 electronic controller with programmer.',
+          'Diagnostics and GSM remote monitoring (option).',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Simple and convenient service access.',
+          'Floor mounted and integral dryer versions.',
+          'Star delta starter.',
+          'Quiet operation.',
+          'Higher output from less energy.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+          'Variable speed version (22kW).',
+        ]
+      },
+      {
+        name: 'NEW PLUS 30kW - 37kW - 45kW - 55kW - 75kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/Plus_35-45kW-small.jpg`,
+        points: [
+          'Long life energy saving POLY V drive system.',
+          'Compact modern design.',
+          'Advanced ET4 electronic controller with programmer.',
+          'Diagnostics and GSM remote monitoring (option).',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Designed for heavy duty and demanding applications.',
+          'Simple and convenient service access.',
+          'Floor mounted and integral dryer versions.',
+          'Star delta starter.',
+          'Quiet operation.',
+          'Higher output from less energy.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+          'Variable speed versions available (37kW, 55kW and 75kW).',
+        ]
+      },
+      {
+        name: 'NEW PLUS 22kW - 75kW Variable Speed Range',
+        imageUrl: `assets/products/screw-machines/fini-screw/Plus_35-45kW-small.jpg`,
+        points: [
+          'Long life energy saving POLY V drive system.',
+          'Compact modern design.',
+          'Advanced ET4 electronic controller with programmer.',
+          'Diagnostics and GSM remote monitoring (option).',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Designed for heavy duty and demanding applications.',
+          'Simple and convenient service access.',
+          'Floor mounted and integral dryer versions.',
+          'Star delta starter.',
+          'Quiet operation.',
+          'Higher output from less energy.',
+          '8 Bar and 10 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+          'Variable speed versions available (22kW, 37kW, 55kW and 75kW).',
+        ]
+      },
+
+    ]
   }
 ];
 

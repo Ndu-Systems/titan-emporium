@@ -58,7 +58,7 @@ export class NavBarBettaComponent implements OnInit {
     },
 
 
-    // Valves   
+    // Valves
     {
       heading: 'Valves',
       subs: [
@@ -127,12 +127,12 @@ export class NavBarBettaComponent implements OnInit {
         { url: '', name: 'Fittings' }
       ]
     },
-    // Screw Compressors 
+    // Screw Compressors
     {
       heading: 'Screw Compressors',
       subs: [
         {
-          heading: 'Fescolo',
+          heading: 'Fescolo screw',
           items: [
             {
               name: 'BELT DRIVE (AHB SERIES)',
@@ -153,11 +153,11 @@ export class NavBarBettaComponent implements OnInit {
             },
             {
               name: 'MICRO Series 2.2kW – 55kW',
-              url: '',
+              url: 'screw-machines/micro-series/micro',
             },
             {
               name: 'PLUS Series 7.5kW – 75kW',
-              url: '',
+              url: 'screw-machines/plus-series/plus',
             },
             {
               name: 'PLUS VS Series 22kW – 75kW',

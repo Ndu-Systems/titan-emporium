@@ -18,5 +18,6 @@ export class FiniScrew {
   id: string;
   heading?: string;
   headerImage?: string;
+  headerPoints?: Array<string>;
   tables?: Array<ScrewMachinesModel>;
 }

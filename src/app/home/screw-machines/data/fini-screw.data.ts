@@ -1,5 +1,6 @@
 import { FiniScrew } from "../models";
 export const FINI_SCREW_DATA: FiniScrew[] = [
+  // micro series
   {
     id: 'micro',
     heading: 'NEW MICRO 2.2KW - 5.5KW',
@@ -595,6 +596,7 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
       }
     ]
   },
+  // plus series
   {
     id: 'plus',
     heading: 'NEW PLUS RANGE 7.5KW - 75KW',
@@ -677,5 +679,204 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
 
     ]
   }
+  ,
+  // plus vs series
+  {
+    id: 'plusvs',
+    heading: 'NEW PLUS 22KW - 75KW VARIABLE SPEED RANGE',
+    headerImage: `assets/products/screw-machines/fini-screw/Plus_35-45kW-small.jpg`,
+    headerPoints: [
+      'Long life energy saving POLY V drive system',
+      'Compact modern design',
+      'Advanced ET4 electronic controller with programmer, diagnostics and GSM remote monitoring (option)',
+      'IE3 electric motor allowing reduced energy consumption',
+      'Designed for heavy duty and demanding applications',
+      'Simple and convenient service access.',
+      'Floor mounted and integral dryer versions.',
+      'Star delta starting',
+      'Quiet operation',
+      'Higher output from less energy',
+      '8 and 10 bar versions',
+      'Fitted with long life energy saving synthetic lubricant',
+      'Variable speed versions available (22, 37, 55 and 75 kW)',
+    ],
+    tables: [
+        // table 1
+        {
+          name: 'Floor Mounted 22kW - 75kW Variable Speed',
+          imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
+          tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+          tableRows: [
+            // row n
+            [
+              [''],
+              ['F-V60QD97FNM760'],
+              ['PLUS 2208 VS Variable Speed'],
+              ['22'],
+              ['30'],
+              ['3350 - 1350'],
+              ['201 - 81'],
+              ['118 - 48'],
+              ['8'],
+              ['116'],
+              ['68']
+            ],
+            [
+              [''],
+              ['F-V60QE97FNM760'],
+              ['PLUS 2210 VS Variable Speed'],
+              ['22'],
+              ['30'],
+              ['3050 - 1220'],
+              ['183 - 73.2'],
+              ['108 - 43'],
+              ['10'],
+              ['145'],
+              ['68']
+            ],
+            [
+              [''],
+              ['F-V60BK97FNM760'],
+              ['PLUS 3808 VS Variable Speed'],
+              ['37'],
+              ['50'],
+              ['5900 - 2350'],
+              ['354 - 141'],
+              ['208 - 83'],
+              ['8'],
+              ['116'],
+              ['72']
+            ],
+            [
+              [''],
+              ['F-V60BJ97FNM760'],
+              ['PLUS 3810 VS Variable Speed'],
+              ['37'],
+              ['50'],
+              ['5200 - 2050'],
+              ['312 - 123'],
+              ['184 - 72'],
+              ['10'],
+              ['145'],
+              ['72']
+            ],
+            [
+              [''],
+              ['F-V60BA97FNM760'],
+              ['PLUS 5608 VS Variable Speed'],
+              ['55'],
+              ['75'],
+              ['9300 - 3700'],
+              ['558 - 222'],
+              ['328 - 131'],
+              ['7.5'],
+              ['109'],
+              ['70']
+            ],
+            [
+              [''],
+              ['F-V60BB97FNM760'],
+              ['PLUS 5610 VS Variable Speed'],
+              ['55'],
+              ['75'],
+              ['8300 - 3300'],
+              ['498 - 198'],
+              ['293 - 116'],
+              ['10'],
+              ['145'],
+              ['70']
+            ],
+            [
+              [''],
+              ['F-V60BD97FNM760'],
+              ['PLUS 7508 VS Variable Speed'],
+              ['75'],
+              ['100'],
+              ['12200 - 4800'],
+              ['732 - 288'],
+              ['431 - 169'],
+              ['7.5'],
+              ['109'],
+              ['72']
+            ],
+            [
+              [''],
+              ['F-V60BE97FNM760'],
+              ['PLUS 7510 VS Variable Speed'],
+              ['75'],
+              ['100'],
+              ['10500 - 4200'],
+              ['630 - 252'],
+              ['371 - 148'],
+              ['10'],
+              ['145'],
+              ['72']
+            ],
+          ]
+        },
+        // table 2
+        {
+          name: 'Floor Mounted 22kW - 38kW Variable Speed & Dryer',
+          imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
+          tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+          tableRows: [
+            // row n
+            [
+              [''],
+              ['F-V60QD97FNM860'],
+              ['PLUS 2208 VS ES Variable Speed'],
+              ['22'],
+              ['30'],
+              ['3350 - 1350'],
+              ['201 - 81'],
+              ['118 - 48'],
+              ['8'],
+              ['116'],
+              ['68']
+            ],
+            [
+              [''],
+              ['F-V60QE97FNM860'],
+              ['PLUS 2210 VS ES Variable Speed'],
+              ['22'],
+              ['30'],
+              ['3050 - 1220'],
+              ['183 - 73.2'],
+              ['108 - 43'],
+              ['10'],
+              ['145'],
+              ['68']
+            ],
+            [
+              [''],
+              ['F-V60BK97FNM860'],
+              ['PLUS 3808 VS ES Variable Speed'],
+              ['37'],
+              ['50'],
+              ['5900 - 2350'],
+              ['354 - 141'],
+              ['208 - 83'],
+              ['8'],
+              ['145'],
+              ['68']
+            ],
+            [
+              [''],
+              ['F-V60BJ97FNM860'],
+              ['PLUS 3810 VS ES Variable Speed'],
+              ['37'],
+              ['50'],
+              ['5200 - 2050'],
+              ['312 - 123'],
+              ['184 - 72'],
+              ['10'],
+              ['145'],
+              ['72']
+            ],
+          ]
+        }
+    ]
+  }
+
 ];
 

@@ -276,6 +276,7 @@ const routes: Routes = [
   { path: 'product-info/:id', component: ProductInfoComponent },
   { path: 'screw-machines/micro-series/:id', component: MicroSeriesComponent },
   { path: 'screw-machines/plus-series/:id', component: PlusSeriesComponent },
+  { path: 'screw-machines/plus-vs-series/:id', component: PlusVsSeriesComponent },
 
 
 

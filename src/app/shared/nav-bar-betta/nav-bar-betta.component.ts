@@ -161,7 +161,7 @@ export class NavBarBettaComponent implements OnInit {
             },
             {
               name: 'PLUS VS Series 22kW – 75kW',
-              url: ''
+              url: 'screw-machines/plus-vs-series/plusvs',
             },
             {
               name: 'VISION Series 7.5kW – 22kW ',

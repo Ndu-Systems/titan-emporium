@@ -48,7 +48,14 @@ import { SecurityAndFireComponent } from './main-industries/security-and-fire/se
 import { ProductComponent } from './products/product/product.component';
 import { FiniProductLayOutComponent } from '../shared/fini-product-lay-out/fini-product-lay-out.component';
 import { ProductInfoComponent } from '../shared/product-info/product-info.component';
-import { ScrewMachinesComponent } from './screw-machines';
+import {
+  ScrewMachinesComponent,
+  MicroSeriesComponent,
+  VisionSeriesComponent,
+  PlusVsSeriesComponent,
+  PlusSeriesComponent,
+  KMaxSeriesComponent
+} from './screw-machines';
 
 
 export const declarations: any[] = [
@@ -111,8 +118,13 @@ export const declarations: any[] = [
   ValvesComponent,
   FiniProductLayOutComponent,
   ProductInfoComponent,
-  ScrewMachinesComponent
 
+  ScrewMachinesComponent,
+  MicroSeriesComponent,
+  VisionSeriesComponent,
+  PlusSeriesComponent,
+  PlusVsSeriesComponent,
+  KMaxSeriesComponent
 
 ];
 
@@ -269,7 +281,11 @@ const routes: Routes = [
   { path: 'valve/:id', component: ValvesComponent },
   { path: 'product-fs/:id', component: FiniProductLayOutComponent },
   { path: 'product-info/:id', component: ProductInfoComponent },
-  { path: 'screw-machines/:id', component: ScrewMachinesComponent }
+  { path: 'screw-machines/micro-series/:id', component: MicroSeriesComponent },
+  { path: 'screw-machines/plus-series/:id', component: PlusSeriesComponent },
+  { path: 'screw-machines/plus-vs-series/:id', component: PlusVsSeriesComponent },
+  { path: 'screw-machines/vision-series/:id', component: VisionSeriesComponent },
+
 
 
 ];

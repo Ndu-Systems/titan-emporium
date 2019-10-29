@@ -9,21 +9,10 @@ import { FiniScrew } from './models';
   styleUrls: ['./screw-machines.component.scss']
 })
 export class ScrewMachinesComponent implements OnInit {
-  productId: string;
-  FiniScrewProduct: FiniScrew[];
 
-  constructor(private activatedRoute: ActivatedRoute) { }
+  constructor() { }
 
   ngOnInit() {
-    this.activatedRoute.params.subscribe(p => { this.productId = p.id; });
-    this.getFiniScrewProducts();
-    console.log( this.FiniScrewProduct);
-   }
-
-  getFiniScrewProducts() {
-    this.FiniScrewProduct = FINI_SCREW_DATA.filter(p => p.id === this.productId);
   }
-
-
 
 }

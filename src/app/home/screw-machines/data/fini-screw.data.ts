@@ -907,7 +907,7 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
           // tslint:disable-next-line: max-line-length
           'New range poly V belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb acessibility and ease of use. The air end and other major components within all VISION compressors are deisgned and produced in house to exacting standards, ensureing maximum reliability and efficiency.',
           'VISION - Extremely Quiet, Clean, ultra reliable and Efficient',
-          ],
+        ],
         tableRows: [
           // row n
           [
@@ -1104,6 +1104,822 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
             ['13'],
             ['189'],
             ['71']
+          ],
+        ]
+      }
+      ,
+      // table 2
+      {
+        name: 'NEW VISION - Floor Mounted & Dryer ES 7.5kW to 22kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnew-group_9.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        points: [
+          // tslint:disable-next-line: max-line-length
+          'Floor mounted version with fully integrated air treatment facility including refrigerated dryer and two oil removing filters, for dry and extremely clean compressed air. Range 7.5kW to 22kW (10Hp to 30Hp). Operating at 8 Bar, 10 Bar and 13 Bar pressure.',
+          // tslint:disable-next-line: max-line-length
+          'New range poly v belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb accessibility and ease of use. The ES version includes a fully integrated refrigerated dryer and two high efficiency oil removing filters along with single point condensate outlet. The air end and other major components within all VISION ES compressors are designed and produced in house to exacting standards, ensuring maximum reliability and efficiency.',
+          'VISION ES - Extremely Quiet, Clean, ultra reliable and Efficient',
+        ],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V60SG92FNM860'],
+            ['NEW VISION 8-08 ES'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SH92FNM860'],
+            ['NEW VISION 8-10 ES'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['60'],
+            ['35'],
+            ['10'],
+            ['145'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SM92FNM860'],
+            ['NEW VISION 8-13 ES'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['189'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SN92FNM860'],
+            ['NEW VISION 11-08 ES'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SP92FNM860'],
+            ['NEW VISION 11-10 ES'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['99'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SQ92FNM860'],
+            ['NEW VISION 11-13 ES'],
+            ['11'],
+            ['15'],
+            ['1150'],
+            ['69'],
+            ['41'],
+            ['13'],
+            ['189'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SR92FNM860'],
+            ['NEW VISION 15-08 ES'],
+            ['11'],
+            ['20'],
+            ['2150'],
+            ['126'],
+            ['76'],
+            ['8'],
+            ['116'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60SS92FNM860'],
+            ['NEW VISION 15-10 ES'],
+            ['15'],
+            ['20'],
+            ['1850'],
+            ['111'],
+            ['65'],
+            ['10'],
+            ['145'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60ST92FNM860'],
+            ['NEW VISION 15-13 ES'],
+            ['15'],
+            ['20'],
+            ['1550'],
+            ['93'],
+            ['55'],
+            ['13'],
+            ['189'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60SU92FNM860'],
+            ['NEW VISION 18.5-08 ES'],
+            ['18.5'],
+            ['25'],
+            ['2800'],
+            ['168'],
+            ['99'],
+            ['8'],
+            ['116'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SV92FNM860'],
+            ['NEW VISION 18.5-10 ES'],
+            ['18.5'],
+            ['25'],
+            ['2500'],
+            ['150'],
+            ['88'],
+            ['10'],
+            ['145'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SZ92FNM860'],
+            ['NEW VISION 18.5-13 ES'],
+            ['18.5'],
+            ['25'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['13'],
+            ['189'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SJ92FNM860'],
+            ['NEW VISION 22-08 ES'],
+            ['22'],
+            ['30'],
+            ['3350'],
+            ['201'],
+            ['118'],
+            ['8'],
+            ['116'],
+            ['71']
+          ],
+          [
+            [''],
+            ['F-V60SY92FNM860'],
+            ['NEW VISION 22-10 ES'],
+            ['22'],
+            ['30'],
+            ['3000'],
+            ['180'],
+            ['106'],
+            ['10'],
+            ['145'],
+            ['71']
+          ],
+          [
+            [''],
+            ['F-V60SW92FNM860'],
+            ['NEW VISION 22-13 ES'],
+            ['22'],
+            ['30'],
+            ['2400'],
+            ['144'],
+            ['85'],
+            ['13'],
+            ['189'],
+            ['71']
+          ],
+        ]
+      },
+
+      // table 3
+      {
+        name: 'NEW VISION - 270Lt Receiver 7.5kW to 11kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnewplus-group_9_1.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'Receiver Size'],
+        points: [
+          // tslint:disable-next-line: max-line-length
+          'New range poly v belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb accessibility and ease of use.',
+          // tslint:disable-next-line: max-line-length
+          'The standard receiver mounted models in this cabinet size (7.5kW and 11kW) are conveniently mounted upon a 270Lt air receiver.',
+          // tslint:disable-next-line: max-line-length
+          'The air end and other major components within all VISION compressors are designed and produced in house to exacting standards, ensuring maximum reliability and efficiency.'
+        ],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V91SG92FNM701'],
+            ['NEW VISION 808-270'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SH92FNM701'],
+            ['NEW VISION 810-270'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['60'],
+            ['35'],
+            ['10'],
+            ['145'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SM92FNM701'],
+            ['NEW VISION 813-270'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['189'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SN92FNM701'],
+            ['NEW VISION 1108-270'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SP92FNM701'],
+            ['NEW VISION 1110-270'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['90'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SQ92FNM701'],
+            ['NEW VISION 1113-270'],
+            ['11'],
+            ['15'],
+            ['1150'],
+            ['69'],
+            ['41'],
+            ['13'],
+            ['188'],
+            ['270Lt']
+          ],
+        ]
+      },
+      // table 4
+      {
+        name: 'NEW VISION - 270Lt Receiver & Dryer 7.5kW to 11kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnewplus-group_9_1.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'Receiver Size'],
+        points: [
+          // tslint:disable-next-line: max-line-length
+          'New range poly v belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb accessibility and ease of use.',
+          // tslint:disable-next-line: max-line-length
+          'The ES version includes a fully integrated refrigerated dryer and two high efficiency oil removing filters along with single point condensate outlet',
+          // tslint:disable-next-line: max-line-length
+          'The ES receiver mounted models in this cabinet size (7.5kW and 1 kW) are conveniently mounted upon a 270 Litre air receiver. The air end and other major components within all VISION compressors are designed and produced in house to exacting standards, ensuring maximum reliability and efficiency.',
+        ],
+        tableRows: [
+          [
+            [''],
+            ['F-V91SG92FNM801'],
+            ['NEW VISION 808-270 ES'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SH92FNM801'],
+            ['NEW VISION 810-270 ES'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['60'],
+            ['35'],
+            ['10'],
+            ['145'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SM92FNM801'],
+            ['NEW VISION 813-270 ES'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['188'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SN92FNM801'],
+            ['NEW VISION 1108-270 ES'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SP92FNM801'],
+            ['NEW VISION 1110-270 ES'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['90'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['270Lt']
+          ],
+          [
+            [''],
+            ['F-V91SQ92FNM801'],
+            ['NEW VISION 1113-270 ES'],
+            ['11'],
+            ['15'],
+            ['1150'],
+            ['69'],
+            ['41'],
+            ['13'],
+            ['189'],
+            ['270Lt']
+          ],
+        ]
+      },
+
+      // table 5
+      {
+        name: 'NEW VISION - 500Lt Receiver 7.5kW to 22kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnewplus-group_9_1.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'Receiver Size'],
+        points: [
+          // tslint:disable-next-line: max-line-length
+          'New range poly v belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb accessibility and ease of use.',
+          // tslint:disable-next-line: max-line-length
+          'The standard receiver mounted models in all cabinet sizes (7.5kW to 22kW) are conveniently mounted upon a 500 Litre air receiver.',
+          // tslint:disable-next-line: max-line-length
+          'The air end and other major components within all VISION compressors are designed and produced in house to exacting standards, ensuring maximum reliability and efficiency.',
+        ],
+        tableRows: [
+          [
+            [''],
+            ['F-V83SG92FNM70'],
+            ['NEW VISION 8-08-500'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SH92FNM701'],
+            ['NEW VISION 8-10-500'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['60'],
+            ['35'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SM92FNM701'],
+            ['NEW VISION 8-13-500'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['189'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SN92FNM701'],
+            ['NEW VISION 11-08-500'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SP92FNM701'],
+            ['NEW VISION 11-10-500'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['99'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SR92FNM701'],
+            ['NEW VISION 15-08-500'],
+            ['15'],
+            ['20'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['FV83SS92FNM701'],
+            ['NEW VISION 15-10-500'],
+            ['15'],
+            ['20'],
+            ['1850'],
+            ['111'],
+            ['65'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83ST92FNM701'],
+            ['NEW VISION 15-13-500'],
+            ['15'],
+            ['20'],
+            ['1550'],
+            ['93'],
+            ['55'],
+            ['13'],
+            ['188'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SU92FNM701'],
+            ['NEW VISION 18.5-08-500'],
+            ['18.5'],
+            ['25'],
+            ['2750'],
+            ['165'],
+            ['97'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SV92FNM701'],
+            ['NEW VISION 18.5-10-500'],
+            ['18.5'],
+            ['25'],
+            ['2500'],
+            ['150'],
+            ['88'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SZ92FNM701'],
+            ['NEW VISION 18.5-13-500'],
+            ['18.5'],
+            ['25'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['13'],
+            ['188'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SJ92FNM701'],
+            ['NEW VISION 22-08-500'],
+            ['22'],
+            ['30'],
+            ['3350'],
+            ['201'],
+            ['118'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SY92FNM701'],
+            ['NEW VISION 22-10-500'],
+            ['22'],
+            ['30'],
+            ['3000'],
+            ['180'],
+            ['106'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SW92FNM701'],
+            ['NEW VISION 22-13-500'],
+            ['22'],
+            ['30'],
+            ['2400'],
+            ['144'],
+            ['85'],
+            ['13'],
+            ['188'],
+            ['500Lt']
+          ],
+        ]
+      },
+
+      // table 6
+      {
+        name: 'NEW VISION - 500Lt Receiver & Dryer 7.5kW to 22kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnewplus-group_9_1.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'Receiver Size'],
+        points: [
+          // tslint:disable-next-line: max-line-length
+          'New range poly v belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels.',
+          // tslint:disable-next-line: max-line-length
+          'All versions offer superb accessibility and ease of use. The ES version includes a fully integrated refrigerated dryer and two high efficiency oil removing filters along with single point condensate outlet',
+          // tslint:disable-next-line: max-line-length
+          'The ES receiver mounted (500 Litre) models in both cabinet sizes (7.5kW and 11kW and 15kW to 22kW) are conveniently mounted upon a larger 500 Litre air receiver.',
+          // tslint:disable-next-line: max-line-length
+          'The air end and other major components within all VISION compressors are designed and produced in house to exacting standards, ensuring maximum reliability and efficiency.',
+        ],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V83SG92FNM801'],
+            ['NEW VISION 8-08-500 ES'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SH92FNM801'],
+            ['NEW VISION 810-500 ES'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['60'],
+            ['35'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SM92FNM801'],
+            ['NEW VISION 8-13-500 ES'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['189'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SN92FNM801'],
+            ['NEW VISION 11-08-500 ES'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SP92FNM801'],
+            ['NEW VISION 11-10-500 ES'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['90'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SQ92FNM801'],
+            ['NEW VISION 11-13-500 ES'],
+            ['11'],
+            ['15'],
+            ['1150'],
+            ['69'],
+            ['41'],
+            ['13'],
+            ['189'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SR92FNM801'],
+            ['NEW VISION 15-08-500 ES'],
+            ['15'],
+            ['20'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SS92FNM801'],
+            ['NEW VISION 15-10-500 ES'],
+            ['15'],
+            ['20'],
+            ['1850'],
+            ['111'],
+            ['65'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83ST92FNM801'],
+            ['NEW VISION 15-13-500 ES'],
+            ['15'],
+            ['20'],
+            ['1550'],
+            ['93'],
+            ['55'],
+            ['13'],
+            ['189'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SU92FNM801'],
+            ['NEW VISION 18.5-08-500 ES'],
+            ['18.5'],
+            ['25'],
+            ['2800'],
+            ['168'],
+            ['99'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SV92FNM801'],
+            ['NEW VISION 18.5-10-500 ES'],
+            ['18.5'],
+            ['25'],
+            ['2500'],
+            ['150'],
+            ['88'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SZ92FNM801'],
+            ['NEW VISION 18.5-13-500 ES'],
+            ['18.5'],
+            ['25'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['13'],
+            ['189'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SJ92FNM801'],
+            ['NEW VISION 22-08-500 ES'],
+            ['22'],
+            ['30'],
+            ['3350'],
+            ['201'],
+            ['118'],
+            ['8'],
+            ['116'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SY92FNM801'],
+            ['NEW VISION 22-10-500 ES'],
+            ['22'],
+            ['30'],
+            ['3000'],
+            ['180'],
+            ['106'],
+            ['10'],
+            ['145'],
+            ['500Lt']
+          ],
+          [
+            [''],
+            ['F-V83SW92FNM801'],
+            ['NEW VISION 22-13-500 ES'],
+            ['22'],
+            ['30'],
+            ['2400'],
+            ['144'],
+            ['85'],
+            ['13'],
+            ['188'],
+            ['500Lt']
           ],
         ]
       }

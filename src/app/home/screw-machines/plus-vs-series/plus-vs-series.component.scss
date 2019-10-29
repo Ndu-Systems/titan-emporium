@@ -71,10 +71,13 @@
         padding: 2em;
 
       }
+      .col-1-of-2 {
+        grid-template-columns: 20% auto;
+      }
 
 
       h1 {
-        text-align: center;
+        text-align: left;
       }
 
       .header-image {

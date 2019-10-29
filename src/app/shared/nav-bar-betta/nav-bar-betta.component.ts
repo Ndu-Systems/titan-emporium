@@ -165,7 +165,7 @@ export class NavBarBettaComponent implements OnInit {
             },
             {
               name: 'VISION Series 7.5kW – 22kW ',
-              url: ''
+              url: 'screw-machines/vision-series/vision'
             },
             {
               name: 'K-MAX Series 7.5kW – 90kW ',

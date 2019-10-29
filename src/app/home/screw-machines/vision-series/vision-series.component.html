@@ -1,3 +1,89 @@
-<p>
-  vision-series works!
-</p>
+<!-- this is for Fini Screws for now to seperate to a different component -->
+<div class="main-parent">
+  <div class="parent">
+    <div class="top-child">
+      <div class="bg bg-left"></div>
+      <div class="bg bg-right"></div>
+    </div>
+    <div class="content" *ngIf="visionProduct">
+      <h1>{{visionProduct[0]?.heading}}</h1>
+      <div class="header-image">
+        <img src="{{visionProduct[0]?.headerImage}}" alt="header image">
+      </div>
+      <div class="product-table" *ngFor="let tableData of visionProduct[0]?.tables">
+        <div class="table">
+          <div class="table-banner col-1-of-2">
+            <div class="banner-image">
+              <img src="{{tableData.imageUrl}}" alt="banner image">
+            </div>
+            <div class="banner-title">
+              <h1>
+                {{tableData.name}}
+              </h1>
+              <div class="points">
+                <ul>
+                  <li *ngFor="let p of tableData.points">{{p}}</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <table id="customers">
+            <tr>
+              <th *ngFor="let header of tableData.tableHeadings">{{header}}</th>
+            </tr>
+            <ng-container *ngFor="let tr of tableData.tableRows">
+              <tr>
+                <td *ngFor="let td of tr">{{td}}</td>
+              </tr>
+            </ng-container>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="footer">
+  <div class="box">
+    <h1>Follow Us</h1>
+    <ul>
+      <li>
+        <a href="https://www.facebook.com/titanemporium/" target="_blank">Facebook</a>
+      </li>
+      <li>
+        <a href="https://www.instagram.com/the_titan_emporiump/" target="_blank">Instagram</a>
+      </li>
+      <!-- <li>
+                <a href="">Twitter</a>
+              </li> -->
+    </ul>
+  </div>
+
+  <div class="box">
+    <h1>Sales Address</h1>
+    <p>
+      Village industrial park <br>
+      Unit A6, <br>
+      51 Rosettenville rd<br>
+      Village main <br>
+      Johannesburg 2001<br>
+    </p>
+  </div>
+  <div class="box">
+    <h1>Workshop Address</h1>
+    <p>
+      Village industrial park <br>
+      Unit C6, <br>
+      51 Rosettenville rd<br>
+      Village main <br>
+      Johannesburg 2001<br>
+    </p>
+  </div>
+
+  <div class="box">
+    <h1>Contact Us</h1>
+    <p>
+      Phone: 011 338 6008 <br />
+      Email : info@titanemporium.co.za <br />
+    </p>
+  </div>
+</div>

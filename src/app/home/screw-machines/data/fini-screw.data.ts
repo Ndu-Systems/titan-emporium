@@ -701,181 +701,414 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
       'Variable speed versions available (22, 37, 55 and 75 kW)',
     ],
     tables: [
-        // table 1
-        {
-          name: 'Floor Mounted 22kW - 75kW Variable Speed',
-          imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
-          tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
-          tableRows: [
-            // row n
-            [
-              [''],
-              ['F-V60QD97FNM760'],
-              ['PLUS 2208 VS Variable Speed'],
-              ['22'],
-              ['30'],
-              ['3350 - 1350'],
-              ['201 - 81'],
-              ['118 - 48'],
-              ['8'],
-              ['116'],
-              ['68']
-            ],
-            [
-              [''],
-              ['F-V60QE97FNM760'],
-              ['PLUS 2210 VS Variable Speed'],
-              ['22'],
-              ['30'],
-              ['3050 - 1220'],
-              ['183 - 73.2'],
-              ['108 - 43'],
-              ['10'],
-              ['145'],
-              ['68']
-            ],
-            [
-              [''],
-              ['F-V60BK97FNM760'],
-              ['PLUS 3808 VS Variable Speed'],
-              ['37'],
-              ['50'],
-              ['5900 - 2350'],
-              ['354 - 141'],
-              ['208 - 83'],
-              ['8'],
-              ['116'],
-              ['72']
-            ],
-            [
-              [''],
-              ['F-V60BJ97FNM760'],
-              ['PLUS 3810 VS Variable Speed'],
-              ['37'],
-              ['50'],
-              ['5200 - 2050'],
-              ['312 - 123'],
-              ['184 - 72'],
-              ['10'],
-              ['145'],
-              ['72']
-            ],
-            [
-              [''],
-              ['F-V60BA97FNM760'],
-              ['PLUS 5608 VS Variable Speed'],
-              ['55'],
-              ['75'],
-              ['9300 - 3700'],
-              ['558 - 222'],
-              ['328 - 131'],
-              ['7.5'],
-              ['109'],
-              ['70']
-            ],
-            [
-              [''],
-              ['F-V60BB97FNM760'],
-              ['PLUS 5610 VS Variable Speed'],
-              ['55'],
-              ['75'],
-              ['8300 - 3300'],
-              ['498 - 198'],
-              ['293 - 116'],
-              ['10'],
-              ['145'],
-              ['70']
-            ],
-            [
-              [''],
-              ['F-V60BD97FNM760'],
-              ['PLUS 7508 VS Variable Speed'],
-              ['75'],
-              ['100'],
-              ['12200 - 4800'],
-              ['732 - 288'],
-              ['431 - 169'],
-              ['7.5'],
-              ['109'],
-              ['72']
-            ],
-            [
-              [''],
-              ['F-V60BE97FNM760'],
-              ['PLUS 7510 VS Variable Speed'],
-              ['75'],
-              ['100'],
-              ['10500 - 4200'],
-              ['630 - 252'],
-              ['371 - 148'],
-              ['10'],
-              ['145'],
-              ['72']
-            ],
-          ]
-        },
-        // table 2
-        {
-          name: 'Floor Mounted 22kW - 38kW Variable Speed & Dryer',
-          imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
-          tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
-          tableRows: [
-            // row n
-            [
-              [''],
-              ['F-V60QD97FNM860'],
-              ['PLUS 2208 VS ES Variable Speed'],
-              ['22'],
-              ['30'],
-              ['3350 - 1350'],
-              ['201 - 81'],
-              ['118 - 48'],
-              ['8'],
-              ['116'],
-              ['68']
-            ],
-            [
-              [''],
-              ['F-V60QE97FNM860'],
-              ['PLUS 2210 VS ES Variable Speed'],
-              ['22'],
-              ['30'],
-              ['3050 - 1220'],
-              ['183 - 73.2'],
-              ['108 - 43'],
-              ['10'],
-              ['145'],
-              ['68']
-            ],
-            [
-              [''],
-              ['F-V60BK97FNM860'],
-              ['PLUS 3808 VS ES Variable Speed'],
-              ['37'],
-              ['50'],
-              ['5900 - 2350'],
-              ['354 - 141'],
-              ['208 - 83'],
-              ['8'],
-              ['145'],
-              ['68']
-            ],
-            [
-              [''],
-              ['F-V60BJ97FNM860'],
-              ['PLUS 3810 VS ES Variable Speed'],
-              ['37'],
-              ['50'],
-              ['5200 - 2050'],
-              ['312 - 123'],
-              ['184 - 72'],
-              ['10'],
-              ['145'],
-              ['72']
-            ],
-          ]
-        }
+      // table 1
+      {
+        name: 'Floor Mounted 22kW - 75kW Variable Speed',
+        imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V60QD97FNM760'],
+            ['PLUS 2208 VS Variable Speed'],
+            ['22'],
+            ['30'],
+            ['3350 - 1350'],
+            ['201 - 81'],
+            ['118 - 48'],
+            ['8'],
+            ['116'],
+            ['68']
+          ],
+          [
+            [''],
+            ['F-V60QE97FNM760'],
+            ['PLUS 2210 VS Variable Speed'],
+            ['22'],
+            ['30'],
+            ['3050 - 1220'],
+            ['183 - 73.2'],
+            ['108 - 43'],
+            ['10'],
+            ['145'],
+            ['68']
+          ],
+          [
+            [''],
+            ['F-V60BK97FNM760'],
+            ['PLUS 3808 VS Variable Speed'],
+            ['37'],
+            ['50'],
+            ['5900 - 2350'],
+            ['354 - 141'],
+            ['208 - 83'],
+            ['8'],
+            ['116'],
+            ['72']
+          ],
+          [
+            [''],
+            ['F-V60BJ97FNM760'],
+            ['PLUS 3810 VS Variable Speed'],
+            ['37'],
+            ['50'],
+            ['5200 - 2050'],
+            ['312 - 123'],
+            ['184 - 72'],
+            ['10'],
+            ['145'],
+            ['72']
+          ],
+          [
+            [''],
+            ['F-V60BA97FNM760'],
+            ['PLUS 5608 VS Variable Speed'],
+            ['55'],
+            ['75'],
+            ['9300 - 3700'],
+            ['558 - 222'],
+            ['328 - 131'],
+            ['7.5'],
+            ['109'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60BB97FNM760'],
+            ['PLUS 5610 VS Variable Speed'],
+            ['55'],
+            ['75'],
+            ['8300 - 3300'],
+            ['498 - 198'],
+            ['293 - 116'],
+            ['10'],
+            ['145'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60BD97FNM760'],
+            ['PLUS 7508 VS Variable Speed'],
+            ['75'],
+            ['100'],
+            ['12200 - 4800'],
+            ['732 - 288'],
+            ['431 - 169'],
+            ['7.5'],
+            ['109'],
+            ['72']
+          ],
+          [
+            [''],
+            ['F-V60BE97FNM760'],
+            ['PLUS 7510 VS Variable Speed'],
+            ['75'],
+            ['100'],
+            ['10500 - 4200'],
+            ['630 - 252'],
+            ['371 - 148'],
+            ['10'],
+            ['145'],
+            ['72']
+          ],
+        ]
+      },
+      // table 2
+      {
+        name: 'Floor Mounted 22kW - 38kW Variable Speed & Dryer',
+        imageUrl: `assets/products/screw-machines/fini-screw/PLUS_30-37-45-55-75_VARIABLE_SPEED_CATEGORY.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V60QD97FNM860'],
+            ['PLUS 2208 VS ES Variable Speed'],
+            ['22'],
+            ['30'],
+            ['3350 - 1350'],
+            ['201 - 81'],
+            ['118 - 48'],
+            ['8'],
+            ['116'],
+            ['68']
+          ],
+          [
+            [''],
+            ['F-V60QE97FNM860'],
+            ['PLUS 2210 VS ES Variable Speed'],
+            ['22'],
+            ['30'],
+            ['3050 - 1220'],
+            ['183 - 73.2'],
+            ['108 - 43'],
+            ['10'],
+            ['145'],
+            ['68']
+          ],
+          [
+            [''],
+            ['F-V60BK97FNM860'],
+            ['PLUS 3808 VS ES Variable Speed'],
+            ['37'],
+            ['50'],
+            ['5900 - 2350'],
+            ['354 - 141'],
+            ['208 - 83'],
+            ['8'],
+            ['145'],
+            ['68']
+          ],
+          [
+            [''],
+            ['F-V60BJ97FNM860'],
+            ['PLUS 3810 VS ES Variable Speed'],
+            ['37'],
+            ['50'],
+            ['5200 - 2050'],
+            ['312 - 123'],
+            ['184 - 72'],
+            ['10'],
+            ['145'],
+            ['72']
+          ],
+        ]
+      }
     ]
+  },
+  // vision products
+  {
+    id: 'vision',
+    heading: 'NEW VISION 7.5KW - 22KW RANGE',
+    headerImage: `assets/products/screw-machines/fini-screw/VISION-DRYERGR-SMALL_5.jpg`,
+    headerPoints: [
+      'High Efficiency IE3 Motors',
+      'Compact modular design - choose your option',
+      'Fixed Speed Drive',
+      '12,000 Hour Poly-V Belts',
+      '8, 10 and 13 bar options',
+      'EasyTronic IV Electronic controller',
+      'Lower Service Costs',
+      'Start Delta Starting on all models',
+      'Lower Noise Levels',
+      'Floor & Receiver mounted',
+      'Integral refrigerated dryer with dual filtration on all models',
+      'Fitted with long life synthetic lubricant'
+    ],
+    tables: [
+      // table 1
+      {
+        name: 'Floor Mounted 22kW - 38kW Variable Speed & Dryer',
+        imageUrl: `assets/products/screw-machines/fini-screw/visionnew-group_9.jpg`,
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'kW', 'Hp', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        points: [
+          'Floor mounted version. Range 7.5kW to 22kW (10Hp to 30Hp). Operating at 8 Bar, 10 Bar and 13 Bar pressure.',
+          // tslint:disable-next-line: max-line-length
+          'New range poly V belt driven rotary screw compressor with advanced control system, low operating speed and extremely low noise levels. All versions offer superb acessibility and ease of use. The air end and other major components within all VISION compressors are deisgned and produced in house to exacting standards, ensureing maximum reliability and efficiency.',
+          'VISION - Extremely Quiet, Clean, ultra reliable and Efficient',
+          ],
+        tableRows: [
+          // row n
+          [
+            [''],
+            ['F-V60SG92FNM760'],
+            ['NEW VISION 808'],
+            ['7.5'],
+            ['10'],
+            ['1250'],
+            ['75'],
+            ['44'],
+            ['8'],
+            ['116'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SH92FNM760'],
+            ['NEW VISION 810'],
+            ['7.5'],
+            ['10'],
+            ['1000'],
+            ['183 - 73.2'],
+            ['60'],
+            ['35'],
+            ['145'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SM92FNM760'],
+            ['NEW VISION 813'],
+            ['7.5'],
+            ['10'],
+            ['750'],
+            ['45'],
+            ['27'],
+            ['13'],
+            ['189'],
+            ['62']
+          ],
+          [
+            [''],
+            ['F-V60SN92FNM760'],
+            ['NEW VISION 1108'],
+            ['11'],
+            ['15'],
+            ['1650'],
+            ['99'],
+            ['58'],
+            ['8'],
+            ['116'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SP92FNM760'],
+            ['NEW VISION 1110'],
+            ['11'],
+            ['15'],
+            ['1500'],
+            ['90'],
+            ['53'],
+            ['10'],
+            ['145'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SQ92FNM760'],
+            ['NEW VISION 1113'],
+            ['11'],
+            ['15'],
+            ['1150'],
+            ['69'],
+            ['41'],
+            ['13'],
+            ['189'],
+            ['63']
+          ],
+          [
+            [''],
+            ['F-V60SR92FNM760'],
+            ['NEW VISION 1508'],
+            ['15'],
+            ['20'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['8'],
+            ['116'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60SS92FNM760'],
+            ['NEW VISION 1510'],
+            ['15'],
+            ['20'],
+            ['1850'],
+            ['111'],
+            ['65'],
+            ['10'],
+            ['145'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60ST92FNM760'],
+            ['NEW VISION 1513'],
+            ['15'],
+            ['20'],
+            ['1550'],
+            ['93'],
+            ['55'],
+            ['13'],
+            ['189'],
+            ['64']
+          ],
+          [
+            [''],
+            ['F-V60SU92FNM760'],
+            ['NEW VISION 18.508'],
+            ['18.5'],
+            ['25'],
+            ['2800'],
+            ['168'],
+            ['99'],
+            ['8'],
+            ['116'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SV92FNM760'],
+            ['NEW VISION 18.510'],
+            ['18.5'],
+            ['25'],
+            ['2500'],
+            ['150'],
+            ['88'],
+            ['10'],
+            ['145'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SZ92FNM760'],
+            ['NEW VISION 18.513'],
+            ['18.5'],
+            ['25'],
+            ['2150'],
+            ['129'],
+            ['76'],
+            ['13'],
+            ['189'],
+            ['70']
+          ],
+          [
+            [''],
+            ['F-V60SJ92FNM760'],
+            ['NEW VISION 2208'],
+            ['22'],
+            ['30'],
+            ['3350'],
+            ['201'],
+            ['118'],
+            ['8'],
+            ['116'],
+            ['71']
+          ],
+          [
+            [''],
+            ['F-V60SY92FNM760'],
+            ['NEW VISION 2210'],
+            ['22'],
+            ['30'],
+            ['3000'],
+            ['180'],
+            ['106'],
+            ['10'],
+            ['145'],
+            ['71']
+          ],
+          [
+            [''],
+            ['F-V60SW92FNM760'],
+            ['NEW VISION 2213'],
+            ['22'],
+            ['30'],
+            ['2400'],
+            ['144'],
+            ['85'],
+            ['13'],
+            ['189'],
+            ['71']
+          ],
+        ]
+      }
+    ]
+
   }
 
 ];

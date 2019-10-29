@@ -48,7 +48,14 @@ import { SecurityAndFireComponent } from './main-industries/security-and-fire/se
 import { ProductComponent } from './products/product/product.component';
 import { FiniProductLayOutComponent } from '../shared/fini-product-lay-out/fini-product-lay-out.component';
 import { ProductInfoComponent } from '../shared/product-info/product-info.component';
-import { ScrewMachinesComponent, MicroSeriesComponent, VisionSeriesComponent, PlusVsSeriesComponent, PlusSeriesComponent, KMaxSeriesComponent } from './screw-machines';
+import {
+  ScrewMachinesComponent,
+  MicroSeriesComponent,
+  VisionSeriesComponent,
+  PlusVsSeriesComponent,
+  PlusSeriesComponent,
+  KMaxSeriesComponent
+} from './screw-machines';
 
 
 export const declarations: any[] = [
@@ -277,6 +284,7 @@ const routes: Routes = [
   { path: 'screw-machines/micro-series/:id', component: MicroSeriesComponent },
   { path: 'screw-machines/plus-series/:id', component: PlusSeriesComponent },
   { path: 'screw-machines/plus-vs-series/:id', component: PlusVsSeriesComponent },
+  { path: 'screw-machines/vision-series/:id', component: VisionSeriesComponent },
 
 
 

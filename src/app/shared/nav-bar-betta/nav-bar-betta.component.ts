@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NavBarBettaComponent implements OnInit {
   navigation: NavigationModel[] = [];
-  showMobleMenu: boolean=true;
+  showMobleMenu: boolean = true;
   showMegamenu: boolean;
   megaItems: NavigationModel;
   products: ProductModel[] = [
@@ -18,11 +18,11 @@ export class NavBarBettaComponent implements OnInit {
       items: [
         {
           name: 'NUAIR AND ABAC',
-          url: ''
+          url: 'product/shamal-nuair'
         },
         {
           name: 'FINI',
-          url: ''
+          url: 'product/fini-belt-driven-compressor-pumps'
         }
       ],
       subs: [
@@ -31,16 +31,16 @@ export class NavBarBettaComponent implements OnInit {
           items: [
             {
               name: 'CAST IRON 14BAR',
-              url: ''
+              url: 'product/solidair_castiron_14BAR_pump'
             },
 
             {
               name: 'CAST IRON HIGH PRESSURE',
-              url: ''
+              url: 'product/solidair_castiron_highpressure_pump'
             },
             {
               name: 'Cast Iron Vacuum Pumps',
-              url: ''
+              url: 'product/solidair_castiron_vacuumpump'
             },
 
           ]
@@ -66,7 +66,8 @@ export class NavBarBettaComponent implements OnInit {
           heading: 'Safey Valve',
           items: [
             {
-              name: '  Soft Seat Saftey Valve', url: ''
+              name: 'Soft Seat Saftey Valve',
+              url: 'valve/seat-safety-valves'
             }
           ]
 
@@ -75,9 +76,9 @@ export class NavBarBettaComponent implements OnInit {
           heading: 'Check Valves',
           items: [
             { url: '', name: '90 Degree Check Valves ( Add)' },
-            { url: '', name: 'In tank Check Valves' },
-            { url: '', name: 'In Line Check Valve' },
-            { url: '', name: 'Horizontal In Line Check Valve' }
+            { url: 'valve/tank-check-valves', name: 'In tank Check Valves' },
+            { url: 'valve/line-check-valves', name: 'In Line Check Valve' },
+            { url: 'valve/horizontal-line-check-valves', name: 'Horizontal In Line Check Valve' }
 
           ]
         }
@@ -85,8 +86,8 @@ export class NavBarBettaComponent implements OnInit {
           heading: 'Petrol & Diesel Valve',
           items: [
             {
-              name: '',
-              url: 'Governor Valve ( Add)'
+              name: 'Governor Valve ( Add)',
+              url: ''
             }
           ]
         },
@@ -94,15 +95,15 @@ export class NavBarBettaComponent implements OnInit {
           heading: 'Unloader pillot Valve',
           items: [
             { url: '', name: 'IR auxiliary valve (Add)' },
-            { url: '', name: 'RC Series Pilot Valves' },
-            { url: '', name: 'RCL Series Pilot Valves' },
+            { url: 'product/rc-series-pilot-valves', name: 'RC Series Pilot Valves' },
+            { url: 'product/rcl-series-pilot-valves', name: 'RCL Series Pilot Valves' },
           ]
         },
         {
           heading: 'Throttle Controlae',
           items: [
-            { url: '', name: 'Cable Style Throttle Controls' },
-            { url: '', name: 'Airline style throttle Controls' }
+            { url: 'valve/product/cable-style-throttle-controls', name: 'Cable Style Throttle Controls' },
+            { url: 'product/airline-style-throttle-controls', name: 'Airline style throttle Controls' }
           ]
         }
       ]
@@ -136,11 +137,11 @@ export class NavBarBettaComponent implements OnInit {
           items: [
             {
               name: 'BELT DRIVE (AHB SERIES)',
-              url: '',
+              url: 'product-fs/belt-driven-type-ahb-series',
             },
             {
               name: 'DIRECT DRIVE (AHD SERIES)',
-              url: '',
+              url: 'product-fs/direct-driven-type-ahd-series',
             }
           ]
         },
@@ -186,7 +187,7 @@ export class NavBarBettaComponent implements OnInit {
         },
         {
           name: 'FINI',
-          url: ''
+          url: 'product/fini-belt-driven-compressor-pumps'
         },
         {
           name: 'FESCOLO',

@@ -5,6 +5,11 @@
     alt="" />
     
 <div class="mobile-menu" *ngIf="showMobleMenu" >
+    <div class="back" (click)="toggleMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
   <h1>
       the titan emporium  </h1>
     <ul>
@@ -44,11 +49,11 @@
   <div class="cards">
     <div class="card" *ngFor="let menuitem of products">
       <h1>
-        {{ menuitem.heading}}
+        {{ menuitem.heading}} 
       </h1>
       <div class="items" *ngFor="let item of menuitem.items">
         <p>
-          <a [routerLink]="item.url"> {{item.name}}</a>
+          <a [routerLink]="item.url" (click)="toggleMegaMenu()"> {{item.name}}</a>
         </p>
       </div>
       <div class="subs" *ngFor="let sub of menuitem.subs">
@@ -57,7 +62,7 @@
         </h2>
         <div class="subs" *ngFor="let subitmem of sub.items">
           <p>
-            <a [routerLink]="subitmem.url"> {{subitmem.name}}</a>
+            <a [routerLink]="subitmem.url" (click)="toggleMegaMenu()"> {{subitmem.name}}</a>
           </p>
 
         </div>

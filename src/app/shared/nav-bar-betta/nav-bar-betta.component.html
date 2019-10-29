@@ -5,12 +5,17 @@
     alt="" />
 
 <div class="mobile-menu" *ngIf="showMobleMenu" >
+    <div class="back" (click)="toggleMenu()">
+        <h1 >
+            <i class="pi pi-arrow-left"></i> Back
+        </h1>
+      </div>
   <h1>
       the titan emporium  </h1>
     <ul>
         <li *ngFor="let menu of navigation" class="dropdown">
-          <a *ngIf="!menu.isMega" [routerLink]="menu.url">{{menu.name}}</a>
-          <a *ngIf="menu.isMega" (mouseenter)="showMegaMenuHover(menu.name)" class="megamenu-tab"
+          <a *ngIf="!menu.isMega"  (click)="toggleMenu()" [routerLink]="menu.url">{{menu.name}}</a>
+          <a *ngIf="menu.isMega"  (click)="toggleMenu()" (mouseenter)="showMegaMenuHover(menu.name)" class="megamenu-tab"
             [routerLink]="menu.url">{{menu.name}}</a>
         </li>
       </ul>
@@ -44,7 +49,7 @@
   <div class="cards">
     <div class="card" *ngFor="let menuitem of products">
       <h1>
-        {{ menuitem.heading}}
+        {{ menuitem.heading}} 
       </h1>
       <div class="items" *ngFor="let item of menuitem.items">
         <p>

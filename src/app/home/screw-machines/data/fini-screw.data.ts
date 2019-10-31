@@ -1925,7 +1925,126 @@ export const FINI_SCREW_DATA: FiniScrew[] = [
       }
     ]
 
+  },
+  // k-max products
+  {
+    id: 'kmax',
+    heading: 'NEW K-MAX RANGE',
+    tables: [
+      {
+        name: 'NEW K-MAX 5.5kW - 7.5kW - 11kW - 15kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/K-Max-_5_2.5-11-small.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Floor mounted, receiver mounted and receiver mounted with dryer versions.',
+          'Star Delta Starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.'
+        ]
+      },
+      {
+        name: 'NEW K-MAX VS Variable Speed 7.5kW - 11kW - 15kW',
+        imageUrl: `assets/products/screw-machines/fini-screw/K-Max-_5_2.5-11-small.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'Integrated speed control.',
+          'Up to 28% energy savings when compared to standard compressors.',
+          'Constant pressure control saves energy and improves efficiency.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Floor mounted, receiver mounted and receiver mounted with dryer versions.',
+          'Star delta starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.'
+        ]
+      },
+      {
+        name: 'NEW K-MAX 22kW - 37kW Fixed Speed',
+        imageUrl: `assets/products/screw-machines/fini-screw/k_max_group_22_38.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'Integrated speed control.',
+          'Up to 28% energy savings when compared to standard compressors.',
+          'Constant pressure control saves energy and improves efficiency.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Floor mounted, receiver mounted and receiver mounted with dryer versions.',
+          'Star delta starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.'
+        ]
+      },
+      {
+        name: 'NEW K-MAX 22kW - 37kW Variable Speed',
+        imageUrl: `assets/products/screw-machines/fini-screw/k_max_group_22_38_1.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'Integrated speed control.',
+          'Up to 28% energy savings when compared to standard compressors.',
+          'Constant pressure control saves energy and improves efficiency.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Floor mounted, receiver mounted and receiver mounted with dryer versions.',
+          'Star delta starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.'
+        ]
+      },
+      {
+        name: 'NEW K-MAX Range 45kW - 90kW Fixed Speed Floor Mounted',
+        imageUrl: `assets/products/screw-machines/fini-screw/K-MAX_90_1_1.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'Integrated speed control.',
+          'Up to 28% energy savings when compared to standard compressors.',
+          'Constant pressure control saves energy and improves efficiency.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Star delta starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+          '',
+          '',
+          '',
+          '',
+        ]
+      },
+      {
+        name: 'NEW K-MAX Range 45kW - 90kW Fixed Speed Floor Mounted',
+        imageUrl: `assets/products/screw-machines/fini-screw/K-MAX_75-90_1.jpg`,
+        points: [
+          'Unique ZERO loss direct drive transmission system.',
+          'Compact modern design.',
+          'Integrated speed control.',
+          'Up to 28% energy savings when compared to standard compressors.',
+          'Constant pressure control saves energy and improves efficiency.',
+          'IE3 electric motor allowing reduced energy consumption.',
+          'Easy and convenient service access.',
+          'Star delta starter.',
+          'Extremely quiet operation.',
+          'Very high output and reduced energy consumption.',
+          '8 Bar, 10 Bar and 13 Bar versions.',
+          'Fitted with long life synthetic lubricant.',
+        ]
+      },
+    ]
   }
-
 ];
 

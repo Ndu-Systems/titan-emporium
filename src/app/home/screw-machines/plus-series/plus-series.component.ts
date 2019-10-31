@@ -18,7 +18,7 @@ export class PlusSeriesComponent implements OnInit {
   ngOnInit() {
     this.activatedRoute.params.subscribe(p => { this.productId = p.id; });
     this.getPlusProducts();
-    console.log(this.plusProduct);
+
   }
   getPlusProducts() {
     this.plusProduct = FINI_SCREW_DATA.filter(p => p.id === this.productId);

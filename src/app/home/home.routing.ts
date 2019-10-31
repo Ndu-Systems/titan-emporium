@@ -285,6 +285,7 @@ const routes: Routes = [
   { path: 'screw-machines/plus-series/:id', component: PlusSeriesComponent },
   { path: 'screw-machines/plus-vs-series/:id', component: PlusVsSeriesComponent },
   { path: 'screw-machines/vision-series/:id', component: VisionSeriesComponent },
+  { path: 'screw-machines/k-max-series/:id', component: KMaxSeriesComponent },
 
 
 

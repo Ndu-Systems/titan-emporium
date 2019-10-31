@@ -170,7 +170,7 @@ export class NavBarBettaComponent implements OnInit {
             },
             {
               name: 'K-MAX Series 7.5kW – 90kW ',
-              url: ''
+              url: 'screw-machines/k-max-series/kmax'
             },
           ]
         }

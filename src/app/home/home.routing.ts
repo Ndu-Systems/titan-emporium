@@ -56,6 +56,12 @@ import {
   PlusSeriesComponent,
   KMaxSeriesComponent
 } from './screw-machines';
+import {
+  FiniMedicairComponent,
+  FiniSilentAirComponent,
+  FiniAirLabComponent,
+  OilFreePetComponent
+} from './Oil-Free';
 
 
 export const declarations: any[] = [
@@ -124,7 +130,12 @@ export const declarations: any[] = [
   VisionSeriesComponent,
   PlusSeriesComponent,
   PlusVsSeriesComponent,
-  KMaxSeriesComponent
+  KMaxSeriesComponent,
+
+  FiniMedicairComponent,
+  FiniSilentAirComponent,
+  FiniAirLabComponent,
+  OilFreePetComponent
 
 ];
 
@@ -286,6 +297,11 @@ const routes: Routes = [
   { path: 'screw-machines/plus-vs-series/:id', component: PlusVsSeriesComponent },
   { path: 'screw-machines/vision-series/:id', component: VisionSeriesComponent },
   { path: 'screw-machines/k-max-series/:id', component: KMaxSeriesComponent },
+
+  { path: 'oil-free/fini-medicair/:id', component: FiniMedicairComponent },
+  { path: 'oil-free/fini-silentair/:id', component: FiniSilentAirComponent },
+  { path: 'oil-free/fini-airlab/:id', component: FiniAirLabComponent },
+  { path: 'oil-free/oil-free-pet/:id', component: OilFreePetComponent }
 
 
 

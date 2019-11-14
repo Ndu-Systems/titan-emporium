@@ -221,8 +221,22 @@ export class NavBarBettaComponent implements OnInit {
     {
       heading: 'Oil Free',
       items: [
-        { name: 'FINI MEDICAIR', url: '' },
-        { name: 'Oil Free PET ( Add)', url: '' },
+        {
+          name: 'FINI MEDICAIR',
+          url: 'oil-free/fini-medicair/medicair'
+        },
+        {
+          name: 'FINI-SILENT AIR',
+          url: 'oil-free/fini-silentair/silentair'
+        },
+        {
+          name: 'FINI AIR LAB',
+          url: 'oil-free/fini-airlab/airlab'
+        },
+        {
+          name: 'Oil Free PET ( Add)',
+          url: 'oil-free/oil-free-pet/pet'
+        },
       ]
     },
 

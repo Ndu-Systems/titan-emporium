@@ -128,6 +128,223 @@ export const OIL_FREE_DATA: OilFree[] = [
         ]
       }
     ]
+  },
+  // silent air
+  {
+    id: 'silentair',
+    heading: 'FINI-SIL DRY SILENCED OIL FREE COMPRESSORS FOR LABS AND SPECIAL APPLICATIONS',
+
+    headerPoints: [
+      // tslint:disable-next-line: max-line-length
+      'Sil - Dry OF / OFT series is a new range of silent oil - free dental compressors developed by Fini with the aim to complete the well known Dr Sonic and Med Series.These dental compressors are particularly suitable for small dentist surgeries and small dental laboratories.The main characteristics being extremely quiet operation 55-57 dB(A), compact convenient design, low maintenance and reliable operation. Available with or without adsorption dryer. Range 0.55kW to 1.5kW, 60 L/min/ 17 L/min, air receivers at 24Lt and 50Lt.'
+    ],
+    tables: [
+      // table 1
+      {
+        name: 'SIL-DRY - Single Phase Oilless Compressors',
+        imageUrl: 'assets/products/oil-free/OF_750-24F-1M.jpg',
+        // tslint:disable-next-line: max-line-length
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'Chairs', 'Receiver Size', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        tableRows: [
+          [
+            [''],
+            ['F-FOCC104FNM458'],
+            ['OF750-24F-0.75M Sil-Dry Open'],
+            ['1-2'],
+            ['24Lt'],
+            ['85'],
+            ['3'],
+            ['8'],
+            ['116'],
+            ['55'],
+            ['230']
+          ],
+          [
+            [''],
+            ['F-FOCN104FNM450'],
+            ['OF550-24F-0.75M'],
+            ['1'],
+            ['24Lt'],
+            ['60'],
+            ['3.6'],
+            ['2.1'],
+            ['8'],
+            ['116'],
+            ['55']
+          ],
+        ]
+      },
+    ]
+  }
+  ,
+  // air lab
+  {
+    id: 'airlab',
+    heading: 'FINI-AIR LAB OIL FREE COMPRESSORS',
+    headerImage: 'assets/products/oil-free/airlabgroup_L3_1.jpg',
+    headerPoints: [
+      // tslint:disable-next-line: max-line-length
+      'Available in standard or low-noise versions, as well as oil-free or oil-lubricated versions, the lubricated versions are particularly suitable when the quality of the air supplied is not determinant as it is used to supply compressed air not connected to the treatment of the patient for instance. The Dr Genius is a silenced portable unit ideal for mobile applications. The characteristics of this range are: simple controls and use, quiet operation and compact attractive styling. Range 0.55kW to 2.2kW, 55 L/min to 235 L/min.'
+    ],
+    tables: [
+      // table 1
+      {
+        name: 'Air-Lab - Single Phase, Oiless Compressors',
+        imageUrl: 'assets/products/oil-free/Lab_160-24M.jpg',
+        // tslint:disable-next-line: max-line-length
+        tableHeadings: ['S', 'CODE', 'PRODUCT', 'Chairs', 'Receiver Size', 'L/min', 'm3/h', 'c.f.m', 'Bar', 'Psi', 'dB(A)'],
+        tableRows: [
+          [
+            [''],
+            ['F-FOBB304FNM152'],
+            ['Dr Genius 1850'],
+            ['1'],
+            ['6Lt'],
+            ['65'],
+            ['3.9'],
+            ['2.3'],
+            ['8'],
+            ['116'],
+            ['72']
+          ]
+        ]
+      },
+    ]
+  }
+  ,
+  // oil free pet
+  {
+    id: 'pet',
+    heading: 'OIL-FREE PET 40 BAR AIR COMPRESSOR',
+    headerImage: 'assets/products/oil-free/airlabgroup_L3_1.jpg',
+    section: [
+      // section 1
+      {
+        header: 'CONTROL CABINET',
+        items: [
+          {
+            subHeader: 'features',
+            text: ['Built-in SIEMEMS HMI touch panel display & SIEMEMS PLC to control and monitor operating status.']
+          },
+          {
+            subHeader: 'Advantage',
+            // tslint:disable-next-line: max-line-length
+            text: ['User friendly monitoring system, integrated schedule maintenance, inter-stage pressure & temperature, cooling water and lubricating pressure, alarm and shutdown protection. Ensure safe and reliable operations.']
+          },
+          {
+            subHeader: 'IOT network (option)'
+          },
+          {
+            subHeader: 'Variable Frequency Drive (option)'
+          },
+        ],
+        images: [
+          'assets/products/oil-free/1.png',
+          'assets/products/oil-free/2.png'
+        ]
+
+      },
+      // section 2
+      {
+        header: 'COMPRESSOR PACKAGE',
+        items: [
+          {
+            subHeader: 'features',
+            text:
+              [
+                'Complete skit mounted.',
+                ' Reliable cooling system with stainless steel tube & fittings.',
+                'Zero loss condensate drain.',
+                'Independent oil pump for prelubrication.',
+              ]
+          },
+          {
+            subHeader: 'Advantage',
+            text:
+              [
+                'Simple installation.',
+                'Easy access ease of maintenance.',
+                ' Minimized leakage & losses.',
+              ]
+          },
+        ],
+        images: [
+          'assets/products/oil-free/3.png',
+          'assets/products/oil-free/4.png'
+        ]
+
+      },
+      // section 2
+      {
+        header: 'BUILT-IN & PACKAGE OPTIONS:',
+        items: [
+          {
+            subHeader: 'Radiator Air/Water Cooling System',
+            text:
+              [
+                'For ambient temperatures up to 32º C',
+              ]
+          },
+          {
+            subHeader: 'Evaporative Closed-Loop Water Cooling System',
+            text:
+              [
+                'Automatic spray control system, anti-freeze water heater, water level alarm',
+              ]
+          },
+          {
+            subHeader: '40 Bar Refrigerated Air Dryer:',
+            text:
+              [
+                'Stainless steel evaporator/condenser, water cooled, dew point alarm, or integrated filters.',
+              ]
+          },
+          {
+            subHeader: '40 kg Compressed Air Receiver.',
+            text:
+              [
+                'Compliance and certify standard: EC-PED, SQLO/SELO, ASME and etc.',
+              ]
+          },
+          {
+            subHeader: 'Built-in Oil cooler or heater.',
+            text:
+              [
+                'For cold environment.',
+              ]
+          },
+          {
+            subHeader: 'Variable Speed Control.',
+            text:
+              [
+                'Energy Saving.',
+              ]
+          },
+          {
+            subHeader: 'Zero Air Loss Condensate Drain.',
+          },
+          {
+            subHeader: 'Remote Monitoring.',
+            text:
+              [
+                // tslint:disable-next-line: max-line-length
+                'Internet of Things (IOT) with data logger for remote monitoring on schedule service, notification alert, and history report.',
+              ]
+          },
+        ],
+        images: [
+          'assets/products/oil-free/5.png',
+          'assets/products/oil-free/6.png',
+        ]
+
+      },
+    ],
+    images: [
+      'assets/products/oil-free/7.png',
+      'assets/products/oil-free/8.png',
+      'assets/products/oil-free/9.png',
+      'assets/products/oil-free/10.png',
+    ]
   }
 
 ];
